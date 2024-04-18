@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <mods version="3.7">
+      <titleInfo>
+         <title>Public health prevention and emergency preparedness funding in the United
+			States: Are we ready for the next pandemic?</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Sen-Crowe</namePart>
+         <namePart type="given">Brendon </namePart>
+         <displayForm>Sen-Crowe, Brendon</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">McKenney</namePart>
+         <namePart type="given">Mark </namePart>
+         <displayForm>McKenney, Mark</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Elkbuli</namePart>
+         <namePart type="given">Adel </namePart>
+         <displayForm>Elkbuli, Adel</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2020-11</dateIssued>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Annals of Medicine and Surgery</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1016/j.amsu.2020.10.007</identifier>
+      <identifier type="chorus">10.1016/j.amsu.2020.10.007</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1016/j.amsu.2020.10.007</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>CDC</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>CDC</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Department of Agriculture</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NIH</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>OPHPR</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>OPHPR</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>OPHPR</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Interferon tau-induced hepatocyte apoptosis in sheep</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Kim</namePart>
+         <namePart type="given">Hun-Taek </namePart>
+         <displayForm>Kim, Hun-Taek</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Stoica</namePart>
+         <namePart type="given">George </namePart>
+         <displayForm>Stoica, George</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Bazer</namePart>
+         <namePart type="given">Fuller  W.</namePart>
+         <displayForm>Bazer, Fuller W.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Ott</namePart>
+         <namePart type="given">Troy  L.</namePart>
+         <displayForm>Ott, Troy L.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2000-06</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2003-12-30</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Hepatology</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1053/jhep.2000.7476</identifier>
+      <identifier type="chorus">10.1053/jhep.2000.7476</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1053/jhep.2000.7476</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Preschoolers' Self-Regulation and Behavior Problems in the Midst of
+			Caregiver Depression and Chaos</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Kowalski</namePart>
+         <namePart type="given">Alysse  J.</namePart>
+         <displayForm>Kowalski, Alysse J.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Wang</namePart>
+         <namePart type="given">Yan </namePart>
+         <displayForm>Wang, Yan</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Prevention and Community Health, Milken
+					Institute School of Public Health, The George Washington University, Washington,
+					DC;</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Armstrong</namePart>
+         <namePart type="given">Bridget </namePart>
+         <displayForm>Armstrong, Bridget</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Exercise Science, Arnold School of Public
+					Health, University of South Carolina, Columbia, SC;</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Trude</namePart>
+         <namePart type="given">Angela  C. B.</namePart>
+         <displayForm>Trude, Angela C. B.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Nutrition and Food Studies, New York
+					University Steinhardt School of Culture, Education, and Human Development, New
+					York, NY;</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Hager</namePart>
+         <namePart type="given">Erin </namePart>
+         <displayForm>Hager, Erin</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Population, Family and Reproductive Health,
+					Johns Hopkins Bloomberg School of Public Health, Baltimore, MD;
+					and</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Black</namePart>
+         <namePart type="given">Maureen  M.</namePart>
+         <displayForm>Black, Maureen M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;, RTI International, Research Triangle Park,
+					NC.</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateOther encoding="w3cdtf" type="electronic">2024-02-20</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Journal of Developmental &amp;amp; Behavioral
+			Pediatrics</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1097/dbp.0000000000001244</identifier>
+      <identifier type="chorus">10.1097/dbp.0000000000001244</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1097/dbp.0000000000001244</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Diabetes and Digestive and Kidney Diseases</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>All-dry free radical polymerization inside nanopores: Ion-milling-enabled
+			coating thickness profiling revealed “necking” phenomena</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Cheng</namePart>
+         <namePart type="given">Yifan </namePart>
+         <displayForm>Cheng, Yifan</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Khlyustova</namePart>
+         <namePart type="given">Alexandra </namePart>
+         <displayForm>Khlyustova, Alexandra</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Yang</namePart>
+         <namePart type="given">Rong </namePart>
+         <displayForm>Yang, Rong</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022-05-01</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2022-04-07</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Journal of Vacuum Science &amp;amp; Technology A</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American Vacuum Society</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1116/6.0001718</identifier>
+      <identifier type="chorus">10.1116/6.0001718</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1116/6.0001718</url>
+      </location>
+      <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+         <program>
+            <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+         </program>
+      </accessCondition>
+      <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+         <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+            <license_ref applies_to="" start_date="">https://publishing.aip.org/authors/rights-and-permissions</license_ref>
+            <license_ref applies_to="reuse" start_date=""/>
+         </program>
+      </accessCondition>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Food and Agriculture</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NSF</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NSF</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NSF</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Linking drivers of plant per- and polyfluoroalkyl substance (PFAS) uptake
+			to agricultural land management decisions</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Scearce</namePart>
+         <namePart type="given">Alex  E.</namePart>
+         <displayForm>Scearce, Alex E.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Goossen</namePart>
+         <namePart type="given">Caleb  P.</namePart>
+         <displayForm>Goossen, Caleb P.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Maine Organic Farmers and Gardeners Association, 2 Unity,
+					Maine 04988</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Schattman</namePart>
+         <namePart type="given">Rachel  E.</namePart>
+         <displayForm>Schattman, Rachel E.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Mallory</namePart>
+         <namePart type="given">Ellen  B.</namePart>
+         <displayForm>Mallory, Ellen B.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1, University of Maine Cooperative Extension, 3 Orono, Maine
+					04469</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">MacRae</namePart>
+         <namePart type="given">Jean  D.</namePart>
+         <displayForm>MacRae, Jean D.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Civil and Environmental Engineering,
+					University of Maine, Orono, Maine 04469 4</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2023-07-01</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2023-07-06</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Biointerphases</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American Vacuum Society</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1116/6.0002772</identifier>
+      <identifier type="chorus">10.1116/6.0002772</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1116/6.0002772</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Dynamical analysis of a Lotka–Volterra competition model with both Allee
+			and fear effects</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Chen</namePart>
+         <namePart type="given">Shangming </namePart>
+         <displayForm>Chen, Shangming</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Chen</namePart>
+         <namePart type="given">Fengde </namePart>
+         <displayForm>Chen, Fengde</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Srivastava</namePart>
+         <namePart type="given">Vaibhava </namePart>
+         <displayForm>Srivastava, Vaibhava</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Parshad</namePart>
+         <namePart type="given">Rana  D.</namePart>
+         <displayForm>Parshad, Rana D.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateOther encoding="w3cdtf" type="electronic">2023-10-05</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>International Journal of Biomathematics</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>World Scientific Pub Co Pte Ltd</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1142/s1793524523500778</identifier>
+      <identifier type="chorus">10.1142/s1793524523500778</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1142/s1793524523500778</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Food and Agriculture</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE
+			FUTURE?</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">FAVERO</namePart>
+         <namePart type="given">ALICE </namePart>
+         <displayForm>FAVERO, ALICE</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>RTI International, Research Triangle Park, NC 27709-2194,
+					USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">YOO</namePart>
+         <namePart type="given">JONGHYUN </namePart>
+         <displayForm>YOO, JONGHYUN</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Urban Planning and Design, University of
+					Seoul, Seoul 02504, Republic of Korea</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">DAIGNEAULT</namePart>
+         <namePart type="given">ADAM </namePart>
+         <displayForm>DAIGNEAULT, ADAM</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>School of Forest Resources, University of Maine, Orono, ME
+					04469, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">BAKER</namePart>
+         <namePart type="given">JUSTIN </namePart>
+         <displayForm>BAKER, JUSTIN</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Forestry and Environmental Resources, North
+					Carolina State University, Raleigh, NC 27607, USA</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2023-11</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2023-06-01</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Climate Change Economics</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>World Scientific Pub Co Pte Ltd</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1142/s2010007823500185</identifier>
+      <identifier type="chorus">10.1142/s2010007823500185</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1142/s2010007823500185</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Food and Agriculture</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Seismic diffraction separation in the near surface: Detection of
+			high-contrast voids in unconsolidated soils</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Bakhtiari</namePart>
+         <namePart type="given">Rad  Parsa</namePart>
+         <displayForm>Bakhtiari, Rad Parsa</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Hickey</namePart>
+         <namePart type="given">Craig  J.</namePart>
+         <displayForm>Hickey, Craig J.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2021-05-01</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2021-03-11</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>GEOPHYSICS</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Society of Exploration Geophysicists</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1190/geo2020-0366.1</identifier>
+      <identifier type="chorus">10.1190/geo2020-0366.1</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1190/geo2020-0366.1</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Agricultural Research Service</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Office of Naval Research</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Perspectives about healthy eating and exercise among patients and
+			providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Kizub</namePart>
+         <namePart type="given">Darya  Aleksandrovna</namePart>
+         <displayForm>Kizub, Darya Aleksandrovna</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Division of Cancer Medicine, University of Texas MD Anderson
+					Cancer Center, Houston, TX</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Ramsey</namePart>
+         <namePart type="given">Margaret </namePart>
+         <displayForm>Ramsey, Margaret</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Baylor College of Medicine, Houston, TX</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Baum</namePart>
+         <namePart type="given">Miranda </namePart>
+         <displayForm>Baum, Miranda</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Ma</namePart>
+         <namePart type="given">Hilary  Y.</namePart>
+         <displayForm>Ma, Hilary Y.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Patel</namePart>
+         <namePart type="given">Tejal  Amar</namePart>
+         <displayForm>Patel, Tejal Amar</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>MD Anderson Cancer Center, Houston, TX</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Basen-Engquist</namePart>
+         <namePart type="given">Karen </namePart>
+         <displayForm>Basen-Engquist, Karen</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2023-06-01</dateIssued>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Journal of Clinical Oncology</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American Society of Clinical Oncology (ASCO)</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.1200/jco.2023.41.16_suppl.e24055</identifier>
+      <identifier type="chorus">10.1200/jco.2023.41.16_suppl.e24055</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NIH</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Magnesium Intake, Quality of Carbohydrates, and Risk of Type 2 Diabetes:
+			Results From Three U.S. Cohorts</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Hruby</namePart>
+         <namePart type="given">Adela </namePart>
+         <displayForm>Hruby, Adela</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA, Department of
+					Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Guasch-Ferré</namePart>
+         <namePart type="given">Marta </namePart>
+         <displayForm>Guasch-Ferré, Marta</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA</affiliation>
+         <nameIdentifier type="orcid">http://orcid.org/0000-0001-8525-1404</nameIdentifier>
+      </name>
+      <name type="personal">
+         <namePart type="family">Bhupathiraju</namePart>
+         <namePart type="given">Shilpa  N.</namePart>
+         <displayForm>Bhupathiraju, Shilpa N.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Manson</namePart>
+         <namePart type="given">JoAnn  E.</namePart>
+         <displayForm>Manson, JoAnn E.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Division of Preventive Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Willett</namePart>
+         <namePart type="given">Walter  C.</namePart>
+         <displayForm>Willett, Walter C.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">McKeown</namePart>
+         <namePart type="given">Nicola  M.</namePart>
+         <displayForm>McKeown, Nicola M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Hu</namePart>
+         <namePart type="given">Frank  B.</namePart>
+         <displayForm>Hu, Frank B.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-01</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2017-10-04</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Diabetes Care</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American Diabetes Association</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.2337/dc17-1143</identifier>
+      <identifier type="chorus">10.2337/dc17-1143</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.2337/dc17-1143</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Agricultural Research Service</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>NIDDK</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Cancer Institute</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Heart, Lung, and Blood Institute</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Diabetes and Digestive and Kidney Diseases</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial
+			Vehicles: A Survey</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Tian</namePart>
+         <namePart type="given">Pengzhi </namePart>
+         <displayForm>Tian, Pengzhi</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Chao</namePart>
+         <namePart type="given">Haiyang </namePart>
+         <displayForm>Chao, Haiyang</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Rhudy</namePart>
+         <namePart type="given">Matthew </namePart>
+         <displayForm>Rhudy, Matthew</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Pennsylvania State University, Reading, Pennsylvania
+					19610</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Gross</namePart>
+         <namePart type="given">Jason </namePart>
+         <displayForm>Gross, Jason</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>West Virginia University, Morgantown, West Virginia
+					26506</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Wu</namePart>
+         <namePart type="given">Huixuan </namePart>
+         <displayForm>Wu, Huixuan</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2021-03</dateIssued>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Journal of Aerospace Information Systems</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American Institute of Aeronautics and Astronautics (AIAA)</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.2514/1.i010885</identifier>
+      <identifier type="chorus">10.2514/1.i010885</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.2514/1.i010885</url>
+      </location>
+      <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+         <program>
+            <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+         </program>
+      </accessCondition>
+      <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+         <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+            <license_ref applies_to="" start_date="">https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</license_ref>
+            <license_ref applies_to="reuse" start_date=""/>
+         </program>
+      </accessCondition>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Food and Agriculture</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Prostaglandin F2α regulates mitochondrial dynamics and mitophagy in the
+			bovine corpus luteum</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Plewes</namePart>
+         <namePart type="given">Michele  R.</namePart>
+         <displayForm>Plewes, Michele R.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Przygrodzka</namePart>
+         <namePart type="given">Emilia </namePart>
+         <displayForm>Przygrodzka, Emilia</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Monaco</namePart>
+         <namePart type="given">Corrine  F.</namePart>
+         <displayForm>Monaco, Corrine F.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of Cellular
+					and Integrative Physiology, University of Nebraska Medical Center</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Snider</namePart>
+         <namePart type="given">Alexandria  P.</namePart>
+         <displayForm>Snider, Alexandria P.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Keane</namePart>
+         <namePart type="given">Jessica  A.</namePart>
+         <displayForm>Keane, Jessica A.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Burns</namePart>
+         <namePart type="given">Patrick  D.</namePart>
+         <displayForm>Burns, Patrick D.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Biological Sciences, University of Northern
+					Colorado</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Wood</namePart>
+         <namePart type="given">Jennifer  R.</namePart>
+         <displayForm>Wood, Jennifer R.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Cupp</namePart>
+         <namePart type="given">Andrea  S.</namePart>
+         <displayForm>Cupp, Andrea S.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Davis</namePart>
+         <namePart type="given">John  S.</namePart>
+         <displayForm>Davis, John S.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2023-07</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2023-05-15</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Life Science Alliance</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Life Science Alliance, LLC</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.26508/lsa.202301968</identifier>
+      <identifier type="chorus">10.26508/lsa.202301968</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.26508/lsa.202301968</url>
+      </location>
+      <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+         <program>
+            <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+         </program>
+      </accessCondition>
+      <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+         <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+            <license_ref applies_to="" start_date="">https://creativecommons.org/licenses/by/4.0/</license_ref>
+            <license_ref applies_to="reuse" start_date=""/>
+         </program>
+      </accessCondition>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>VA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>VA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands
+			and anemia in SLE-prone mice</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Maria</namePart>
+         <namePart type="given">Naomi  I.</namePart>
+         <displayForm>Maria, Naomi I.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Papoin</namePart>
+         <namePart type="given">Julien </namePart>
+         <displayForm>Papoin, Julien</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Raparia</namePart>
+         <namePart type="given">Chirag </namePart>
+         <displayForm>Raparia, Chirag</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Sun</namePart>
+         <namePart type="given">Zeguo </namePart>
+         <displayForm>Sun, Zeguo</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Josselsohn</namePart>
+         <namePart type="given">Rachel </namePart>
+         <displayForm>Josselsohn, Rachel</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Lu</namePart>
+         <namePart type="given">Ailing </namePart>
+         <displayForm>Lu, Ailing</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Katerji</namePart>
+         <namePart type="given">Hani </namePart>
+         <displayForm>Katerji, Hani</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Pathology, University of Rochester, Rochester,
+					NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Syeda</namePart>
+         <namePart type="given">Mahrukh  M.</namePart>
+         <displayForm>Syeda, Mahrukh M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Polsky</namePart>
+         <namePart type="given">David </namePart>
+         <displayForm>Polsky, David</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Paulson</namePart>
+         <namePart type="given">Robert </namePart>
+         <displayForm>Paulson, Robert</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Veterinary and Biomedical Sciences, Penn State
+					College of Agricultural Sciences, University Park, PA, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Kalfa</namePart>
+         <namePart type="given">Theodosia </namePart>
+         <displayForm>Kalfa, Theodosia</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Cincinnati Children’s Hospital Medical Center, Cincinnati,
+					OH, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Barnes</namePart>
+         <namePart type="given">Betsy  J.</namePart>
+         <displayForm>Barnes, Betsy J.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Zhang</namePart>
+         <namePart type="given">Weijia </namePart>
+         <displayForm>Zhang, Weijia</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Blanc</namePart>
+         <namePart type="given">Lionel </namePart>
+         <displayForm>Blanc, Lionel</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Davidson</namePart>
+         <namePart type="given">Anne </namePart>
+         <displayForm>Davidson, Anne</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2023-10</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2023-07-26</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Life Science Alliance</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Life Science Alliance, LLC</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.26508/lsa.202302241</identifier>
+      <identifier type="chorus">10.26508/lsa.202302241</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.26508/lsa.202302241</url>
+      </location>
+      <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+         <program>
+            <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+         </program>
+      </accessCondition>
+      <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+         <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+            <license_ref applies_to="" start_date="">https://creativecommons.org/licenses/by/4.0/</license_ref>
+            <license_ref applies_to="reuse" start_date=""/>
+         </program>
+      </accessCondition>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>HHS | NIH | National Heart, Lung, and Blood Institute</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>Lupus Research Alliance</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Eliciting Stakeholder Perceptions Using a Novel Online Engagement
+			Platform: A Case Study on Nano-Agrifoods</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Ruzante</namePart>
+         <namePart type="given">Juliana  M.</namePart>
+         <displayForm>Ruzante, Juliana M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Shumaker</namePart>
+         <namePart type="given">Ellen  Thomas</namePart>
+         <displayForm>Shumaker, Ellen Thomas</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Holt</namePart>
+         <namePart type="given">Sidney </namePart>
+         <displayForm>Holt, Sidney</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Mayer</namePart>
+         <namePart type="given">Susan </namePart>
+         <displayForm>Mayer, Susan</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Kokotovich</namePart>
+         <namePart type="given">Adam </namePart>
+         <displayForm>Kokotovich, Adam</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Cuchiara</namePart>
+         <namePart type="given">Maude </namePart>
+         <displayForm>Cuchiara, Maude</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Binder</namePart>
+         <namePart type="given">Andrew  R.</namePart>
+         <displayForm>Binder, Andrew R.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Kuzma</namePart>
+         <namePart type="given">Jennifer </namePart>
+         <displayForm>Kuzma, Jennifer</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Grieger</namePart>
+         <namePart type="given">Khara </namePart>
+         <displayForm>Grieger, Khara</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateOther encoding="w3cdtf" type="electronic">2022-01-20</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title/>
+         </titleInfo>
+         <originInfo>
+            <publisher>RTI Press</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.3768/rtipress.2022.op.0071.2201</identifier>
+      <identifier type="chorus">10.3768/rtipress.2022.op.0071.2201</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</url>
+      </location>
+      <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+         <program>
+            <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+         </program>
+      </accessCondition>
+      <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+         <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+            <license_ref applies_to="" start_date="">https://creativecommons.org/licenses/by-nc-nd/4.0/</license_ref>
+            <license_ref applies_to="reuse" start_date=""/>
+         </program>
+      </accessCondition>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Effect of Structured Physical Activity on Overall Burden and Transitions
+			Between States of Major Mobility Disability in Older Persons</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="family">Gill</namePart>
+         <namePart type="given">Thomas  M.</namePart>
+         <displayForm>Gill, Thomas M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+         <nameIdentifier type="orcid">http://orcid.org/0000-0002-6450-0368</nameIdentifier>
+      </name>
+      <name type="personal">
+         <namePart type="family">Guralnik</namePart>
+         <namePart type="given">Jack  M.</namePart>
+         <displayForm>Guralnik, Jack M.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Pahor</namePart>
+         <namePart type="given">Marco </namePart>
+         <displayForm>Pahor, Marco</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Church</namePart>
+         <namePart type="given">Timothy </namePart>
+         <displayForm>Church, Timothy</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Fielding</namePart>
+         <namePart type="given">Roger  A.</namePart>
+         <displayForm>Fielding, Roger A.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">King</namePart>
+         <namePart type="given">Abby  C.</namePart>
+         <displayForm>King, Abby C.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Marsh</namePart>
+         <namePart type="given">Anthony  P.</namePart>
+         <displayForm>Marsh, Anthony P.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Newman</namePart>
+         <namePart type="given">Anne  B.</namePart>
+         <displayForm>Newman, Anne B.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Pellegrini</namePart>
+         <namePart type="given">Christine  A.</namePart>
+         <displayForm>Pellegrini, Christine A.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Chen</namePart>
+         <namePart type="given">Shyh-Huei </namePart>
+         <displayForm>Chen, Shyh-Huei</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">Allore</namePart>
+         <namePart type="given">Heather  G.</namePart>
+         <displayForm>Allore, Heather G.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+         <nameIdentifier type="orcid">http://orcid.org/0000-0001-7685-8175</nameIdentifier>
+      </name>
+      <name type="personal">
+         <namePart type="family">Miller</namePart>
+         <namePart type="given">Michael  E.</namePart>
+         <displayForm>Miller, Michael E.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <affiliation>From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+      </name>
+      <name type="personal">
+         <namePart type="family">undefined</namePart>
+         <namePart type="given">undefined  undefined</namePart>
+         <displayForm>undefined, undefined undefined</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre>article</genre>
+      <originInfo>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-20</dateIssued>
+         <dateOther encoding="w3cdtf" type="electronic">2016-09-27</dateOther>
+      </originInfo>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Annals of Internal Medicine</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>American College of Physicians</publisher>
+         </originInfo>
+      </relatedItem>
+      <identifier type="doi">10.7326/m16-0529</identifier>
+      <identifier type="chorus">10.7326/m16-0529</identifier>
+      <location>
+         <url displayLabel="Available from publisher's site">https://dx.doi.org/10.7326/m16-0529</url>
+      </location>
+      <extension>
+         <vendorName>CHORUS</vendorName>
+         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+         <funding-group specific-use="crossref">
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Center for Advancing Translational Sciences</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Heart, Lung, and Blood Institute</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute of Child Health and Human Development</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>National Institute on Aging</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+            <award-group>
+               <funding-source>
+                  <institution-wrap>
+                     <institution>USDA</institution>
+                  </institution-wrap>
+               </funding-source>
+            </award-group>
+         </funding-group>
+      </extension>
+      <recordInfo>
+         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+      </recordInfo>
+   </mods>
+</modsCollection>
