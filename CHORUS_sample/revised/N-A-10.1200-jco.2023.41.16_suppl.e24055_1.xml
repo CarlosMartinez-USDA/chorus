@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>Perspectives about healthy eating and exercise among patients and providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">Kizub</namePart>
+      <namePart type="given">Darya Aleksandrovna</namePart>
+      <displayForm>Kizub, Darya Aleksandrovna</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Division of Cancer Medicine, University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Ramsey</namePart>
+      <namePart type="given">Margaret</namePart>
+      <displayForm>Ramsey, Margaret</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Baylor College of Medicine, Houston, TX</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Baum</namePart>
+      <namePart type="given">Miranda</namePart>
+      <displayForm>Baum, Miranda</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Ma</namePart>
+      <namePart type="given">Hilary Y.</namePart>
+      <displayForm>Ma, Hilary Y.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Patel</namePart>
+      <namePart type="given">Tejal Amar</namePart>
+      <displayForm>Patel, Tejal Amar</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>MD Anderson Cancer Center, Houston, TX</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Basen-Engquist</namePart>
+      <namePart type="given">Karen</namePart>
+      <displayForm>Basen-Engquist, Karen</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023-06-01</dateIssued>
+   </originInfo>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Journal of Clinical Oncology</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>American Society of Clinical Oncology (ASCO)</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.1200/jco.2023.41.16_suppl.e24055</identifier>
+   <identifier type="chorus">10.1200/jco.2023.41.16_suppl.e24055</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</url>
+   </location>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>USDA</institution>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>NIH</institution>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-04-18T10:06:03.682995-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>

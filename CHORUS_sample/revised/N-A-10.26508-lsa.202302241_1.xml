@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands and anemia in SLE-prone mice</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">Maria</namePart>
+      <namePart type="given">Naomi I.</namePart>
+      <displayForm>Maria, Naomi I.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Papoin</namePart>
+      <namePart type="given">Julien</namePart>
+      <displayForm>Papoin, Julien</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Raparia</namePart>
+      <namePart type="given">Chirag</namePart>
+      <displayForm>Raparia, Chirag</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Sun</namePart>
+      <namePart type="given">Zeguo</namePart>
+      <displayForm>Sun, Zeguo</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Department of Medicine, Mount Sinai Medical Center, New York, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Josselsohn</namePart>
+      <namePart type="given">Rachel</namePart>
+      <displayForm>Josselsohn, Rachel</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Lu</namePart>
+      <namePart type="given">Ailing</namePart>
+      <displayForm>Lu, Ailing</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Katerji</namePart>
+      <namePart type="given">Hani</namePart>
+      <displayForm>Katerji, Hani</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Department of Pathology, University of Rochester, Rochester, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Syeda</namePart>
+      <namePart type="given">Mahrukh M.</namePart>
+      <displayForm>Syeda, Mahrukh M.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Polsky</namePart>
+      <namePart type="given">David</namePart>
+      <displayForm>Polsky, David</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Paulson</namePart>
+      <namePart type="given">Robert</namePart>
+      <displayForm>Paulson, Robert</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Department of Veterinary and Biomedical Sciences, Penn State College of Agricultural Sciences, University Park, PA, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Kalfa</namePart>
+      <namePart type="given">Theodosia</namePart>
+      <displayForm>Kalfa, Theodosia</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Barnes</namePart>
+      <namePart type="given">Betsy J.</namePart>
+      <displayForm>Barnes, Betsy J.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Weijia</namePart>
+      <displayForm>Zhang, Weijia</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Department of Medicine, Mount Sinai Medical Center, New York, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Blanc</namePart>
+      <namePart type="given">Lionel</namePart>
+      <displayForm>Blanc, Lionel</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Davidson</namePart>
+      <namePart type="given">Anne</namePart>
+      <displayForm>Davidson, Anne</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023-10</dateIssued>
+      <dateOther encoding="w3cdtf" type="electronic">2023-07-26</dateOther>
+   </originInfo>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Life Science Alliance</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>Life Science Alliance, LLC</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.26508/lsa.202302241</identifier>
+   <identifier type="chorus">10.26508/lsa.202302241</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.26508/lsa.202302241</url>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+      <program>
+         <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+      </program>
+   </accessCondition>
+   <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+      <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+         <license_ref applies_to="VOR" start_date="">https://creativecommons.org/licenses/by/4.0/</license_ref>
+         <license_ref applies_to="reuse" start_date="2023-07-26"/>
+      </program>
+   </accessCondition>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>HHS | NIH | National Heart, Lung, and Blood Institute</institution>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>Lupus Research Alliance</institution>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>USDA</institution>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-04-18T10:06:07.406527-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>

@@ -1,0 +1,274 @@
+# CHORUS to MODS XSLT 
+Upon examining the source XML and the resulting MODS and then reviewing the XSLT, it became clear that this stylesheet version needed to be updated. The templates, functions, and processing instructions within the stylesheet also needed to be revised to prevent future transformation errors.  
+
+## chorus_xml2mods.xslt
+
+The chorus_to_mods.xsl transforms XML metadata from CHORUS into MODS 3.7. Recently, records appeared with missing author information, and various other parts of the record were not correctly transformed into MODS. Subsequently, when the transformed MODS metadata was transformed back into MARCXML, the same missing values were present in the MARC records. 
+
+Updates are discussed below and in order as they would appear upon viewing any XSLT document:
+[XSLT Declaration](#XSLT_Declaration)
+
+The updates to this stylesheet are listed below: 
+
+- Upgraded the XLST version from 1.0 to 2.0
+- Removed XSLT 1.0 extension namespaces and functions from within the stylesheelk;
+
+## XSLT Declaration
+
+### before
+```xml 
+<?xml version="1.0" encoding="UTF-8"?>
+updgraded: <xsl:stylesheet version="1.0 [replaced with] 2.0" 
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+removed:        xmlns:f="http://functions"
+removed:        xmlns:ex="http://exslt.org/dates-and-times"
+removed:        xmlns:func="http://exslt.org/functions"
+removed:        xmlns:exsl="http://exslt.org/common"
+removed:        xmlns:str="http://exslt.org/strings"
+removed:        extension-element-prefixes="ex"
+updated:        exclude-result-prefixes="xd xs f xlink xsi ex str func exsl">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+
+removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/> 
+```
+### after
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:f="http://functions"
+    exclude-result-prefixes="xd xs f xlink xsi">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+   ```
+
+## Root template
+#### before
+```xml
+  <xsl:template match="/">
+  reconfigured & uncommented 
+    uncommented:    <!-- <modsCollection>-->
+    uncommented:   <!--  <xsl:for-each select="all/items/item">-->
+    uncommented:    <!--  <mods xmlns="http://www.loc.gov/mods/v3"-->
+    uncommented:    <!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7"-->
+    uncommented:        <!--    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"-->
+    uncommented:      <!--      xmlns:xlink="http://www.w3.org/1999/xlink">-->
+    uncommented: <!--                  <xsl:call-template name="item-info"/>-->
+        
+    uncommented:        <!--                </mods>-->
+    uncommented:       <!--            </xsl:for-each>-->
+    uncommented:     <!--        </modsCollection>-->
+        <xsl:for-each select="all">
+            <mods xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                
+                <xsl:call-template name="item-info"/>
+            </mods>
+        </xsl:for-each>
+    </xsl:template>
+ ```   
+
+### after
+ - Reconfigured XSLT to handle multiple CHORUS XML. 	
+    -  Uncommented modsCollection and related sub-elements 
+    - added `<xsl:choose>`PI and `<xsl:when test="count(all) != 1">
+	 - Any document containing more than one `<all>`tag could be combined and transformed into a modsCollection. 
+	 - The `<xsl:otherwise>` expects the usual standalone	CHORUS XML. 
+```xml
+<xsl:template match="/">
+            <!-- collection processsing -->
+            <xsl:choose>
+                <xsl:when test="count(all) != 1">
+                    <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">                        
+                        <modsCollection xmlns="http://www.loc.gov/mods/v3"
+                            xmlns:mods="http://www.loc.gov/mods/v3"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+                            <xsl:for-each select="//all">    
+                            <mods version="3.7">
+                                    <xsl:call-template name="item-info"/>
+                                </mods>
+                            </xsl:for-each>
+                        </modsCollection>
+                    </xsl:result-document>
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- standalone -->
+                    <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+                        <mods xmlns="http://www.loc.gov/mods/v3"
+                            xmlns:mods="http://www.loc.gov/mods/v3"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7"
+                            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+                            <xsl:call-template name="item-info"/>
+                        </mods>
+                    </xsl:result-document>
+                </xsl:otherwise>
+            </xsl:choose>
+         </xsl:template>
+  ```
+ 
+## authors template
+ ### before
+  ```xml
+        <xsl:template match="authors">
+        <xsl:for-each select="item">
+            <xsl:variable name="name-tokens" select="str:tokenize(author, ' ')"/>
+            <!-- <xsl:variable name="given" select="normalize-space(substring-after(author, $name-tokens[1]))"/> -->
+            <xsl:variable name="last" select="$name-tokens[1]"/>
+            <xsl:variable name="first" select="$name-tokens[2]"/>
+            <name type="personal">
+                <xsl:if test="position() = 1">
+                    <xsl:attribute name="usage">primary</xsl:attribute>
+                </xsl:if>
+                <!--                <namePart type="family">-->
+                <!--                    <xsl:value-of select="$name-tokens[1]"/>-->
+                <!--                </namePart>-->
+                <!--                <namePart type="given">-->
+                <!--                    <xsl:value-of select="$given"/>-->
+                <!--                </namePart>-->
+                <!--                <displayForm><xsl:value-of select="normalize-space($name-tokens[1])"/>, <xsl:value-of select="$given"/></displayForm> -->
+                
+                <namePart><xsl:value-of select="author"/></namePart>
+                <role>
+                    <roleTerm type="text">author</roleTerm>
+                </role>
+                <xsl:apply-templates select="affiliation"/>
+                <xsl:call-template name="orcid">
+                    <xsl:with-param name="first" select="$first"/>
+                    <xsl:with-param name="last" select="$last"/>
+                </xsl:call-template>
+            </name>
+        </xsl:for-each>
+    </xsl:template>
+```    
+  
+  ### after
+#### $name-tokens positions
+Chorus authors' name are separated by whitespace; thus, a whitespace can be used to tokenize each part of a name. The tokenization of these the `<author>` tag within the source XML lead to this consistent pattern. 
+1. name-tokens[1] = last name
+2. name-tokens[2] = first name
+3. name-tokens[3] using substring-after $name-tokens[2], able to gather the remaining parts of the authors given name.  
+
+ ```xml
+ <xsl:template match="authors">
+        <xsl:for-each select="item">
+            <xsl:variable name="name-tokens" select="tokenize(author, ' ')"/>
+            <xsl:variable name="familyName" select="$name-tokens[1]"/>
+            <xsl:variable name="firstMiddle" select="concat($name-tokens[2],substring-after(author, $name-tokens[2]))"/>      
+            <name type="personal">
+                <xsl:if test="position() = 1">
+                    <xsl:attribute name="usage">primary</xsl:attribute>
+                </xsl:if>
+                <namePart type="family">
+                    <xsl:value-of select="$familyName"/>
+                </namePart>
+                <xsl:if test="matches($firstMiddle,'[A-z]+\.?')"> <!-- add punctuation -->
+                <xsl:variable name="givenName">  <!-- adds punctuation -->
+                    <xsl:sequence select="if (matches($firstMiddle,'^.*[A-Z]$') and not(ends-with($firstMiddle,'.')))
+                                          then concat($firstMiddle,'.')
+                                          else $firstMiddle"/>
+                </xsl:variable>
+                <namePart type="given">
+                     <xsl:value-of select="substring-before($givenName,' ')"/>
+                </namePart>
+                    <displayForm><xsl:value-of select="normalize-space(concat($familyName,',&#xa0;',$givenName))"/></displayForm>          
+                <role>
+                    <roleTerm type="text">author</roleTerm>
+                </role>
+                <xsl:apply-templates select="affiliation"/>
+                <xsl:call-template name="orcid">
+                    <xsl:with-param name="first" select="$firstMiddle"/>
+                    <xsl:with-param name="last" select="$familyName"/>
+                </xsl:call-template>
+                </xsl:if>   
+            </name>
+        </xsl:for-each>
+    </xsl:template>
+  ```
+
+Another issue with correcting the authors' name was punctuating names that had one or more initials in it, but lacked the proper punctuatation marks. 
+Take the following example:
+```xml
+ <name type="personal" usage="primary">
+         <namePart type="family">Maria</namePart>
+         <namePart type="given">Naomi I</namePart>
+         <displayForm>Maria, Naomi I</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+ ```
+ 
+ Adding conditional expressions within the XPath allows for names with unpunctuated initials to be corrected. 
+ ```xml
+  <name type="personal" usage="primary">
+         <namePart type="family">Maria</namePart>
+         <namePart type="given">Naomi  I.</namePart>
+         <dispSlayForm>Maria, Naomi I.</displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>`
+```
+## ORCID template
+
+The ORCID ID template was also updated to correct the mapping into the author name template. 
+### before
+  ```xml  <xsl:tem plate name="orcid">
+        <xsl:param name="last"/>
+        <xsl:param name="first"/>
+        <xsl:if test= "not($last = '' and $first = '')">
+            <xsl:for-each select="/all/orcid_profile/item">
+                <xsl:if test="family[@type='str'] and family=$last and given=$first">
+                    <nameIdentifier><xsl:value-of select="ORCID"/></nameIdentifier>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+
+    <xd:doc>
+    <xd:desc>
+        <xd:p>orcid</xd:p>
+        <xd:p>updated 20240418
+        added for-each and conditional XPath</xd:p>
+    </xd:desc>
+    <xd:param name="last"/>
+    <xd:param name="first"/>
+    </xd:doc>
+    <xsl:template name="orcid">
+        <xsl:param name="last"/>
+        <xsl:param name="first"/>
+        <xsl:if test="($last != '') and ($first != '')">
+            <xsl:for-each select="//all/orcid_profile/item[family=current()/$last]/ORCID">             
+                <nameIdentifier type="{lower-case(name())}">
+                    <xsl:value-of select="."/>
+                </nameIdentifier>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+   ```
+   
+### after
+The ORCID was mapped incorrectly into the a call-template with param instruction within the author  name template. 
+```xml 
+   <xsl:template name="orcid">
+        <xsl:param name="last"/>
+        <xsl:param name="first"/>
+        <xsl:if test="($last != '') and ($first != '')">
+            <xsl:for-each select="//all/orcid_profile/item[family=current()/$last]/ORCID">             
+                <nameIdentifier type="{lower-case(name())}">
+                    <xsl:value-of select="."/>
+                </nameIdentifier>
+            </xsl:for-each>
+        </xsl:if>
+    
