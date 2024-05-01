@@ -9,8 +9,8 @@
    </titleInfo>
    <name type="personal" usage="primary">
       <namePart type="family">FAVERO</namePart>
-      <namePart type="given">ALICE.</namePart>
-      <displayForm>FAVERO, ALICE.</displayForm>
+      <namePart type="given">ALICE</namePart>
+      <displayForm>FAVERO, ALICE</displayForm>
       <role>
          <roleTerm type="text">author</roleTerm>
       </role>
@@ -18,8 +18,8 @@
    </name>
    <name type="personal">
       <namePart type="family">YOO</namePart>
-      <namePart type="given">JONGHYUN.</namePart>
-      <displayForm>YOO, JONGHYUN.</displayForm>
+      <namePart type="given">JONGHYUN</namePart>
+      <displayForm>YOO, JONGHYUN</displayForm>
       <role>
          <roleTerm type="text">author</roleTerm>
       </role>
@@ -27,8 +27,8 @@
    </name>
    <name type="personal">
       <namePart type="family">DAIGNEAULT</namePart>
-      <namePart type="given">ADAM.</namePart>
-      <displayForm>DAIGNEAULT, ADAM.</displayForm>
+      <namePart type="given">ADAM</namePart>
+      <displayForm>DAIGNEAULT, ADAM</displayForm>
       <role>
          <roleTerm type="text">author</roleTerm>
       </role>
@@ -36,8 +36,8 @@
    </name>
    <name type="personal">
       <namePart type="family">BAKER</namePart>
-      <namePart type="given">JUSTIN.</namePart>
-      <displayForm>BAKER, JUSTIN.</displayForm>
+      <namePart type="given">JUSTIN</namePart>
+      <displayForm>BAKER, JUSTIN</displayForm>
       <role>
          <roleTerm type="text">author</roleTerm>
       </role>
@@ -76,7 +76,7 @@
       </funding-group>
    </extension>
    <recordInfo>
-      <recordCreationDate>2024-04-18T10:06:02.397586-04:00</recordCreationDate>
+      <recordCreationDate>2024-04-23T12:00:58.118293-04:00</recordCreationDate>
       <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
    </recordInfo>
 </mods>

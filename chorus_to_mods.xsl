@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:f="http://functions"
-    exclude-result-prefixes="xd xs f xlink xsi">
-    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-
-  <xd:doc scope="stylesheet" id="chorus">
-    <xd:desc><xd:p><xd:b>Created on: </xd:b>?</xd:p>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon xd xlink xs xsi">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive"/>
+<!--    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>-->
+        <!-- REMOVE THIS AFTER TESTING:
+         To get an N-file using params.xsl:    
+          (1) Comment out the output statement above.
+          (2) Uncomment line 41
+          (3) Comment out line 42.
+          (4) Uncomment the output statement below
+        -->
+      <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/> 
+      <xsl:include href="commons/params.xsl"/>    
+   
+ 
+   <xd:doc scope="stylesheet" id="chorus">
+   <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
+            <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>?</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>April 18, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>April 15, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
-            <xd:p><xd:i>chorus_xml2mods.xsl: </xd:i>CHORUS to MODS XML Transformation:</xd:p>
+            <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
             <xd:ul>
-                <xd:li><xd:p>ORCID template was remapped using a condtional XPath passed into a with-param instruction -
-                        20240418 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts - 20240418 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Collection processing added (currently commented out). - 20240418 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Upgraded XSLT version to 2.0 - 20240418 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Upgraded XSLT version to 2.0. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Change log added. - 20240418 - cm3</xd:p></xd:li>
             </xd:ul>
     </xd:desc>
@@ -30,15 +36,19 @@
             <xd:p><xd:b>Uncomment collection processing lines when necessary.</xd:b></xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="/">
-    <!-- collection processsing
+    <xsl:template match="/">   
+        <!-- archive file -->
+         <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+<!--        <xsl:result-document format="archive" href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/archive/A-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
+                <xsl:copy-of select="." copy-namespaces="no"/>           
+        </xsl:result-document>
+        <!-- MODS files -->
          <xsl:choose>
             <xsl:when test="count(all) != 1">
-                <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/collection/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
-                    <modsCollection xmlns="http://www.loc.gov/mods/v3"
-                        xmlns:mods="http://www.loc.gov/mods/v3"
-                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+            <!-- transform collections -->
+             <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+<!--                 <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
+                    <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="//all">
                             <mods version="3.7">
                                 <xsl:call-template name="item-info"/>
@@ -47,19 +57,18 @@
                     </modsCollection>
                 </xsl:result-document>
             </xsl:when>         
-            <xsl:otherwise> -->
-                <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/revised/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
-                    <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7"
-                        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+            <xsl:otherwise>
+                <!-- single article transformations -->
+                 <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml"> 
+<!--                <xsl:result-document format="archive" href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/ind/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
+                    <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="all">
                             <xsl:call-template name="item-info"/>
                         </xsl:for-each>
                     </mods>
                 </xsl:result-document>
-            <!--</xsl:otherwise>
-        </xsl:choose>-->
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xd:doc><xd:desc>item-info</xd:desc></xd:doc>
@@ -81,23 +90,17 @@
         <xsl:call-template name="extension"/>
         <xsl:call-template name="recordInfo"/>
     </xsl:template>
- <!-- 
-    (1)Tokenize <author> element is parsed into <namePart> and <displayForm> elements.
-    (2)Tokenization delimiter is a non-breaking-whitespace,and
-      is split into the following nameParts:
-        (a) $familyName = name-token[1] is the last name
-        (b) $name-tokens[2] the first name
-        (c) $given = concat($names-token[2] and everything after it.
-    (3)This comment is for peer-review and should be removed afterwards.
-    -->
+ 
     <xd:doc id="author" scope="component">
         <xd:desc>
-            <xd:p><xd:b>name element</xd:b></xd:p>
-            <xd:p><xd:b>namePart sub-element</xd:b></xd:p>
+            <xd:p><xd:b>(1)</xd:b> Tokenize &lt;author&gt;. Set non-breaking-whitespace as tokenizationdelimiter.</xd:p>
+            <xd:p><xd:b>(2)</xd:b> Element is parsed into &lt;namePart&gt; and &lt;displayForm&gt; elements. </xd:p>
+            <xd:p><xd:b>(3)</xd:b> The delimiter splits each name component into the following nameParts:</xd:p>
             <xd:ul>
-                <xd:li><xd:p> $name-tokens[1] is the $familyName</xd:p></xd:li>
-                <xd:li><xd:p> $name-tokens[2] is the first name, or part of the $givenName</xd:p></xd:li>
-                <xd:li><xd:p> $givenName = combined $names-token[2] and the rest of the string after it.)</xd:p></xd:li></xd:ul>
+                <xd:li><xd:p><xd:b>a.</xd:b> $name-tokens[1] is the $familyName</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>b.</xd:b> $name-tokens[2] is the first name, or part of the $givenName</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>c.</xd:b> $givenName = combined $names-token[2] and the rest of the string after it.)</xd:p></xd:li>
+            </xd:ul>
         </xd:desc>
     </xd:doc>
     <xsl:template match="authors">
@@ -113,19 +116,19 @@
                     <xsl:value-of select="$familyName"/>
                 </namePart>
                 <xsl:if test="matches($firstMiddle,'[A-z]+\.?')"> <!-- add punctuation -->
-                <xsl:variable name="givenName">  <!-- adds punctuation -->
-                    <xsl:sequence select="if (matches($firstMiddle,'^.*[A-Z]$') and not(ends-with($firstMiddle,'.')))
+                <xsl:variable name="givenName">  
+                    <xsl:sequence select="if (matches($firstMiddle,'^.*\s[A-Z]$') and not(ends-with($firstMiddle,'.')))
                                           then concat($firstMiddle,'.')
                                           else $firstMiddle"/>
                 </xsl:variable>
                 <namePart type="given">
-                     <xsl:value-of select="substring-before($givenName,' ')"/>
+                     <xsl:value-of select="normalize-space($givenName)"/>
                 </namePart>
-                    <displayForm><xsl:value-of select="normalize-space(concat($familyName,',&#xa0;',$givenName))"/></displayForm>          
+                    <displayForm><xsl:value-of select="normalize-space(concat($familyName,',&#xa0;',$givenName))"/></displayForm>
+                    <xsl:apply-templates select="affiliation"/>
                 <role>
                     <roleTerm type="text">author</roleTerm>
                 </role>
-                <xsl:apply-templates select="affiliation"/>
                 <xsl:call-template name="orcid">
                     <xsl:with-param name="first" select="$firstMiddle"/>
                     <xsl:with-param name="last" select="$familyName"/>
@@ -210,13 +213,11 @@
                 <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
                     <xsl:element name="license_ref">
                         <xsl:attribute name="applies_to">
-                            <xsl:variable name="license_type"
-                                select="/all/license_type[@type = 'str']"/>
+                            <xsl:variable name="license_type" select="/all/license_type[@type = 'str']"/>
                             <xsl:value-of select="$license_type"/>
                         </xsl:attribute>
                         <xsl:attribute name="start_date">
-                            <xsl:variable name="access_date"
-                                select="/all/publicly_accessible_on_publisher_site[@type = 'str']"/>
+                            <xsl:variable name="access_date" select="/all/publicly_accessible_on_publisher_site[@type = 'str']"/>
                             <xsl:call-template name="format-date">
                                 <xsl:with-param name="dateStr" select="$access_date"/>
                             </xsl:call-template>
@@ -226,8 +227,7 @@
                     <xsl:element name="license_ref">
                         <xsl:attribute name="applies_to">reuse</xsl:attribute>
                         <xsl:attribute name="start_date">
-                            <xsl:variable name="reuse_date"
-                                select="/all/reuse_license_start_date[@type = 'str']"/>
+                            <xsl:variable name="reuse_date" select="/all/reuse_license_start_date[@type = 'str']"/>
                             <xsl:call-template name="format-date">
                                 <xsl:with-param name="dateStr" select="$reuse_date"/>
                             </xsl:call-template>
@@ -342,24 +342,30 @@
             <note type="breakdown_for"><xsl:value-of select="."/></note>
         </xsl:if>
     </xsl:template>
-
+    
     <xd:doc><xd:desc>funders</xd:desc></xd:doc>
-    <xsl:template match="funders">
+    <xsl:template match="funders[following-sibling::node()]">
+        <xsl:variable name="axis" select="following-sibling::node()"/>
         <funding-group specific-use="crossref">
-            <xsl:for-each select="item">
-                <award-group>
+            <award-group>
+                <xsl:for-each select="item">
                     <funding-source>
-                        <institution-wrap>
+                        <institution-wrap>                   
                             <institution>
-                                <xsl:value-of select="."/>
-                            </institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>                         
+                            <xsl:variable name="pos" select="position()"/>
+                            <institution_id type="doi">                                 
+                                <xsl:value-of select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
+                            </institution_id>                                    
                         </institution-wrap>
                     </funding-source>
-                </award-group>
-            </xsl:for-each>
+                </xsl:for-each>
+            </award-group>
         </funding-group>
     </xsl:template>
-
+   
+   
     <xd:doc><xd:desc>recordInfo</xd:desc></xd:doc>
     <xsl:template name="recordInfo">
         <recordInfo>

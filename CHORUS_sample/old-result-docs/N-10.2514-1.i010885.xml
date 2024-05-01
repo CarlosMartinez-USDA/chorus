@@ -1,0 +1,86 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <titleInfo>
+    <title>Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial Vehicles: A Survey</title>
+  </titleInfo>
+  <name type="personal" usage="primary">
+    <namePart>Tian Pengzhi</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Chao Haiyang</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Rhudy Matthew</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>Pennsylvania State University, Reading, Pennsylvania 19610</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Gross Jason</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>West Virginia University, Morgantown, West Virginia 26506</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Wu Huixuan</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>University of Kansas, Lawrence, Kansas 66045</affiliation>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre>article</genre>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2021-03</dateIssued>
+  </originInfo>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Journal of Aerospace Information Systems</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>American Institute of Aeronautics and Astronautics (AIAA)</publisher>
+    </originInfo>
+  </relatedItem>
+  <identifier type="doi">10.2514/1.i010885</identifier>
+  <identifier type="chorus">10.2514/1.i010885</identifier>
+  <location>
+    <url displayLabel="Available from publisher's site">https://dx.doi.org/10.2514/1.i010885</url>
+  </location>
+  <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+    <program>
+      <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+    </program>
+  </accessCondition>
+  <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+    <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+      <license_ref applies_to="AM" start_date="">https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</license_ref>
+      <license_ref applies_to="reuse" start_date="2022-01-31"/>
+    </program>
+  </accessCondition>
+  <extension>
+    <vendorName>CHORUS</vendorName>
+    <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+    <funding-group specific-use="crossref">
+      <award-group>
+        <funding-source>
+          <institution-wrap>
+            <institution>National Institute of Food and Agriculture</institution>
+          </institution-wrap>
+        </funding-source>
+      </award-group>
+    </funding-group>
+  </extension>
+  <recordInfo>
+    <recordCreationDate>2024-04-05T05:03:22-04:00</recordCreationDate>
+    <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+  </recordInfo>
+</mods>

@@ -1,0 +1,30 @@
+
+<!-- funders template -->
+    <xd:doc><xd:desc>funders</xd:desc></xd:doc>
+    <xsl:template match="funders[following-sibling::node()]">
+        <xsl:variable name="pos" select="position()"/>
+        <xsl:variable name="axis" select="following-sibling::node()"/>
+        <funding-group specific-use="crossref">
+               <award-group>
+                   <xsl:for-each select="item">    
+                    <funding-source>
+                        <xsl:for-each-group select="." group-by="$axis/item">
+                        <institution-wrap>                   
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>                            
+                            <xsl:for-each select="$axis[$pos]">
+                               <institution_id type="doi">                                 
+                                 <xsl:value-of select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
+                               </institution_id>
+                            </xsl:for-each>        
+                        </institution-wrap>
+                        </xsl:for-each-group>
+                    </funding-source>
+                   </xsl:for-each>
+                </award-group>
+        </funding-group>
+    </xsl:template>
+    
+
+    

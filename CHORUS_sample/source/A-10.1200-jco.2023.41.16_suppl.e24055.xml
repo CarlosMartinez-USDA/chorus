@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<all>
+	<DOI type="str">10.1200/jco.2023.41.16_suppl.e24055</DOI>
+	<URL type="str">http://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</URL>
+	<publisher type="str">American Society of Clinical Oncology (ASCO)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Kizub Darya Aleksandrovna</author>
+			<affiliation type="str">Division of Cancer Medicine, University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Ramsey Margaret</author>
+			<affiliation type="str">Baylor College of Medicine, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Baum Miranda</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Ma Hilary Y.</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Patel Tejal Amar</author>
+			<affiliation type="str">MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Basen-Engquist Karen</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+	</authors>
+	<title type="str">Perspectives about healthy eating and exercise among patients and providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+	<journal_name type="str">Journal of Clinical Oncology</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str"/>
+	</grant_ids>
+	<added type="str">6/5/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<updated type="null"/>
+	<published_print type="str">6/1/2023</published_print>
+	<published_online type="null"/>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">USDA</item>
+		<item type="str">NIH</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000199</item>
+		<item type="str">10.13039/100000002</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/01na82s61</item>
+		<item type="str">https://ror.org/01cwqze88</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>

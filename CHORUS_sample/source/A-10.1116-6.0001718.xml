@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<all>
+	<DOI type="str">10.1116/6.0001718</DOI>
+	<URL type="str">http://dx.doi.org/10.1116/6.0001718</URL>
+	<publisher type="str">American Vacuum Society</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Cheng Yifan</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Khlyustova Alexandra</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Yang Rong</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+	</authors>
+	<title type="str">All-dry free radical polymerization inside nanopores: Ion-milling-enabled coating thickness profiling revealed “necking” phenomena</title>
+	<journal_name type="str">Journal of Vacuum Science &amp;amp; Technology A</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="str">AM</license_type>
+	<licenseUrl type="str">https://publishing.aip.org/authors/rights-and-permissions</licenseUrl>
+	<grant_ids type="list">
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=1719875</item>
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2025233</item>
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2144171</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">7/11/2022</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">5/1/2022</published_print>
+	<published_online type="str">4/7/2022</published_online>
+	<reuse_license_start_date type="str">04/07/2023</reuse_license_start_date>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">National Institute of Food and Agriculture</item>
+		<item type="str">NSF</item>
+		<item type="str">NSF</item>
+		<item type="str">NSF</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100005825</item>
+		<item type="str">10.13039/100000001</item>
+		<item type="str">10.13039/100000001</item>
+		<item type="str">10.13039/100000001</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/05qx3fv49</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>

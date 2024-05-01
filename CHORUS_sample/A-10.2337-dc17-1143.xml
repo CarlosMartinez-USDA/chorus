@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<all>
+	<DOI type="str">10.2337/dc17-1143</DOI>
+	<URL type="str">http://dx.doi.org/10.2337/dc17-1143</URL>
+	<publisher type="str">American Diabetes Association</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Hruby Adela</author>
+			<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human Nutrition Research Center on Aging, Tufts University, Boston, MA, Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Guasch-Ferré Marta</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Bhupathiraju Shilpa N.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Manson JoAnn E.</author>
+			<affiliation type="str">Division of Preventive Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Willett Walter C.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">McKeown Nicola M.</author>
+			<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human Nutrition Research Center on Aging, Tufts University, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Hu Frank B.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+	</authors>
+	<title type="str">Magnesium Intake, Quality of Carbohydrates, and Risk of Type 2 Diabetes: Results From Three U.S. Cohorts</title>
+	<journal_name type="str">Diabetes Care</journal_name>
+	<last_audited_on type="str">4/28/2023</last_audited_on>
+	<publicly_accessible_on_publisher_site type="str">11/21/2017</publicly_accessible_on_publisher_site>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<agency_portal_url type="list">
+		<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711333.1</item>
+		<item type="str">https://europepmc.org/article/MED/28978672</item>
+	</agency_portal_url>
+	<grant_ids type="list">
+		<item type="str">ARS:58-1950-4-003</item>
+		<item type="str">NIDDK:K01DK107804</item>
+		<item type="str">National Cancer Institute:P01 CA055075</item>
+		<item type="str">National Cancer Institute:P01 CA87969</item>
+		<item type="str">National Cancer Institute:UM1 CA167552</item>
+		<item type="str">National Cancer Institute:UM1 CA176726</item>
+		<item type="str">National Cancer Institute:UM1 CA186107</item>
+		<item type="str">NHLBI:HL60712</item>
+		<item type="str">NIDDK:DK58845</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">10/6/2017</added>
+	<orcid_profile type="list">
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0001-8525-1404</ORCID>
+			<_id type="str">5d94b58635980f881d111ffd</_id>
+			<family type="str">Guasch-Ferré</family>
+			<given type="str">Marta</given>
+		</item>
+	</orcid_profile>
+	<member_id type="str"/>
+	<published_print type="str">12/1/2017</published_print>
+	<published_online type="str">10/4/2017</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">Agricultural Research Service</item>
+		<item type="str">NIDDK</item>
+		<item type="str">National Cancer Institute</item>
+		<item type="str">National Heart, Lung, and Blood Institute</item>
+		<item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100007917</item>
+		<item type="str">10.13039/100000062</item>
+		<item type="str">10.13039/100000054</item>
+		<item type="str">10.13039/100000050</item>
+		<item type="str">10.13039/100000062</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/02d2m2044</item>
+		<item type="str">https://ror.org/00adh9b73</item>
+		<item type="str">https://ror.org/040gcmg81</item>
+		<item type="str">https://ror.org/012pb6c26</item>
+		<item type="str">https://ror.org/00adh9b73</item>
+	</RORID>
+	<auditSource type="str">GetFTR</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>

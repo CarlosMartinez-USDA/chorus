@@ -1,0 +1,3733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<all>
+	<DOI type="str">10.1016/j.amsu.2020.10.007</DOI>
+	<URL type="str">http://dx.doi.org/10.1016/j.amsu.2020.10.007</URL>
+	<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Sen-Crowe Brendon</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">McKenney Mark</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Elkbuli Adel</author>
+			<affiliation type="str"/>
+		</item>
+	</authors>
+	<title type="str">Public health prevention and emergency preparedness funding in the United States: Are we ready for the next pandemic?</title>
+	<journal_name type="str">Annals of Medicine and Surgery</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str"/>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">10/13/2020</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">11/2020</published_print>
+	<published_online type="null"/>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">CDC</item>
+		<item type="str">CDC</item>
+		<item type="str">Department of Agriculture</item>
+		<item type="str">NIH</item>
+		<item type="str">OPHPR</item>
+		<item type="str">OPHPR</item>
+		<item type="str">OPHPR</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000030</item>
+		<item type="str">10.13039/100000030</item>
+		<item type="str">10.13039/501100003526</item>
+		<item type="str">10.13039/100000002</item>
+		<item type="str">10.13039/100005195</item>
+		<item type="str">10.13039/100005195</item>
+		<item type="str">10.13039/100005195</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/042twtr12</item>
+		<item type="str">https://ror.org/042twtr12</item>
+		<item type="str">https://ror.org/030c92375</item>
+		<item type="str">https://ror.org/01cwqze88</item>
+		<item type="str">https://ror.org/00sdb8f83</item>
+		<item type="str">https://ror.org/00sdb8f83</item>
+		<item type="str">https://ror.org/00sdb8f83</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1053/jhep.2000.7476</DOI>
+	<URL type="str">http://dx.doi.org/10.1053/jhep.2000.7476</URL>
+	<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Kim Hun-Taek</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Stoica George</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Bazer Fuller W.</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Ott Troy L.</author>
+			<affiliation type="str"/>
+		</item>
+	</authors>
+	<title type="str">Interferon tau-induced hepatocyte apoptosis in sheep</title>
+	<journal_name type="str">Hepatology</journal_name>
+	<last_audited_on type="str">7/31/2019</last_audited_on>
+	<publicly_accessible_on_publisher_site type="str">12/30/2003</publicly_accessible_on_publisher_site>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<agency_portal_url type="null"/>
+	<grant_ids type="list">
+		<item type="str">USDA:FAH TEX 08521</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">4/8/2018</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">6/2000</published_print>
+	<published_online type="str">12/30/2003</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str">CHORUS</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1097/dbp.0000000000001244</DOI>
+	<URL type="str">http://dx.doi.org/10.1097/dbp.0000000000001244</URL>
+	<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Kowalski Alysse J.</author>
+			<affiliation type="str">Department of Pediatrics, University of Maryland School of Medicine, Baltimore, MD;</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Wang Yan</author>
+			<affiliation type="str">Department of Prevention and Community Health, Milken Institute School of Public Health, The George Washington University, Washington, DC;</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Armstrong Bridget</author>
+			<affiliation type="str">Department of Exercise Science, Arnold School of Public Health, University of South Carolina, Columbia, SC;</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Trude Angela C. B.</author>
+			<affiliation type="str">Department of Nutrition and Food Studies, New York University Steinhardt School of Culture, Education, and Human Development, New York, NY;</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Hager Erin</author>
+			<affiliation type="str">Department of Population, Family and Reproductive Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD; and</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Black Maureen M.</author>
+			<affiliation type="str">Department of Pediatrics, University of Maryland School of Medicine, Baltimore, MD;, RTI International, Research Triangle Park, NC.</affiliation>
+		</item>
+	</authors>
+	<title type="str">Preschoolers' Self-Regulation and Behavior Problems in the Midst of Caregiver Depression and Chaos</title>
+	<journal_name type="str">Journal of Developmental &amp;amp; Behavioral Pediatrics</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str">ICTR:Grant 419</item>
+		<item type="str">ICTR:TL1 TR003100</item>
+		<item type="str">NIDDK:R01 DK107761</item>
+		<item type="str">USDA:2016-68001-24927</item>
+	</grant_ids>
+	<added type="str">2/22/2024</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<updated type="null"/>
+	<published_print type="null"/>
+	<published_online type="str">2/20/2024</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">Institute for Clinical and Translational Research, University of Maryland, Baltimore</item>
+		<item type="str">Institute for Clinical and Translational Research, University of Maryland, Baltimore</item>
+		<item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100019822</item>
+		<item type="str">10.13039/100019822</item>
+		<item type="str">10.13039/100000062</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str"> </item>
+		<item type="str"> </item>
+		<item type="str">https://ror.org/00adh9b73</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1116/6.0001718</DOI>
+	<URL type="str">http://dx.doi.org/10.1116/6.0001718</URL>
+	<publisher type="str">American Vacuum Society</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Cheng Yifan</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Khlyustova Alexandra</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Yang Rong</author>
+			<affiliation type="str">Cornell University, Robert Frederick Smith School of Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York 14853</affiliation>
+		</item>
+	</authors>
+	<title type="str">All-dry free radical polymerization inside nanopores: Ion-milling-enabled coating thickness profiling revealed “necking” phenomena</title>
+	<journal_name type="str">Journal of Vacuum Science &amp;amp; Technology A</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="str">AM</license_type>
+	<licenseUrl type="str">https://publishing.aip.org/authors/rights-and-permissions</licenseUrl>
+	<grant_ids type="list">
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=1719875</item>
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2025233</item>
+		<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2144171</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">7/11/2022</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">5/1/2022</published_print>
+	<published_online type="str">4/7/2022</published_online>
+	<reuse_license_start_date type="str">04/07/2023</reuse_license_start_date>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">National Institute of Food and Agriculture</item>
+		<item type="str">NSF</item>
+		<item type="str">NSF</item>
+		<item type="str">NSF</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100005825</item>
+		<item type="str">10.13039/100000001</item>
+		<item type="str">10.13039/100000001</item>
+		<item type="str">10.13039/100000001</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/05qx3fv49</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+		<item type="str">https://ror.org/021nxhr62</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1116/6.0002772</DOI>
+	<URL type="str">http://dx.doi.org/10.1116/6.0002772</URL>
+	<publisher type="str">American Vacuum Society</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Scearce Alex E.</author>
+			<affiliation type="str">School of Food and Agriculture, University of Maine, Orono, Maine 04469 1</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Goossen Caleb P.</author>
+			<affiliation type="str">Maine Organic Farmers and Gardeners Association, 2 Unity, Maine 04988</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Schattman Rachel E.</author>
+			<affiliation type="str">School of Food and Agriculture, University of Maine, Orono, Maine 04469 1</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Mallory Ellen B.</author>
+			<affiliation type="str">School of Food and Agriculture, University of Maine, Orono, Maine 04469 1, University of Maine Cooperative Extension, 3 Orono, Maine 04469</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">MacRae Jean D.</author>
+			<affiliation type="str">Department of Civil and Environmental Engineering, University of Maine, Orono, Maine 04469 4</affiliation>
+		</item>
+	</authors>
+	<title type="str">Linking drivers of plant per- and polyfluoroalkyl substance (PFAS) uptake to agricultural land management decisions</title>
+	<journal_name type="str">Biointerphases</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str">USDA:ME0-0223322</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">7/10/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">7/1/2023</published_print>
+	<published_online type="str">7/6/2023</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1142/s1793524523500778</DOI>
+	<URL type="str">http://dx.doi.org/10.1142/s1793524523500778</URL>
+	<publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Chen Shangming</author>
+			<affiliation type="str">School of Mathematics and Statistics, Fuzhou University, Fuzhou, Fujian 350108, P. R. China</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Chen Fengde</author>
+			<affiliation type="str">School of Mathematics and Statistics, Fuzhou University, Fuzhou, Fujian 350108, P. R. China</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Srivastava Vaibhava</author>
+			<affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA 50011, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Parshad Rana D.</author>
+			<affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA 50011, USA</affiliation>
+		</item>
+	</authors>
+	<title type="str">Dynamical analysis of a Lotka–Volterra competition model with both Allee and fear effects</title>
+	<journal_name type="str">International Journal of Biomathematics</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str"/>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">11/17/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="null"/>
+	<published_online type="str">10/5/2023</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">National Institute of Food and Agriculture</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100005825</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/05qx3fv49</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1142/s2010007823500185</DOI>
+	<URL type="str">http://dx.doi.org/10.1142/s2010007823500185</URL>
+	<publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">FAVERO ALICE</author>
+			<affiliation type="str">RTI International, Research Triangle Park, NC 27709-2194, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">YOO JONGHYUN</author>
+			<affiliation type="str">Department of Urban Planning and Design, University of Seoul, Seoul 02504, Republic of Korea</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">DAIGNEAULT ADAM</author>
+			<affiliation type="str">School of Forest Resources, University of Maine, Orono, ME 04469, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">BAKER JUSTIN</author>
+			<affiliation type="str">Department of Forestry and Environmental Resources, North Carolina State University, Raleigh, NC 27607, USA</affiliation>
+		</item>
+	</authors>
+	<title type="str">TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE FUTURE?</title>
+	<journal_name type="str">Climate Change Economics</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str">NIFA:2017-48791-26835</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">6/19/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">11/2023</published_print>
+	<published_online type="str">6/1/2023</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">National Institute of Food and Agriculture</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100005825</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/05qx3fv49</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1190/geo2020-0366.1</DOI>
+	<URL type="str">http://dx.doi.org/10.1190/geo2020-0366.1</URL>
+	<publisher type="str">Society of Exploration Geophysicists</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Bakhtiari Rad Parsa</author>
+			<affiliation type="str">University of Mississippi, National Center for Physical Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding author); .</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Hickey Craig J.</author>
+			<affiliation type="str">University of Mississippi, National Center for Physical Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding author); .</affiliation>
+		</item>
+	</authors>
+	<title type="str">Seismic diffraction separation in the near surface: Detection of high-contrast voids in unconsolidated soils</title>
+	<journal_name type="str">GEOPHYSICS</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str">ARS:58-6060-6-009</item>
+		<item type="str">ONR:N00014-18-1-2489</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">7/11/2022</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">5/1/2021</published_print>
+	<published_online type="str">3/11/2021</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">Agricultural Research Service</item>
+		<item type="str">Office of Naval Research</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100007917</item>
+		<item type="str">10.13039/100000006</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/02d2m2044</item>
+		<item type="str">https://ror.org/00rk2pe57</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.1200/jco.2023.41.16_suppl.e24055</DOI>
+	<URL type="str">http://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</URL>
+	<publisher type="str">American Society of Clinical Oncology (ASCO)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Kizub Darya Aleksandrovna</author>
+			<affiliation type="str">Division of Cancer Medicine, University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Ramsey Margaret</author>
+			<affiliation type="str">Baylor College of Medicine, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Baum Miranda</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Ma Hilary Y.</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Patel Tejal Amar</author>
+			<affiliation type="str">MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Basen-Engquist Karen</author>
+			<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston, TX</affiliation>
+		</item>
+	</authors>
+	<title type="str">Perspectives about healthy eating and exercise among patients and providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+	<journal_name type="str">Journal of Clinical Oncology</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<grant_ids type="list">
+		<item type="str"/>
+	</grant_ids>
+	<added type="str">6/5/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<updated type="null"/>
+	<published_print type="str">6/1/2023</published_print>
+	<published_online type="null"/>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">USDA</item>
+		<item type="str">NIH</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000199</item>
+		<item type="str">10.13039/100000002</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/01na82s61</item>
+		<item type="str">https://ror.org/01cwqze88</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.2337/dc17-1143</DOI>
+	<URL type="str">http://dx.doi.org/10.2337/dc17-1143</URL>
+	<publisher type="str">American Diabetes Association</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Hruby Adela</author>
+			<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human Nutrition Research Center on Aging, Tufts University, Boston, MA, Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Guasch-Ferré Marta</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Bhupathiraju Shilpa N.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Manson JoAnn E.</author>
+			<affiliation type="str">Division of Preventive Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Willett Walter C.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">McKeown Nicola M.</author>
+			<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human Nutrition Research Center on Aging, Tufts University, Boston, MA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Hu Frank B.</author>
+			<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+		</item>
+	</authors>
+	<title type="str">Magnesium Intake, Quality of Carbohydrates, and Risk of Type 2 Diabetes: Results From Three U.S. Cohorts</title>
+	<journal_name type="str">Diabetes Care</journal_name>
+	<last_audited_on type="str">4/28/2023</last_audited_on>
+	<publicly_accessible_on_publisher_site type="str">11/21/2017</publicly_accessible_on_publisher_site>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<agency_portal_url type="list">
+		<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711333.1</item>
+		<item type="str">https://europepmc.org/article/MED/28978672</item>
+	</agency_portal_url>
+	<grant_ids type="list">
+		<item type="str">ARS:58-1950-4-003</item>
+		<item type="str">NIDDK:K01DK107804</item>
+		<item type="str">National Cancer Institute:P01 CA055075</item>
+		<item type="str">National Cancer Institute:P01 CA87969</item>
+		<item type="str">National Cancer Institute:UM1 CA167552</item>
+		<item type="str">National Cancer Institute:UM1 CA176726</item>
+		<item type="str">National Cancer Institute:UM1 CA186107</item>
+		<item type="str">NHLBI:HL60712</item>
+		<item type="str">NIDDK:DK58845</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">10/6/2017</added>
+	<orcid_profile type="list">
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0001-8525-1404</ORCID>
+			<_id type="str">5d94b58635980f881d111ffd</_id>
+			<family type="str">Guasch-Ferré</family>
+			<given type="str">Marta</given>
+		</item>
+	</orcid_profile>
+	<member_id type="str"/>
+	<published_print type="str">12/1/2017</published_print>
+	<published_online type="str">10/4/2017</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">Agricultural Research Service</item>
+		<item type="str">NIDDK</item>
+		<item type="str">National Cancer Institute</item>
+		<item type="str">National Heart, Lung, and Blood Institute</item>
+		<item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100007917</item>
+		<item type="str">10.13039/100000062</item>
+		<item type="str">10.13039/100000054</item>
+		<item type="str">10.13039/100000050</item>
+		<item type="str">10.13039/100000062</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/02d2m2044</item>
+		<item type="str">https://ror.org/00adh9b73</item>
+		<item type="str">https://ror.org/040gcmg81</item>
+		<item type="str">https://ror.org/012pb6c26</item>
+		<item type="str">https://ror.org/00adh9b73</item>
+	</RORID>
+	<auditSource type="str">GetFTR</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.2514/1.i010885</DOI>
+	<URL type="str">http://dx.doi.org/10.2514/1.i010885</URL>
+	<publisher type="str">American Institute of Aeronautics and Astronautics (AIAA)</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Tian Pengzhi</author>
+			<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Chao Haiyang</author>
+			<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Rhudy Matthew</author>
+			<affiliation type="str">Pennsylvania State University, Reading, Pennsylvania 19610</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Gross Jason</author>
+			<affiliation type="str">West Virginia University, Morgantown, West Virginia 26506</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Wu Huixuan</author>
+			<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+		</item>
+	</authors>
+	<title type="str">Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial Vehicles: A Survey</title>
+	<journal_name type="str">Journal of Aerospace Information Systems</journal_name>
+	<last_audited_on type="str">10/18/2022</last_audited_on>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="str">AM</license_type>
+	<licenseUrl type="str">https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</licenseUrl>
+	<agency_portal_url type="null"/>
+	<grant_ids type="list">
+		<item type="str">NIFA:2019-67021-28992</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">2/23/2021</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">3/2021</published_print>
+	<published_online type="null"/>
+	<reuse_license_start_date type="str">01/31/2022</reuse_license_start_date>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">National Institute of Food and Agriculture</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100005825</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/05qx3fv49</item>
+	</RORID>
+	<auditSource type="str">CHORUS</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.26508/lsa.202301968</DOI>
+	<URL type="str">http://dx.doi.org/10.26508/lsa.202301968</URL>
+	<publisher type="str">Life Science Alliance, LLC</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Plewes Michele R</author>
+			<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics and Gynecology, University of Nebraska Medical Center, Department of Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha, NE, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Przygrodzka Emilia</author>
+			<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics and Gynecology, University of Nebraska Medical Center</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Monaco Corrine F</author>
+			<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics and Gynecology, University of Nebraska Medical Center, Department of Cellular and Integrative Physiology, University of Nebraska Medical Center</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Snider Alexandria P</author>
+			<affiliation type="str">Department of Animal Sciences, University of Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Keane Jessica A</author>
+			<affiliation type="str">Department of Animal Sciences, University of Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Burns Patrick D</author>
+			<affiliation type="str">Department of Biological Sciences, University of Northern Colorado</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Wood Jennifer R</author>
+			<affiliation type="str">Department of Animal Sciences, University of Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Cupp Andrea S</author>
+			<affiliation type="str">Department of Animal Sciences, University of Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Davis John S</author>
+			<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics and Gynecology, University of Nebraska Medical Center, Department of Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha, NE, USA</affiliation>
+		</item>
+	</authors>
+	<title type="str">Prostaglandin F2α regulates mitochondrial dynamics and mitophagy in the bovine corpus luteum</title>
+	<journal_name type="str">Life Science Alliance</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="str">VOR</license_type>
+	<licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+	<grant_ids type="list">
+		<item type="str">NICHD:R01 HD087402</item>
+		<item type="str">NICHD:R01HD092263</item>
+		<item type="str">VA:IK2 BX004911-01A1</item>
+		<item type="str">VA:IK6BX005797</item>
+		<item type="str">USDA:2018-67012-29531</item>
+		<item type="str">USDA:2017-67015-26450</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">6/5/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">7/2023</published_print>
+	<published_online type="str">5/15/2023</published_online>
+	<reuse_license_start_date type="str">05/15/2023</reuse_license_start_date>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health and Human Development</item>
+		<item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health and Human Development</item>
+		<item type="str">VA</item>
+		<item type="str">VA</item>
+		<item type="str">USDA</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100009633</item>
+		<item type="str">10.13039/100009633</item>
+		<item type="str">10.13039/100000738</item>
+		<item type="str">10.13039/100000738</item>
+		<item type="str">10.13039/100000199</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/04byxyr05</item>
+		<item type="str">https://ror.org/04byxyr05</item>
+		<item type="str">https://ror.org/05rsv9s98</item>
+		<item type="str">https://ror.org/05rsv9s98</item>
+		<item type="str">https://ror.org/01na82s61</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.26508/lsa.202302241</DOI>
+	<URL type="str">http://dx.doi.org/10.26508/lsa.202302241</URL>
+	<publisher type="str">Life Science Alliance, LLC</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Maria Naomi I</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Papoin Julien</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Raparia Chirag</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Sun Zeguo</author>
+			<affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New York, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Josselsohn Rachel</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Lu Ailing</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Katerji Hani</author>
+			<affiliation type="str">Department of Pathology, University of Rochester, Rochester, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Syeda Mahrukh M</author>
+			<affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Polsky David</author>
+			<affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Paulson Robert</author>
+			<affiliation type="str">Department of Veterinary and Biomedical Sciences, Penn State College of Agricultural Sciences, University Park, PA, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Kalfa Theodosia</author>
+			<affiliation type="str">Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Barnes Betsy J</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Zhang Weijia</author>
+			<affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New York, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Blanc Lionel</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Davidson Anne</author>
+			<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+		</item>
+	</authors>
+	<title type="str">Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands and anemia in SLE-prone mice</title>
+	<journal_name type="str">Life Science Alliance</journal_name>
+	<last_audited_on type="null"/>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="str">VOR</license_type>
+	<licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+	<grant_ids type="list">
+		<item type="str">NHLBI:HL152099</item>
+		<item type="str">NHLBI:HL146528</item>
+		<item type="str">USDA:PEN04771</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">8/4/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="str">10/2023</published_print>
+	<published_online type="str">7/26/2023</published_online>
+	<reuse_license_start_date type="str">07/26/2023</reuse_license_start_date>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Unknown</archived_status>
+	<datasets type="null"/>
+	<agency_portal_url type="null"/>
+	<funders type="list">
+		<item type="str">HHS | NIH | National Heart, Lung, and Blood Institute</item>
+		<item type="str">Lupus Research Alliance</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000050</item>
+		<item type="str">10.13039/100012051</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/012pb6c26</item>
+		<item type="str">https://ror.org/02hkvsj16</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str"/>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.3768/rtipress.2022.op.0071.2201</DOI>
+	<URL type="str">http://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</URL>
+	<publisher type="str">RTI Press</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Ruzante Juliana M.</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Shumaker Ellen Thomas</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Holt Sidney</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Mayer Susan</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Kokotovich Adam</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Cuchiara Maude</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Binder Andrew R.</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Kuzma Jennifer</author>
+			<affiliation type="str"/>
+		</item>
+		<item type="dict">
+			<author type="str">Grieger Khara</author>
+			<affiliation type="str"/>
+		</item>
+	</authors>
+	<title type="str">Eliciting Stakeholder Perceptions Using a Novel Online Engagement Platform: A Case Study on Nano-Agrifoods</title>
+	<journal_name type="str"/>
+	<last_audited_on type="str">1/17/2024</last_audited_on>
+	<publicly_accessible_on_publisher_site type="str">1/22/2022</publicly_accessible_on_publisher_site>
+	<license_type type="str">VOR</license_type>
+	<licenseUrl type="str">https://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
+	<agency_portal_url type="null"/>
+	<grant_ids type="list">
+		<item type="str"/>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">7/10/2023</added>
+	<orcid_profile type="null"/>
+	<member_id type="str"/>
+	<published_print type="null"/>
+	<published_online type="str">1/20/2022</published_online>
+	<reuse_license_start_date type="str">01/22/2022</reuse_license_start_date>
+	<type type="str">report</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str">CHORUS</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<all>
+	<DOI type="str">10.7326/m16-0529</DOI>
+	<URL type="str">http://dx.doi.org/10.7326/m16-0529</URL>
+	<publisher type="str">American College of Physicians</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Gill Thomas M.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">`
+			<author type="str">Guralnik Jack M.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Pahor Marco</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Church Timothy</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Fielding Roger A.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">King Abby C.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Marsh Anthony P.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Newman Anne B.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Pellegrini Christine A.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Chen Shyh-Huei</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Allore Heather G.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Miller Michael E.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">undefined undefined</author>
+			<affiliation type="str"/>
+		</item>
+	</authors>
+	<title type="str">Effect of Structured Physical Activity on Overall Burden and Transitions Between States of Major Mobility Disability in Older Persons</title>
+	<journal_name type="str">Annals of Internal Medicine</journal_name>
+	<last_audited_on type="str">3/23/2018</last_audited_on>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<agency_portal_url type="list">
+		<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476905.1</item>
+	</agency_portal_url>
+	<grant_ids type="list">
+		<item type="str">NCATS:UL1RR025744</item>
+		<item type="str">NCATS:U54RR025208</item>
+		<item type="str">NCATS:UL1TR000142</item>
+		<item type="str">NHLBI:U01AG022376</item>
+		<item type="str">NICHD:R24HD065688</item>
+		<item type="str">NIA:U01AG22376</item>
+		<item type="str">NIA:P30AG028740</item>
+		<item type="str">NIA:P30AG21332</item>
+		<item type="str">NIA:P30AG031679</item>
+		<item type="str">NIA:P30AG024827</item>
+		<item type="str">NIA:P30AG021342</item>
+		<item type="str">NIA:K07AG3587</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">2/7/2018</added>
+	<orcid_profile type="list">
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0001-7685-8175</ORCID>
+			<_id type="str">5dcdb05cfec1cc5c34aab0fa</_id>
+			<family type="str">Allore</family>
+			<given type="str">Heather</given>
+			<source type="str">orcid</source>
+			<updatedAt type="str">2019-11-14</updatedAt>
+		</item>
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0002-6450-0368</ORCID>
+			<_id type="str">5dcdb05cfec1cc5c34aab0f9</_id>
+			<family type="str">Gill</family>
+			<given type="str">Thomas</given>
+			<source type="str">orcid</source>
+			<updatedAt type="str">2019-11-14</updatedAt>
+		</item>
+	</orcid_profile>
+	<member_id type="str"/>
+	<published_print type="str">12/20/2016</published_print>
+	<published_online type="str">9/27/2016</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">National Center for Advancing Translational Sciences</item>
+		<item type="str">National Heart, Lung, and Blood Institute</item>
+		<item type="str">National Institute of Child Health and Human Development</item>
+		<item type="str">National Institute on Aging</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100006108</item>
+		<item type="str">10.13039/100000050</item>
+		<item type="str">10.13039/100000071</item>
+		<item type="str">10.13039/100000049</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/04pw6fb54</item>
+		<item type="str">https://ror.org/012pb6c26</item>
+		<item type="str">https://ror.org/04byxyr05</item>
+		<item type="str">https://ror.org/049v75w11</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str">CHORUS</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>
+
+<chorus xmlns="http://www.loc.gov/mods/v3">
+   <element xmlns="">
+      <all>
+         <DOI type="str">10.1016/j.amsu.2020.10.007</DOI>
+         <URL type="str">http://dx.doi.org/10.1016/j.amsu.2020.10.007</URL>
+         <publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Sen-Crowe Brendon</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">McKenney Mark</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Elkbuli Adel</author>
+               <affiliation type="str"/>
+            </item>
+         </authors>
+         <title type="str">Public health prevention and emergency preparedness funding in the United
+			States: Are we ready for the next pandemic?</title>
+         <journal_name type="str">Annals of Medicine and Surgery</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str"/>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">10/13/2020</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">11/2020</published_print>
+         <published_online type="null"/>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">CDC</item>
+            <item type="str">CDC</item>
+            <item type="str">Department of Agriculture</item>
+            <item type="str">NIH</item>
+            <item type="str">OPHPR</item>
+            <item type="str">OPHPR</item>
+            <item type="str">OPHPR</item>
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000030</item>
+            <item type="str">10.13039/100000030</item>
+            <item type="str">10.13039/501100003526</item>
+            <item type="str">10.13039/100000002</item>
+            <item type="str">10.13039/100005195</item>
+            <item type="str">10.13039/100005195</item>
+            <item type="str">10.13039/100005195</item>
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/042twtr12</item>
+            <item type="str">https://ror.org/042twtr12</item>
+            <item type="str">https://ror.org/030c92375</item>
+            <item type="str">https://ror.org/01cwqze88</item>
+            <item type="str">https://ror.org/00sdb8f83</item>
+            <item type="str">https://ror.org/00sdb8f83</item>
+            <item type="str">https://ror.org/00sdb8f83</item>
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1053/jhep.2000.7476</DOI>
+         <URL type="str">http://dx.doi.org/10.1053/jhep.2000.7476</URL>
+         <publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Kim Hun-Taek</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Stoica George</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Bazer Fuller W.</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Ott Troy L.</author>
+               <affiliation type="str"/>
+            </item>
+         </authors>
+         <title type="str">Interferon tau-induced hepatocyte apoptosis in sheep</title>
+         <journal_name type="str">Hepatology</journal_name>
+         <last_audited_on type="str">7/31/2019</last_audited_on>
+         <publicly_accessible_on_publisher_site type="str">12/30/2003</publicly_accessible_on_publisher_site>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <agency_portal_url type="null"/>
+         <grant_ids type="list">
+            <item type="str">USDA:FAH TEX 08521</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">4/8/2018</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">6/2000</published_print>
+         <published_online type="str">12/30/2003</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <funders type="list">
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str">CHORUS</auditSource>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1097/dbp.0000000000001244</DOI>
+         <URL type="str">http://dx.doi.org/10.1097/dbp.0000000000001244</URL>
+         <publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Kowalski Alysse J.</author>
+               <affiliation type="str">Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Wang Yan</author>
+               <affiliation type="str">Department of Prevention and Community Health, Milken
+					Institute School of Public Health, The George Washington University, Washington,
+					DC;</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Armstrong Bridget</author>
+               <affiliation type="str">Department of Exercise Science, Arnold School of Public
+					Health, University of South Carolina, Columbia, SC;</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Trude Angela C. B.</author>
+               <affiliation type="str">Department of Nutrition and Food Studies, New York
+					University Steinhardt School of Culture, Education, and Human Development, New
+					York, NY;</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Hager Erin</author>
+               <affiliation type="str">Department of Population, Family and Reproductive Health,
+					Johns Hopkins Bloomberg School of Public Health, Baltimore, MD;
+					and</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Black Maureen M.</author>
+               <affiliation type="str">Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;, RTI International, Research Triangle Park,
+					NC.</affiliation>
+            </item>
+         </authors>
+         <title type="str">Preschoolers' Self-Regulation and Behavior Problems in the Midst of
+			Caregiver Depression and Chaos</title>
+         <journal_name type="str">Journal of Developmental &amp;amp; Behavioral
+			Pediatrics</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str">ICTR:Grant 419</item>
+            <item type="str">ICTR:TL1 TR003100</item>
+            <item type="str">NIDDK:R01 DK107761</item>
+            <item type="str">USDA:2016-68001-24927</item>
+         </grant_ids>
+         <added type="str">2/22/2024</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <updated type="null"/>
+         <published_print type="null"/>
+         <published_online type="str">2/20/2024</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</item>
+            <item type="str">Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</item>
+            <item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100019822</item>
+            <item type="str">10.13039/100019822</item>
+            <item type="str">10.13039/100000062</item>
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str"> </item>
+            <item type="str"> </item>
+            <item type="str">https://ror.org/00adh9b73</item>
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1116/6.0001718</DOI>
+         <URL type="str">http://dx.doi.org/10.1116/6.0001718</URL>
+         <publisher type="str">American Vacuum Society</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Cheng Yifan</author>
+               <affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Khlyustova Alexandra</author>
+               <affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Yang Rong</author>
+               <affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+            </item>
+         </authors>
+         <title type="str">All-dry free radical polymerization inside nanopores: Ion-milling-enabled
+			coating thickness profiling revealed “necking” phenomena</title>
+         <journal_name type="str">Journal of Vacuum Science &amp;amp; Technology A</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="str">AM</license_type>
+         <licenseUrl type="str">https://publishing.aip.org/authors/rights-and-permissions</licenseUrl>
+         <grant_ids type="list">
+            <item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=1719875</item>
+            <item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2025233</item>
+            <item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2144171</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">7/11/2022</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">5/1/2022</published_print>
+         <published_online type="str">4/7/2022</published_online>
+         <reuse_license_start_date type="str">04/07/2023</reuse_license_start_date>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">National Institute of Food and Agriculture</item>
+            <item type="str">NSF</item>
+            <item type="str">NSF</item>
+            <item type="str">NSF</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100005825</item>
+            <item type="str">10.13039/100000001</item>
+            <item type="str">10.13039/100000001</item>
+            <item type="str">10.13039/100000001</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/05qx3fv49</item>
+            <item type="str">https://ror.org/021nxhr62</item>
+            <item type="str">https://ror.org/021nxhr62</item>
+            <item type="str">https://ror.org/021nxhr62</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1116/6.0002772</DOI>
+         <URL type="str">http://dx.doi.org/10.1116/6.0002772</URL>
+         <publisher type="str">American Vacuum Society</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Scearce Alex E.</author>
+               <affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Goossen Caleb P.</author>
+               <affiliation type="str">Maine Organic Farmers and Gardeners Association, 2 Unity,
+					Maine 04988</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Schattman Rachel E.</author>
+               <affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Mallory Ellen B.</author>
+               <affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1, University of Maine Cooperative Extension, 3 Orono, Maine
+					04469</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">MacRae Jean D.</author>
+               <affiliation type="str">Department of Civil and Environmental Engineering,
+					University of Maine, Orono, Maine 04469 4</affiliation>
+            </item>
+         </authors>
+         <title type="str">Linking drivers of plant per- and polyfluoroalkyl substance (PFAS) uptake
+			to agricultural land management decisions</title>
+         <journal_name type="str">Biointerphases</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str">USDA:ME0-0223322</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">7/10/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">7/1/2023</published_print>
+         <published_online type="str">7/6/2023</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1142/s1793524523500778</DOI>
+         <URL type="str">http://dx.doi.org/10.1142/s1793524523500778</URL>
+         <publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Chen Shangming</author>
+               <affiliation type="str">School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Chen Fengde</author>
+               <affiliation type="str">School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Srivastava Vaibhava</author>
+               <affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Parshad Rana D.</author>
+               <affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+            </item>
+         </authors>
+         <title type="str">Dynamical analysis of a Lotka–Volterra competition model with both Allee
+			and fear effects</title>
+         <journal_name type="str">International Journal of Biomathematics</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str"/>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">11/17/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="null"/>
+         <published_online type="str">10/5/2023</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Unknown</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">National Institute of Food and Agriculture</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100005825</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/05qx3fv49</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1142/s2010007823500185</DOI>
+         <URL type="str">http://dx.doi.org/10.1142/s2010007823500185</URL>
+         <publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">FAVERO ALICE</author>
+               <affiliation type="str">RTI International, Research Triangle Park, NC 27709-2194,
+					USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">YOO JONGHYUN</author>
+               <affiliation type="str">Department of Urban Planning and Design, University of
+					Seoul, Seoul 02504, Republic of Korea</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">DAIGNEAULT ADAM</author>
+               <affiliation type="str">School of Forest Resources, University of Maine, Orono, ME
+					04469, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">BAKER JUSTIN</author>
+               <affiliation type="str">Department of Forestry and Environmental Resources, North
+					Carolina State University, Raleigh, NC 27607, USA</affiliation>
+            </item>
+         </authors>
+         <title type="str">TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE
+			FUTURE?</title>
+         <journal_name type="str">Climate Change Economics</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str">NIFA:2017-48791-26835</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">6/19/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">11/2023</published_print>
+         <published_online type="str">6/1/2023</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Unknown</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">National Institute of Food and Agriculture</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100005825</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/05qx3fv49</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1190/geo2020-0366.1</DOI>
+         <URL type="str">http://dx.doi.org/10.1190/geo2020-0366.1</URL>
+         <publisher type="str">Society of Exploration Geophysicists</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Bakhtiari Rad Parsa</author>
+               <affiliation type="str">University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Hickey Craig J.</author>
+               <affiliation type="str">University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+            </item>
+         </authors>
+         <title type="str">Seismic diffraction separation in the near surface: Detection of
+			high-contrast voids in unconsolidated soils</title>
+         <journal_name type="str">GEOPHYSICS</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str">ARS:58-6060-6-009</item>
+            <item type="str">ONR:N00014-18-1-2489</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">7/11/2022</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">5/1/2021</published_print>
+         <published_online type="str">3/11/2021</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">Agricultural Research Service</item>
+            <item type="str">Office of Naval Research</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100007917</item>
+            <item type="str">10.13039/100000006</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/02d2m2044</item>
+            <item type="str">https://ror.org/00rk2pe57</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.1200/jco.2023.41.16_suppl.e24055</DOI>
+         <URL type="str">http://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</URL>
+         <publisher type="str">American Society of Clinical Oncology (ASCO)</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Kizub Darya Aleksandrovna</author>
+               <affiliation type="str">Division of Cancer Medicine, University of Texas MD Anderson
+					Cancer Center, Houston, TX</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Ramsey Margaret</author>
+               <affiliation type="str">Baylor College of Medicine, Houston, TX</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Baum Miranda</author>
+               <affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Ma Hilary Y.</author>
+               <affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Patel Tejal Amar</author>
+               <affiliation type="str">MD Anderson Cancer Center, Houston, TX</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Basen-Engquist Karen</author>
+               <affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+            </item>
+         </authors>
+         <title type="str">Perspectives about healthy eating and exercise among patients and
+			providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+         <journal_name type="str">Journal of Clinical Oncology</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <grant_ids type="list">
+            <item type="str"/>
+         </grant_ids>
+         <added type="str">6/5/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <updated type="null"/>
+         <published_print type="str">6/1/2023</published_print>
+         <published_online type="null"/>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Unknown</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">USDA</item>
+            <item type="str">NIH</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000199</item>
+            <item type="str">10.13039/100000002</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/01na82s61</item>
+            <item type="str">https://ror.org/01cwqze88</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.2337/dc17-1143</DOI>
+         <URL type="str">http://dx.doi.org/10.2337/dc17-1143</URL>
+         <publisher type="str">American Diabetes Association</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Hruby Adela</author>
+               <affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA, Department of
+					Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Guasch-Ferré Marta</author>
+               <affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Bhupathiraju Shilpa N.</author>
+               <affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Manson JoAnn E.</author>
+               <affiliation type="str">Division of Preventive Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Willett Walter C.</author>
+               <affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">McKeown Nicola M.</author>
+               <affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Hu Frank B.</author>
+               <affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+            </item>
+         </authors>
+         <title type="str">Magnesium Intake, Quality of Carbohydrates, and Risk of Type 2 Diabetes:
+			Results From Three U.S. Cohorts</title>
+         <journal_name type="str">Diabetes Care</journal_name>
+         <last_audited_on type="str">4/28/2023</last_audited_on>
+         <publicly_accessible_on_publisher_site type="str">11/21/2017</publicly_accessible_on_publisher_site>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <agency_portal_url type="list">
+            <item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711333.1</item>
+            <item type="str">https://europepmc.org/article/MED/28978672</item>
+         </agency_portal_url>
+         <grant_ids type="list">
+            <item type="str">ARS:58-1950-4-003</item>
+            <item type="str">NIDDK:K01DK107804</item>
+            <item type="str">National Cancer Institute:P01 CA055075</item>
+            <item type="str">National Cancer Institute:P01 CA87969</item>
+            <item type="str">National Cancer Institute:UM1 CA167552</item>
+            <item type="str">National Cancer Institute:UM1 CA176726</item>
+            <item type="str">National Cancer Institute:UM1 CA186107</item>
+            <item type="str">NHLBI:HL60712</item>
+            <item type="str">NIDDK:DK58845</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">10/6/2017</added>
+         <orcid_profile type="list">
+            <item type="dict">
+               <ORCID type="str">http://orcid.org/0000-0001-8525-1404</ORCID>
+               <_id type="str">5d94b58635980f881d111ffd</_id>
+               <family type="str">Guasch-Ferré</family>
+               <given type="str">Marta</given>
+            </item>
+         </orcid_profile>
+         <member_id type="str"/>
+         <published_print type="str">12/1/2017</published_print>
+         <published_online type="str">10/4/2017</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <funders type="list">
+            <item type="str">Agricultural Research Service</item>
+            <item type="str">NIDDK</item>
+            <item type="str">National Cancer Institute</item>
+            <item type="str">National Heart, Lung, and Blood Institute</item>
+            <item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100007917</item>
+            <item type="str">10.13039/100000062</item>
+            <item type="str">10.13039/100000054</item>
+            <item type="str">10.13039/100000050</item>
+            <item type="str">10.13039/100000062</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/02d2m2044</item>
+            <item type="str">https://ror.org/00adh9b73</item>
+            <item type="str">https://ror.org/040gcmg81</item>
+            <item type="str">https://ror.org/012pb6c26</item>
+            <item type="str">https://ror.org/00adh9b73</item>
+         </RORID>
+         <auditSource type="str">GetFTR</auditSource>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.2514/1.i010885</DOI>
+         <URL type="str">http://dx.doi.org/10.2514/1.i010885</URL>
+         <publisher type="str">American Institute of Aeronautics and Astronautics (AIAA)</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Tian Pengzhi</author>
+               <affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Chao Haiyang</author>
+               <affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Rhudy Matthew</author>
+               <affiliation type="str">Pennsylvania State University, Reading, Pennsylvania
+					19610</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Gross Jason</author>
+               <affiliation type="str">West Virginia University, Morgantown, West Virginia
+					26506</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Wu Huixuan</author>
+               <affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+            </item>
+         </authors>
+         <title type="str">Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial
+			Vehicles: A Survey</title>
+         <journal_name type="str">Journal of Aerospace Information Systems</journal_name>
+         <last_audited_on type="str">10/18/2022</last_audited_on>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="str">AM</license_type>
+         <licenseUrl type="str">https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</licenseUrl>
+         <agency_portal_url type="null"/>
+         <grant_ids type="list">
+            <item type="str">NIFA:2019-67021-28992</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">2/23/2021</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">3/2021</published_print>
+         <published_online type="null"/>
+         <reuse_license_start_date type="str">01/31/2022</reuse_license_start_date>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <funders type="list">
+            <item type="str">National Institute of Food and Agriculture</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100005825</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/05qx3fv49</item>
+         </RORID>
+         <auditSource type="str">CHORUS</auditSource>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.26508/lsa.202301968</DOI>
+         <URL type="str">http://dx.doi.org/10.26508/lsa.202301968</URL>
+         <publisher type="str">Life Science Alliance, LLC</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Plewes Michele R</author>
+               <affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Przygrodzka Emilia</author>
+               <affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Monaco Corrine F</author>
+               <affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of Cellular
+					and Integrative Physiology, University of Nebraska Medical Center</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Snider Alexandria P</author>
+               <affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Keane Jessica A</author>
+               <affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Burns Patrick D</author>
+               <affiliation type="str">Department of Biological Sciences, University of Northern
+					Colorado</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Wood Jennifer R</author>
+               <affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Cupp Andrea S</author>
+               <affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Davis John S</author>
+               <affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+            </item>
+         </authors>
+         <title type="str">Prostaglandin F2α regulates mitochondrial dynamics and mitophagy in the
+			bovine corpus luteum</title>
+         <journal_name type="str">Life Science Alliance</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="str">VOR</license_type>
+         <licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+         <grant_ids type="list">
+            <item type="str">NICHD:R01 HD087402</item>
+            <item type="str">NICHD:R01HD092263</item>
+            <item type="str">VA:IK2 BX004911-01A1</item>
+            <item type="str">VA:IK6BX005797</item>
+            <item type="str">USDA:2018-67012-29531</item>
+            <item type="str">USDA:2017-67015-26450</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">6/5/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">7/2023</published_print>
+         <published_online type="str">5/15/2023</published_online>
+         <reuse_license_start_date type="str">05/15/2023</reuse_license_start_date>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Unknown</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</item>
+            <item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</item>
+            <item type="str">VA</item>
+            <item type="str">VA</item>
+            <item type="str">USDA</item>
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100009633</item>
+            <item type="str">10.13039/100009633</item>
+            <item type="str">10.13039/100000738</item>
+            <item type="str">10.13039/100000738</item>
+            <item type="str">10.13039/100000199</item>
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/04byxyr05</item>
+            <item type="str">https://ror.org/04byxyr05</item>
+            <item type="str">https://ror.org/05rsv9s98</item>
+            <item type="str">https://ror.org/05rsv9s98</item>
+            <item type="str">https://ror.org/01na82s61</item>
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.26508/lsa.202302241</DOI>
+         <URL type="str">http://dx.doi.org/10.26508/lsa.202302241</URL>
+         <publisher type="str">Life Science Alliance, LLC</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Maria Naomi I</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Papoin Julien</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Raparia Chirag</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Sun Zeguo</author>
+               <affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Josselsohn Rachel</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Lu Ailing</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Katerji Hani</author>
+               <affiliation type="str">Department of Pathology, University of Rochester, Rochester,
+					NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Syeda Mahrukh M</author>
+               <affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Polsky David</author>
+               <affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Paulson Robert</author>
+               <affiliation type="str">Department of Veterinary and Biomedical Sciences, Penn State
+					College of Agricultural Sciences, University Park, PA, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Kalfa Theodosia</author>
+               <affiliation type="str">Cincinnati Children’s Hospital Medical Center, Cincinnati,
+					OH, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Barnes Betsy J</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Zhang Weijia</author>
+               <affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Blanc Lionel</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Davidson Anne</author>
+               <affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+            </item>
+         </authors>
+         <title type="str">Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands
+			and anemia in SLE-prone mice</title>
+         <journal_name type="str">Life Science Alliance</journal_name>
+         <last_audited_on type="null"/>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="str">VOR</license_type>
+         <licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+         <grant_ids type="list">
+            <item type="str">NHLBI:HL152099</item>
+            <item type="str">NHLBI:HL146528</item>
+            <item type="str">USDA:PEN04771</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">8/4/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="str">10/2023</published_print>
+         <published_online type="str">7/26/2023</published_online>
+         <reuse_license_start_date type="str">07/26/2023</reuse_license_start_date>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Unknown</archived_status>
+         <datasets type="null"/>
+         <agency_portal_url type="null"/>
+         <funders type="list">
+            <item type="str">HHS | NIH | National Heart, Lung, and Blood Institute</item>
+            <item type="str">Lupus Research Alliance</item>
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000050</item>
+            <item type="str">10.13039/100012051</item>
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/012pb6c26</item>
+            <item type="str">https://ror.org/02hkvsj16</item>
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str"/>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.3768/rtipress.2022.op.0071.2201</DOI>
+         <URL type="str">http://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</URL>
+         <!--		<publisher type="str">RTI Press</publisher>-->
+         <publisher type="str">Research Triangle Park NC: RTI International, 2008"</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Ruzante Juliana M.</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Shumaker Ellen Thomas</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Holt Sidney</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Mayer Susan</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Kokotovich Adam</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Cuchiara Maude</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Binder Andrew R.</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Kuzma Jennifer</author>
+               <affiliation type="str"/>
+            </item>
+            <item type="dict">
+               <author type="str">Grieger Khara</author>
+               <affiliation type="str"/>
+            </item>
+         </authors>
+         <title type="str">Eliciting Stakeholder Perceptions Using a Novel Online Engagement
+			Platform: A Case Study on Nano-Agrifoods</title>
+         <journal_name type="str">RTI Press occasional paper.</journal_name>
+         <last_audited_on type="str">1/17/2024</last_audited_on>
+         <publicly_accessible_on_publisher_site type="str">1/22/2022</publicly_accessible_on_publisher_site>
+         <license_type type="str">VOR</license_type>
+         <licenseUrl type="str">https://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
+         <agency_portal_url type="null"/>
+         <grant_ids type="list">
+            <item type="str"/>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">7/10/2023</added>
+         <orcid_profile type="null"/>
+         <member_id type="str"/>
+         <published_print type="null"/>
+         <published_online type="str">1/20/2022</published_online>
+         <reuse_license_start_date type="str">01/22/2022</reuse_license_start_date>
+         <type type="str">report</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <funders type="list">
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str">CHORUS</auditSource>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+      <all>
+         <DOI type="str">10.7326/m16-0529</DOI>
+         <URL type="str">http://dx.doi.org/10.7326/m16-0529</URL>
+         <publisher type="str">American College of Physicians</publisher>
+         <authors type="list">
+            <item type="dict">
+               <author type="str">Gill Thomas M.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">` <author type="str">Guralnik Jack M.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Pahor Marco</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Church Timothy</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Fielding Roger A.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">King Abby C.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Marsh Anthony P.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Newman Anne B.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Pellegrini Christine A.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Chen Shyh-Huei</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Allore Heather G.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">Miller Michael E.</author>
+               <affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+            </item>
+            <item type="dict">
+               <author type="str">undefined undefined</author>
+               <affiliation type="str"/>
+            </item>
+         </authors>
+         <title type="str">Effect of Structured Physical Activity on Overall Burden and Transitions
+			Between States of Major Mobility Disability in Older Persons</title>
+         <journal_name type="str">Annals of Internal Medicine</journal_name>
+         <last_audited_on type="str">3/23/2018</last_audited_on>
+         <publicly_accessible_on_publisher_site type="null"/>
+         <license_type type="null"/>
+         <licenseUrl type="null"/>
+         <agency_portal_url type="list">
+            <item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476905.1</item>
+         </agency_portal_url>
+         <grant_ids type="list">
+            <item type="str">NCATS:UL1RR025744</item>
+            <item type="str">NCATS:U54RR025208</item>
+            <item type="str">NCATS:UL1TR000142</item>
+            <item type="str">NHLBI:U01AG022376</item>
+            <item type="str">NICHD:R24HD065688</item>
+            <item type="str">NIA:U01AG22376</item>
+            <item type="str">NIA:P30AG028740</item>
+            <item type="str">NIA:P30AG21332</item>
+            <item type="str">NIA:P30AG031679</item>
+            <item type="str">NIA:P30AG024827</item>
+            <item type="str">NIA:P30AG021342</item>
+            <item type="str">NIA:K07AG3587</item>
+         </grant_ids>
+         <updated type="str">3/10/2024</updated>
+         <added type="str">2/7/2018</added>
+         <orcid_profile type="list">
+            <item type="dict">
+               <ORCID type="str">http://orcid.org/0000-0001-7685-8175</ORCID>
+               <_id type="str">5dcdb05cfec1cc5c34aab0fa</_id>
+               <family type="str">Allore</family>
+               <given type="str">Heather</given>
+               <source type="str">orcid</source>
+               <updatedAt type="str">2019-11-14</updatedAt>
+            </item>
+            <item type="dict">
+               <ORCID type="str">http://orcid.org/0000-0002-6450-0368</ORCID>
+               <_id type="str">5dcdb05cfec1cc5c34aab0f9</_id>
+               <family type="str">Gill</family>
+               <given type="str">Thomas</given>
+               <source type="str">orcid</source>
+               <updatedAt type="str">2019-11-14</updatedAt>
+            </item>
+         </orcid_profile>
+         <member_id type="str"/>
+         <published_print type="str">12/20/2016</published_print>
+         <published_online type="str">9/27/2016</published_online>
+         <reuse_license_start_date type="null"/>
+         <type type="str">journal-article</type>
+         <archived_status type="str">Yes</archived_status>
+         <datasets type="null"/>
+         <funders type="list">
+            <item type="str">National Center for Advancing Translational Sciences</item>
+            <item type="str">National Heart, Lung, and Blood Institute</item>
+            <item type="str">National Institute of Child Health and Human Development</item>
+            <item type="str">National Institute on Aging</item>
+            <item type="str">USDA</item>
+         </funders>
+         <funderIDs type="list">
+            <item type="str">10.13039/100006108</item>
+            <item type="str">10.13039/100000050</item>
+            <item type="str">10.13039/100000071</item>
+            <item type="str">10.13039/100000049</item>
+            <item type="str">10.13039/100000199</item>
+         </funderIDs>
+         <RORID type="list">
+            <item type="str">https://ror.org/04pw6fb54</item>
+            <item type="str">https://ror.org/012pb6c26</item>
+            <item type="str">https://ror.org/04byxyr05</item>
+            <item type="str">https://ror.org/049v75w11</item>
+            <item type="str">https://ror.org/01na82s61</item>
+         </RORID>
+         <auditSource type="str">CHORUS</auditSource>
+         <Funder_Source type="str">Crossref</Funder_Source>
+      </all>
+   </element>
+</chorus>
+
+<element>
+	<all>
+		<DOI type="str">10.1016/j.amsu.2020.10.007</DOI>
+		<URL type="str">http://dx.doi.org/10.1016/j.amsu.2020.10.007</URL>
+		<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Sen-Crowe Brendon</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">McKenney Mark</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Elkbuli Adel</author>
+				<affiliation type="str"/>
+			</item>
+		</authors>
+		<title type="str">Public health prevention and emergency preparedness funding in the United
+			States: Are we ready for the next pandemic?</title>
+		<journal_name type="str">Annals of Medicine and Surgery</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str"/>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">10/13/2020</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">11/2020</published_print>
+		<published_online type="null"/>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">CDC</item>
+			<item type="str">CDC</item>
+			<item type="str">Department of Agriculture</item>
+			<item type="str">NIH</item>
+			<item type="str">OPHPR</item>
+			<item type="str">OPHPR</item>
+			<item type="str">OPHPR</item>
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000030</item>
+			<item type="str">10.13039/100000030</item>
+			<item type="str">10.13039/501100003526</item>
+			<item type="str">10.13039/100000002</item>
+			<item type="str">10.13039/100005195</item>
+			<item type="str">10.13039/100005195</item>
+			<item type="str">10.13039/100005195</item>
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/042twtr12</item>
+			<item type="str">https://ror.org/042twtr12</item>
+			<item type="str">https://ror.org/030c92375</item>
+			<item type="str">https://ror.org/01cwqze88</item>
+			<item type="str">https://ror.org/00sdb8f83</item>
+			<item type="str">https://ror.org/00sdb8f83</item>
+			<item type="str">https://ror.org/00sdb8f83</item>
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1053/jhep.2000.7476</DOI>
+		<URL type="str">http://dx.doi.org/10.1053/jhep.2000.7476</URL>
+		<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Kim Hun-Taek</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Stoica George</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Bazer Fuller W.</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Ott Troy L.</author>
+				<affiliation type="str"/>
+			</item>
+		</authors>
+		<title type="str">Interferon tau-induced hepatocyte apoptosis in sheep</title>
+		<journal_name type="str">Hepatology</journal_name>
+		<last_audited_on type="str">7/31/2019</last_audited_on>
+		<publicly_accessible_on_publisher_site type="str"
+			>12/30/2003</publicly_accessible_on_publisher_site>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<agency_portal_url type="null"/>
+		<grant_ids type="list">
+			<item type="str">USDA:FAH TEX 08521</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">4/8/2018</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">6/2000</published_print>
+		<published_online type="str">12/30/2003</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<funders type="list">
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str">CHORUS</auditSource>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1097/dbp.0000000000001244</DOI>
+		<URL type="str">http://dx.doi.org/10.1097/dbp.0000000000001244</URL>
+		<publisher type="str">Ovid Technologies (Wolters Kluwer Health)</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Kowalski Alysse J.</author>
+				<affiliation type="str">Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Wang Yan</author>
+				<affiliation type="str">Department of Prevention and Community Health, Milken
+					Institute School of Public Health, The George Washington University, Washington,
+					DC;</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Armstrong Bridget</author>
+				<affiliation type="str">Department of Exercise Science, Arnold School of Public
+					Health, University of South Carolina, Columbia, SC;</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Trude Angela C. B.</author>
+				<affiliation type="str">Department of Nutrition and Food Studies, New York
+					University Steinhardt School of Culture, Education, and Human Development, New
+					York, NY;</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Hager Erin</author>
+				<affiliation type="str">Department of Population, Family and Reproductive Health,
+					Johns Hopkins Bloomberg School of Public Health, Baltimore, MD;
+					and</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Black Maureen M.</author>
+				<affiliation type="str">Department of Pediatrics, University of Maryland School of
+					Medicine, Baltimore, MD;, RTI International, Research Triangle Park,
+					NC.</affiliation>
+			</item>
+		</authors>
+		<title type="str">Preschoolers' Self-Regulation and Behavior Problems in the Midst of
+			Caregiver Depression and Chaos</title>
+		<journal_name type="str">Journal of Developmental &amp;amp; Behavioral
+			Pediatrics</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str">ICTR:Grant 419</item>
+			<item type="str">ICTR:TL1 TR003100</item>
+			<item type="str">NIDDK:R01 DK107761</item>
+			<item type="str">USDA:2016-68001-24927</item>
+		</grant_ids>
+		<added type="str">2/22/2024</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<updated type="null"/>
+		<published_print type="null"/>
+		<published_online type="str">2/20/2024</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</item>
+			<item type="str">Institute for Clinical and Translational Research, University of
+				Maryland, Baltimore</item>
+			<item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100019822</item>
+			<item type="str">10.13039/100019822</item>
+			<item type="str">10.13039/100000062</item>
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str"> </item>
+			<item type="str"> </item>
+			<item type="str">https://ror.org/00adh9b73</item>
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1116/6.0001718</DOI>
+		<URL type="str">http://dx.doi.org/10.1116/6.0001718</URL>
+		<publisher type="str">American Vacuum Society</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Cheng Yifan</author>
+				<affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Khlyustova Alexandra</author>
+				<affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Yang Rong</author>
+				<affiliation type="str">Cornell University, Robert Frederick Smith School of
+					Chemical and Biomolecular Engineering , 6-44 Ho Plaza, Ithaca, New York
+					14853</affiliation>
+			</item>
+		</authors>
+		<title type="str">All-dry free radical polymerization inside nanopores: Ion-milling-enabled
+			coating thickness profiling revealed “necking” phenomena</title>
+		<journal_name type="str">Journal of Vacuum Science &amp;amp; Technology A</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="str">AM</license_type>
+		<licenseUrl type="str"
+			>https://publishing.aip.org/authors/rights-and-permissions</licenseUrl>
+		<grant_ids type="list">
+			<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=1719875</item>
+			<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2025233</item>
+			<item type="str">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2144171</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">7/11/2022</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">5/1/2022</published_print>
+		<published_online type="str">4/7/2022</published_online>
+		<reuse_license_start_date type="str">04/07/2023</reuse_license_start_date>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">National Institute of Food and Agriculture</item>
+			<item type="str">NSF</item>
+			<item type="str">NSF</item>
+			<item type="str">NSF</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100005825</item>
+			<item type="str">10.13039/100000001</item>
+			<item type="str">10.13039/100000001</item>
+			<item type="str">10.13039/100000001</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/05qx3fv49</item>
+			<item type="str">https://ror.org/021nxhr62</item>
+			<item type="str">https://ror.org/021nxhr62</item>
+			<item type="str">https://ror.org/021nxhr62</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1116/6.0002772</DOI>
+		<URL type="str">http://dx.doi.org/10.1116/6.0002772</URL>
+		<publisher type="str">American Vacuum Society</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Scearce Alex E.</author>
+				<affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Goossen Caleb P.</author>
+				<affiliation type="str">Maine Organic Farmers and Gardeners Association, 2 Unity,
+					Maine 04988</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Schattman Rachel E.</author>
+				<affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Mallory Ellen B.</author>
+				<affiliation type="str">School of Food and Agriculture, University of Maine, Orono,
+					Maine 04469 1, University of Maine Cooperative Extension, 3 Orono, Maine
+					04469</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">MacRae Jean D.</author>
+				<affiliation type="str">Department of Civil and Environmental Engineering,
+					University of Maine, Orono, Maine 04469 4</affiliation>
+			</item>
+		</authors>
+		<title type="str">Linking drivers of plant per- and polyfluoroalkyl substance (PFAS) uptake
+			to agricultural land management decisions</title>
+		<journal_name type="str">Biointerphases</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str">USDA:ME0-0223322</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">7/10/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">7/1/2023</published_print>
+		<published_online type="str">7/6/2023</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1142/s1793524523500778</DOI>
+		<URL type="str">http://dx.doi.org/10.1142/s1793524523500778</URL>
+		<publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Chen Shangming</author>
+				<affiliation type="str">School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Chen Fengde</author>
+				<affiliation type="str">School of Mathematics and Statistics, Fuzhou University,
+					Fuzhou, Fujian 350108, P. R. China</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Srivastava Vaibhava</author>
+				<affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Parshad Rana D.</author>
+				<affiliation type="str">Department of Mathematics, Iowa State University, Ames, IA
+					50011, USA</affiliation>
+			</item>
+		</authors>
+		<title type="str">Dynamical analysis of a Lotka–Volterra competition model with both Allee
+			and fear effects</title>
+		<journal_name type="str">International Journal of Biomathematics</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str"/>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">11/17/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="null"/>
+		<published_online type="str">10/5/2023</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Unknown</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">National Institute of Food and Agriculture</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100005825</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/05qx3fv49</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1142/s2010007823500185</DOI>
+		<URL type="str">http://dx.doi.org/10.1142/s2010007823500185</URL>
+		<publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">FAVERO ALICE</author>
+				<affiliation type="str">RTI International, Research Triangle Park, NC 27709-2194,
+					USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">YOO JONGHYUN</author>
+				<affiliation type="str">Department of Urban Planning and Design, University of
+					Seoul, Seoul 02504, Republic of Korea</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">DAIGNEAULT ADAM</author>
+				<affiliation type="str">School of Forest Resources, University of Maine, Orono, ME
+					04469, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">BAKER JUSTIN</author>
+				<affiliation type="str">Department of Forestry and Environmental Resources, North
+					Carolina State University, Raleigh, NC 27607, USA</affiliation>
+			</item>
+		</authors>
+		<title type="str">TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE
+			FUTURE?</title>
+		<journal_name type="str">Climate Change Economics</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str">NIFA:2017-48791-26835</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">6/19/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">11/2023</published_print>
+		<published_online type="str">6/1/2023</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Unknown</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">National Institute of Food and Agriculture</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100005825</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/05qx3fv49</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1190/geo2020-0366.1</DOI>
+		<URL type="str">http://dx.doi.org/10.1190/geo2020-0366.1</URL>
+		<publisher type="str">Society of Exploration Geophysicists</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Bakhtiari Rad Parsa</author>
+				<affiliation type="str">University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Hickey Craig J.</author>
+				<affiliation type="str">University of Mississippi, National Center for Physical
+					Acoustics, 145 Hill Drive, Oxford, Mississippi 38677, USA.(corresponding
+					author); .</affiliation>
+			</item>
+		</authors>
+		<title type="str">Seismic diffraction separation in the near surface: Detection of
+			high-contrast voids in unconsolidated soils</title>
+		<journal_name type="str">GEOPHYSICS</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str">ARS:58-6060-6-009</item>
+			<item type="str">ONR:N00014-18-1-2489</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">7/11/2022</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">5/1/2021</published_print>
+		<published_online type="str">3/11/2021</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">Agricultural Research Service</item>
+			<item type="str">Office of Naval Research</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100007917</item>
+			<item type="str">10.13039/100000006</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/02d2m2044</item>
+			<item type="str">https://ror.org/00rk2pe57</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.1200/jco.2023.41.16_suppl.e24055</DOI>
+		<URL type="str">http://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</URL>
+		<publisher type="str">American Society of Clinical Oncology (ASCO)</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Kizub Darya Aleksandrovna</author>
+				<affiliation type="str">Division of Cancer Medicine, University of Texas MD Anderson
+					Cancer Center, Houston, TX</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Ramsey Margaret</author>
+				<affiliation type="str">Baylor College of Medicine, Houston, TX</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Baum Miranda</author>
+				<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Ma Hilary Y.</author>
+				<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Patel Tejal Amar</author>
+				<affiliation type="str">MD Anderson Cancer Center, Houston, TX</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Basen-Engquist Karen</author>
+				<affiliation type="str">University of Texas MD Anderson Cancer Center, Houston,
+					TX</affiliation>
+			</item>
+		</authors>
+		<title type="str">Perspectives about healthy eating and exercise among patients and
+			providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
+		<journal_name type="str">Journal of Clinical Oncology</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<grant_ids type="list">
+			<item type="str"/>
+		</grant_ids>
+		<added type="str">6/5/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<updated type="null"/>
+		<published_print type="str">6/1/2023</published_print>
+		<published_online type="null"/>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Unknown</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">USDA</item>
+			<item type="str">NIH</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000199</item>
+			<item type="str">10.13039/100000002</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/01na82s61</item>
+			<item type="str">https://ror.org/01cwqze88</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.2337/dc17-1143</DOI>
+		<URL type="str">http://dx.doi.org/10.2337/dc17-1143</URL>
+		<publisher type="str">American Diabetes Association</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Hruby Adela</author>
+				<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA, Department of
+					Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Guasch-Ferré Marta</author>
+				<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Bhupathiraju Shilpa N.</author>
+				<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Manson JoAnn E.</author>
+				<affiliation type="str">Division of Preventive Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Willett Walter C.</author>
+				<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">McKeown Nicola M.</author>
+				<affiliation type="str">Nutritional Epidemiology Program, Jean Mayer USDA Human
+					Nutrition Research Center on Aging, Tufts University, Boston, MA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Hu Frank B.</author>
+				<affiliation type="str">Department of Nutrition, Harvard T.H. Chan School of Public
+					Health, Boston, MA, Channing Division of Network Medicine, Brigham and Women’s
+					Hospital and Harvard Medical School, Boston, MA, Department of Epidemiology,
+					Harvard T.H. Chan School of Public Health, Boston, MA</affiliation>
+			</item>
+		</authors>
+		<title type="str">Magnesium Intake, Quality of Carbohydrates, and Risk of Type 2 Diabetes:
+			Results From Three U.S. Cohorts</title>
+		<journal_name type="str">Diabetes Care</journal_name>
+		<last_audited_on type="str">4/28/2023</last_audited_on>
+		<publicly_accessible_on_publisher_site type="str"
+			>11/21/2017</publicly_accessible_on_publisher_site>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<agency_portal_url type="list">
+			<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711333.1</item>
+			<item type="str">https://europepmc.org/article/MED/28978672</item>
+		</agency_portal_url>
+		<grant_ids type="list">
+			<item type="str">ARS:58-1950-4-003</item>
+			<item type="str">NIDDK:K01DK107804</item>
+			<item type="str">National Cancer Institute:P01 CA055075</item>
+			<item type="str">National Cancer Institute:P01 CA87969</item>
+			<item type="str">National Cancer Institute:UM1 CA167552</item>
+			<item type="str">National Cancer Institute:UM1 CA176726</item>
+			<item type="str">National Cancer Institute:UM1 CA186107</item>
+			<item type="str">NHLBI:HL60712</item>
+			<item type="str">NIDDK:DK58845</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">10/6/2017</added>
+		<orcid_profile type="list">
+			<item type="dict">
+				<ORCID type="str">http://orcid.org/0000-0001-8525-1404</ORCID>
+				<_id type="str">5d94b58635980f881d111ffd</_id>
+				<family type="str">Guasch-Ferré</family>
+				<given type="str">Marta</given>
+			</item>
+		</orcid_profile>
+		<member_id type="str"/>
+		<published_print type="str">12/1/2017</published_print>
+		<published_online type="str">10/4/2017</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<funders type="list">
+			<item type="str">Agricultural Research Service</item>
+			<item type="str">NIDDK</item>
+			<item type="str">National Cancer Institute</item>
+			<item type="str">National Heart, Lung, and Blood Institute</item>
+			<item type="str">National Institute of Diabetes and Digestive and Kidney Diseases</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100007917</item>
+			<item type="str">10.13039/100000062</item>
+			<item type="str">10.13039/100000054</item>
+			<item type="str">10.13039/100000050</item>
+			<item type="str">10.13039/100000062</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/02d2m2044</item>
+			<item type="str">https://ror.org/00adh9b73</item>
+			<item type="str">https://ror.org/040gcmg81</item>
+			<item type="str">https://ror.org/012pb6c26</item>
+			<item type="str">https://ror.org/00adh9b73</item>
+		</RORID>
+		<auditSource type="str">GetFTR</auditSource>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.2514/1.i010885</DOI>
+		<URL type="str">http://dx.doi.org/10.2514/1.i010885</URL>
+		<publisher type="str">American Institute of Aeronautics and Astronautics (AIAA)</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Tian Pengzhi</author>
+				<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Chao Haiyang</author>
+				<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Rhudy Matthew</author>
+				<affiliation type="str">Pennsylvania State University, Reading, Pennsylvania
+					19610</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Gross Jason</author>
+				<affiliation type="str">West Virginia University, Morgantown, West Virginia
+					26506</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Wu Huixuan</author>
+				<affiliation type="str">University of Kansas, Lawrence, Kansas 66045</affiliation>
+			</item>
+		</authors>
+		<title type="str">Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial
+			Vehicles: A Survey</title>
+		<journal_name type="str">Journal of Aerospace Information Systems</journal_name>
+		<last_audited_on type="str">10/18/2022</last_audited_on>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="str">AM</license_type>
+		<licenseUrl type="str"
+			>https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</licenseUrl>
+		<agency_portal_url type="null"/>
+		<grant_ids type="list">
+			<item type="str">NIFA:2019-67021-28992</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">2/23/2021</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">3/2021</published_print>
+		<published_online type="null"/>
+		<reuse_license_start_date type="str">01/31/2022</reuse_license_start_date>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<funders type="list">
+			<item type="str">National Institute of Food and Agriculture</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100005825</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/05qx3fv49</item>
+		</RORID>
+		<auditSource type="str">CHORUS</auditSource>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.26508/lsa.202301968</DOI>
+		<URL type="str">http://dx.doi.org/10.26508/lsa.202301968</URL>
+		<publisher type="str">Life Science Alliance, LLC</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Plewes Michele R</author>
+				<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Przygrodzka Emilia</author>
+				<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Monaco Corrine F</author>
+				<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of Cellular
+					and Integrative Physiology, University of Nebraska Medical Center</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Snider Alexandria P</author>
+				<affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Keane Jessica A</author>
+				<affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Burns Patrick D</author>
+				<affiliation type="str">Department of Biological Sciences, University of Northern
+					Colorado</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Wood Jennifer R</author>
+				<affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Cupp Andrea S</author>
+				<affiliation type="str">Department of Animal Sciences, University of
+					Nebraska–Lincoln, Lincoln, NE, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Davis John S</author>
+				<affiliation type="str">Olson Center for Women’s Health, Department of Obstetrics
+					and Gynecology, University of Nebraska Medical Center, Department of
+					Biochemistry and Molecular Biology, University of Nebraska Medical Center, U.S
+					Department of Veterans Affairs Nebraska Western Iowa Health Care System, Omaha,
+					NE, USA</affiliation>
+			</item>
+		</authors>
+		<title type="str">Prostaglandin F2α regulates mitochondrial dynamics and mitophagy in the
+			bovine corpus luteum</title>
+		<journal_name type="str">Life Science Alliance</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="str">VOR</license_type>
+		<licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+		<grant_ids type="list">
+			<item type="str">NICHD:R01 HD087402</item>
+			<item type="str">NICHD:R01HD092263</item>
+			<item type="str">VA:IK2 BX004911-01A1</item>
+			<item type="str">VA:IK6BX005797</item>
+			<item type="str">USDA:2018-67012-29531</item>
+			<item type="str">USDA:2017-67015-26450</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">6/5/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">7/2023</published_print>
+		<published_online type="str">5/15/2023</published_online>
+		<reuse_license_start_date type="str">05/15/2023</reuse_license_start_date>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Unknown</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</item>
+			<item type="str">HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health
+				and Human Development</item>
+			<item type="str">VA</item>
+			<item type="str">VA</item>
+			<item type="str">USDA</item>
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100009633</item>
+			<item type="str">10.13039/100009633</item>
+			<item type="str">10.13039/100000738</item>
+			<item type="str">10.13039/100000738</item>
+			<item type="str">10.13039/100000199</item>
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/04byxyr05</item>
+			<item type="str">https://ror.org/04byxyr05</item>
+			<item type="str">https://ror.org/05rsv9s98</item>
+			<item type="str">https://ror.org/05rsv9s98</item>
+			<item type="str">https://ror.org/01na82s61</item>
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.26508/lsa.202302241</DOI>
+		<URL type="str">http://dx.doi.org/10.26508/lsa.202302241</URL>
+		<publisher type="str">Life Science Alliance, LLC</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Maria Naomi I</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Papoin Julien</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Raparia Chirag</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Sun Zeguo</author>
+				<affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Josselsohn Rachel</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Lu Ailing</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Katerji Hani</author>
+				<affiliation type="str">Department of Pathology, University of Rochester, Rochester,
+					NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Syeda Mahrukh M</author>
+				<affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Polsky David</author>
+				<affiliation type="str">The Ronald O. Perelman Department of Dermatology, New York
+					University Grossman School of Medicine, New York, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Paulson Robert</author>
+				<affiliation type="str">Department of Veterinary and Biomedical Sciences, Penn State
+					College of Agricultural Sciences, University Park, PA, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Kalfa Theodosia</author>
+				<affiliation type="str">Cincinnati Children’s Hospital Medical Center, Cincinnati,
+					OH, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Barnes Betsy J</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Zhang Weijia</author>
+				<affiliation type="str">Department of Medicine, Mount Sinai Medical Center, New
+					York, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Blanc Lionel</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Davidson Anne</author>
+				<affiliation type="str">Institute of Molecular Medicine, Feinstein Institutes for
+					Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of
+					Medicine at Northwell Health, Hempstead, NY, USA</affiliation>
+			</item>
+		</authors>
+		<title type="str">Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands
+			and anemia in SLE-prone mice</title>
+		<journal_name type="str">Life Science Alliance</journal_name>
+		<last_audited_on type="null"/>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="str">VOR</license_type>
+		<licenseUrl type="str">https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+		<grant_ids type="list">
+			<item type="str">NHLBI:HL152099</item>
+			<item type="str">NHLBI:HL146528</item>
+			<item type="str">USDA:PEN04771</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">8/4/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="str">10/2023</published_print>
+		<published_online type="str">7/26/2023</published_online>
+		<reuse_license_start_date type="str">07/26/2023</reuse_license_start_date>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Unknown</archived_status>
+		<datasets type="null"/>
+		<agency_portal_url type="null"/>
+		<funders type="list">
+			<item type="str">HHS | NIH | National Heart, Lung, and Blood Institute</item>
+			<item type="str">Lupus Research Alliance</item>
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000050</item>
+			<item type="str">10.13039/100012051</item>
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/012pb6c26</item>
+			<item type="str">https://ror.org/02hkvsj16</item>
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str"/>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.3768/rtipress.2022.op.0071.2201</DOI>
+		<URL type="str">http://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</URL>
+<!--		<publisher type="str">RTI Press</publisher>-->
+	    	<publisher type="str">Research Triangle Park NC: RTI International, 2008"</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Ruzante Juliana M.</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Shumaker Ellen Thomas</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Holt Sidney</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Mayer Susan</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Kokotovich Adam</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Cuchiara Maude</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Binder Andrew R.</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Kuzma Jennifer</author>
+				<affiliation type="str"/>
+			</item>
+			<item type="dict">
+				<author type="str">Grieger Khara</author>
+				<affiliation type="str"/>
+			</item>
+		</authors>
+		<title type="str">Eliciting Stakeholder Perceptions Using a Novel Online Engagement
+			Platform: A Case Study on Nano-Agrifoods</title>
+		<journal_name type="str">RTI Press occasional paper.</journal_name>
+		<last_audited_on type="str">1/17/2024</last_audited_on>
+		<publicly_accessible_on_publisher_site type="str"
+			>1/22/2022</publicly_accessible_on_publisher_site>
+		<license_type type="str">VOR</license_type>
+		<licenseUrl type="str">https://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
+		<agency_portal_url type="null"/>
+		<grant_ids type="list">
+			<item type="str"/>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">7/10/2023</added>
+		<orcid_profile type="null"/>
+		<member_id type="str"/>
+		<published_print type="null"/>
+		<published_online type="str">1/20/2022</published_online>
+		<reuse_license_start_date type="str">01/22/2022</reuse_license_start_date>
+		<type type="str">report</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<funders type="list">
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str">CHORUS</auditSource>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+
+	<all>
+		<DOI type="str">10.7326/m16-0529</DOI>
+		<URL type="str">http://dx.doi.org/10.7326/m16-0529</URL>
+		<publisher type="str">American College of Physicians</publisher>
+		<authors type="list">
+			<item type="dict">
+				<author type="str">Gill Thomas M.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">` <author type="str">Guralnik Jack M.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Pahor Marco</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Church Timothy</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Fielding Roger A.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">King Abby C.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Marsh Anthony P.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Newman Anne B.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Pellegrini Christine A.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Chen Shyh-Huei</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Allore Heather G.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">Miller Michael E.</author>
+				<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut;
+					University of Maryland School of Medicine, Baltimore, Maryland; University of
+					Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton
+					Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of
+					Medicine, Stanford, California; Wake Forest University and Wake Forest School of
+					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
+					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
+					Illinois.</affiliation>
+			</item>
+			<item type="dict">
+				<author type="str">undefined undefined</author>
+				<affiliation type="str"/>
+			</item>
+		</authors>
+		<title type="str">Effect of Structured Physical Activity on Overall Burden and Transitions
+			Between States of Major Mobility Disability in Older Persons</title>
+		<journal_name type="str">Annals of Internal Medicine</journal_name>
+		<last_audited_on type="str">3/23/2018</last_audited_on>
+		<publicly_accessible_on_publisher_site type="null"/>
+		<license_type type="null"/>
+		<licenseUrl type="null"/>
+		<agency_portal_url type="list">
+			<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476905.1</item>
+		</agency_portal_url>
+		<grant_ids type="list">
+			<item type="str">NCATS:UL1RR025744</item>
+			<item type="str">NCATS:U54RR025208</item>
+			<item type="str">NCATS:UL1TR000142</item>
+			<item type="str">NHLBI:U01AG022376</item>
+			<item type="str">NICHD:R24HD065688</item>
+			<item type="str">NIA:U01AG22376</item>
+			<item type="str">NIA:P30AG028740</item>
+			<item type="str">NIA:P30AG21332</item>
+			<item type="str">NIA:P30AG031679</item>
+			<item type="str">NIA:P30AG024827</item>
+			<item type="str">NIA:P30AG021342</item>
+			<item type="str">NIA:K07AG3587</item>
+		</grant_ids>
+		<updated type="str">3/10/2024</updated>
+		<added type="str">2/7/2018</added>
+		<orcid_profile type="list">
+			<item type="dict">
+				<ORCID type="str">http://orcid.org/0000-0001-7685-8175</ORCID>
+				<_id type="str">5dcdb05cfec1cc5c34aab0fa</_id>
+				<family type="str">Allore</family>
+				<given type="str">Heather</given>
+				<source type="str">orcid</source>
+				<updatedAt type="str">2019-11-14</updatedAt>
+			</item>
+			<item type="dict">
+				<ORCID type="str">http://orcid.org/0000-0002-6450-0368</ORCID>
+				<_id type="str">5dcdb05cfec1cc5c34aab0f9</_id>
+				<family type="str">Gill</family>
+				<given type="str">Thomas</given>
+				<source type="str">orcid</source>
+				<updatedAt type="str">2019-11-14</updatedAt>
+			</item>
+		</orcid_profile>
+		<member_id type="str"/>
+		<published_print type="str">12/20/2016</published_print>
+		<published_online type="str">9/27/2016</published_online>
+		<reuse_license_start_date type="null"/>
+		<type type="str">journal-article</type>
+		<archived_status type="str">Yes</archived_status>
+		<datasets type="null"/>
+		<funders type="list">
+			<item type="str">National Center for Advancing Translational Sciences</item>
+			<item type="str">National Heart, Lung, and Blood Institute</item>
+			<item type="str">National Institute of Child Health and Human Development</item>
+			<item type="str">National Institute on Aging</item>
+			<item type="str">USDA</item>
+		</funders>
+		<funderIDs type="list">
+			<item type="str">10.13039/100006108</item>
+			<item type="str">10.13039/100000050</item>
+			<item type="str">10.13039/100000071</item>
+			<item type="str">10.13039/100000049</item>
+			<item type="str">10.13039/100000199</item>
+		</funderIDs>
+		<RORID type="list">
+			<item type="str">https://ror.org/04pw6fb54</item>
+			<item type="str">https://ror.org/012pb6c26</item>
+			<item type="str">https://ror.org/04byxyr05</item>
+			<item type="str">https://ror.org/049v75w11</item>
+			<item type="str">https://ror.org/01na82s61</item>
+		</RORID>
+		<auditSource type="str">CHORUS</auditSource>
+		<Funder_Source type="str">Crossref</Funder_Source>
+	</all>
+</element>

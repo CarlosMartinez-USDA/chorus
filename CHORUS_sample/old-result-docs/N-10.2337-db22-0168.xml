@@ -1,0 +1,167 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <titleInfo>
+    <title>Butyrate-Producing Bacteria and Insulin Homeostasis: The Microbiome and Insulin Longitudinal Evaluation Study (MILES)</title>
+  </titleInfo>
+  <name type="personal" usage="primary">
+    <namePart>Cui Jinrui</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>1Division of Endocrinology, Diabetes, and Metabolism, Department of Medicine, Cedars-Sinai Medical Center, Los Angeles, CA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Ramesh Gautam</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>2School of Medicine, University of California San Diego, La Jolla, CA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Wu Martin</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>3Department of Biology, University of Virginia, Charlottesville, VA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Jensen Elizabeth T.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>4Department of Epidemiology and Prevention, Wake Forest School of Medicine, Winston-Salem, NC</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Crago Osa</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>4Department of Epidemiology and Prevention, Wake Forest School of Medicine, Winston-Salem, NC</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Bertoni Alain G.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>4Department of Epidemiology and Prevention, Wake Forest School of Medicine, Winston-Salem, NC</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Gao Chunxu</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>5Alkek Center for Metagenomics and Microbiome Research, Department of Molecular Virology and Microbiology, Baylor College of Medicine, Houston, TX</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Hoffman Kristi L.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>5Alkek Center for Metagenomics and Microbiome Research, Department of Molecular Virology and Microbiology, Baylor College of Medicine, Houston, TX</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Sheridan Patricia A.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>6Metabolon Inc., Morrisville, NC</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Wong Kari E.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>6Metabolon Inc., Morrisville, NC</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Wood Alexis C.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>7U.S. Department of Agriculture, Agricultural Research Service, Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Chen Yii-Der I.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>8Institute for Translational Genomics and Population Sciences, The Lundquist Institute for Biomedical Innovation and Department of Pediatrics, Harbor-UCLA Medical Center, Torrance, CA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Rotter Jerome I.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>8Institute for Translational Genomics and Population Sciences, The Lundquist Institute for Biomedical Innovation and Department of Pediatrics, Harbor-UCLA Medical Center, Torrance, CA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Petrosino Joseph F.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>5Alkek Center for Metagenomics and Microbiome Research, Department of Molecular Virology and Microbiology, Baylor College of Medicine, Houston, TX</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Rich Stephen S.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>9Center for Public Health Genomics, University of Virginia, Charlottesville, VA</affiliation>
+  </name>
+  <name type="personal">
+    <namePart>Goodarzi Mark O.</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+    <affiliation>1Division of Endocrinology, Diabetes, and Metabolism, Department of Medicine, Cedars-Sinai Medical Center, Los Angeles, CA</affiliation>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre>article</genre>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2022-11-01</dateIssued>
+    <dateOther encoding="w3cdtf" type="electronic">2022-08-12</dateOther>
+  </originInfo>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Diabetes</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>American Diabetes Association</publisher>
+    </originInfo>
+  </relatedItem>
+  <identifier type="doi">10.2337/db22-0168</identifier>
+  <identifier type="chorus">10.2337/db22-0168</identifier>
+  <location>
+    <url displayLabel="Available from publisher's site">https://dx.doi.org/10.2337/db22-0168</url>
+  </location>
+  <extension>
+    <vendorName>CHORUS</vendorName>
+    <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+    <funding-group specific-use="crossref">
+      <award-group>
+        <funding-source>
+          <institution-wrap>
+            <institution>National Center for Advancing Translational Sciences</institution>
+          </institution-wrap>
+        </funding-source>
+      </award-group>
+      <award-group>
+        <funding-source>
+          <institution-wrap>
+            <institution>National Institute of Diabetes and Digestive and Kidney Disease</institution>
+          </institution-wrap>
+        </funding-source>
+      </award-group>
+      <award-group>
+        <funding-source>
+          <institution-wrap>
+            <institution>USDA</institution>
+          </institution-wrap>
+        </funding-source>
+      </award-group>
+    </funding-group>
+  </extension>
+  <recordInfo>
+    <recordCreationDate>2024-04-05T05:03:21-04:00</recordCreationDate>
+    <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+  </recordInfo>
+</mods>

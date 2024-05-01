@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accessRights>
+    <licenses>
+        <!-- Generic -->
+        <lic>
+            <a>Resource is Open Access</a>
+            <u>http://purl.org/eprint/accessRights/OpenAccess</u>
+            <u>https://purl.org/eprint/accessRights/OpenAccess</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <!-- Creative Commons -->
+        <lic>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY-NC-ND 4.0)</a>
+            <u>http://creativecommons.org/licenses/by-nc-nd/4.0/</u>
+            <u>https://creativecommons.org/licenses/by-nc-nd/4.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY 4.0)</a>
+            <u>https://creativecommons.org/licenses/by/4.0/</u>
+            <u>http://creativecommons.org/licenses/by/4.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY-NC 4.0)</a>
+            <u>http://creativecommons.org/licenses/by-nc/4.0/</u>
+            <u>https://creativecommons.org/licenses/by-nc/4.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>Creative Commons Attribution 3.0 Generic (CC BY 3.0)</a>
+            <u>http://creativecommons.org/licenses/by/3.0/</u>
+            <u>https://creativecommons.org/licenses/by/3.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>Creative Commons Attribution 2.0 Generic (CC BY 2.0)</a>
+            <u>http://creativecommons.org/licenses/by/2.0/</u>
+            <u>https://creativecommons.org/licenses/by/2.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        
+        <!-- Publisher -->
+
+        <lic>
+            <a>Elsevier BV License Information</a>
+            <u>http://www.elsevier.com/open-access/userlicense/1.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        
+        <lic>
+            <a> </a>
+            <u>http://onlinelibrary.wiley.com/termsAndConditions#vor</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+
+        <lic>
+            <a>CHORUS License Information</a>
+            <u>https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>CHORUS License Information</a>
+            <u>http://rsc.li/journals-terms-of-use#chorus</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+
+        <lic>
+            <a>CHORUS License Information</a>
+            <u>http://www.sagepub.com/licence-information-for-chorus</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>SAGE Journals Text and Data Mining License Agreement</a>
+            <u>http://journals.sagepub.com/page/policies/text-and-data-mining-license</u>
+            <ind1>1</ind1>
+        </lic>
+
+        <lic>
+            <a>Article Sharing Framework Policy no. 29</a>
+            <u>https://doi.org/10.15223/policy-029</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        
+    </licenses>
+    <for>
+        <app>
+            <applies_to>tdm</applies_to>
+            <three>Text and data mining</three>
+        </app>
+        <app>
+            <applies_to>am</applies_to>
+            <three>Accepted manuscript</three>
+        </app>
+        <app>
+            <applies_to>vor</applies_to>
+            <three>Version of record</three>
+        </app>
+    </for>
+</accessRights>

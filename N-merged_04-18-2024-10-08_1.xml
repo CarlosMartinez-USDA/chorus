@@ -10,24 +10,24 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Sen-Crowe</namePart>
-         <namePart type="given">Brendon </namePart>
-         <displayForm>Sen-Crowe, Brendon</displayForm>
+         <namePart type="given">Brendon</namePart>
+         <displayForm>Sen-Crowe, Brendon</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">McKenney</namePart>
-         <namePart type="given">Mark </namePart>
-         <displayForm>McKenney, Mark</displayForm>
+         <namePart type="given">Mark</namePart>
+         <displayForm>McKenney, Mark</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Elkbuli</namePart>
-         <namePart type="given">Adel </namePart>
-         <displayForm>Elkbuli, Adel</displayForm>
+         <namePart type="given">Adel</namePart>
+         <displayForm>Elkbuli, Adel</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -113,8 +113,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -123,32 +124,32 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Kim</namePart>
-         <namePart type="given">Hun-Taek </namePart>
-         <displayForm>Kim, Hun-Taek</displayForm>
+         <namePart type="given">Hun-Taek</namePart>
+         <displayForm>Kim, Hun-Taek</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Stoica</namePart>
-         <namePart type="given">George </namePart>
-         <displayForm>Stoica, George</displayForm>
+         <namePart type="given">George</namePart>
+         <displayForm>Stoica, George</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Bazer</namePart>
-         <namePart type="given">Fuller  W.</namePart>
-         <displayForm>Bazer, Fuller W.</displayForm>
+         <namePart type="given">Fuller W.</namePart>
+         <displayForm>Bazer, Fuller W.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Ott</namePart>
-         <namePart type="given">Troy  L.</namePart>
-         <displayForm>Ott, Troy L.</displayForm>
+         <namePart type="given">Troy L.</namePart>
+         <displayForm>Ott, Troy L.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -186,8 +187,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -197,8 +199,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Kowalski</namePart>
-         <namePart type="given">Alysse  J.</namePart>
-         <displayForm>Kowalski, Alysse J.</displayForm>
+         <namePart type="given">Alysse J.</namePart>
+         <displayForm>Kowalski, Alysse J.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -207,8 +209,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Wang</namePart>
-         <namePart type="given">Yan </namePart>
-         <displayForm>Wang, Yan</displayForm>
+         <namePart type="given">Yan</namePart>
+         <displayForm>Wang, Yan</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -218,8 +220,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Armstrong</namePart>
-         <namePart type="given">Bridget </namePart>
-         <displayForm>Armstrong, Bridget</displayForm>
+         <namePart type="given">Bridget</namePart>
+         <displayForm>Armstrong, Bridget</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -227,9 +229,9 @@
 					Health, University of South Carolina, Columbia, SC;</affiliation>
       </name>
       <name type="personal">
-         <namePart type="family">Trude</namePart>
-         <namePart type="given">Angela  C. B.</namePart>
-         <displayForm>Trude, Angela C. B.</displayForm>
+         <namePart type="family">Trude Angela C. B.</namePart>
+         <namePart type="given"/>
+         <displayForm>Trude Angela C. B. </displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -239,8 +241,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Hager</namePart>
-         <namePart type="given">Erin </namePart>
-         <displayForm>Hager, Erin</displayForm>
+         <namePart type="given">Erin</namePart>
+         <displayForm>Hager, Erin</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -250,8 +252,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Black</namePart>
-         <namePart type="given">Maureen  M.</namePart>
-         <displayForm>Black, Maureen M.</displayForm>
+         <namePart type="given">Maureen M.</namePart>
+         <displayForm>Black, Maureen M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -315,8 +317,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -326,8 +329,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Cheng</namePart>
-         <namePart type="given">Yifan </namePart>
-         <displayForm>Cheng, Yifan</displayForm>
+         <namePart type="given">Yifan</namePart>
+         <displayForm>Cheng, Yifan</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -337,8 +340,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Khlyustova</namePart>
-         <namePart type="given">Alexandra </namePart>
-         <displayForm>Khlyustova, Alexandra</displayForm>
+         <namePart type="given">Alexandra</namePart>
+         <displayForm>Khlyustova, Alexandra</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -348,8 +351,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Yang</namePart>
-         <namePart type="given">Rong </namePart>
-         <displayForm>Yang, Rong</displayForm>
+         <namePart type="given">Rong</namePart>
+         <displayForm>Yang, Rong</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -422,8 +425,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -433,8 +437,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Scearce</namePart>
-         <namePart type="given">Alex  E.</namePart>
-         <displayForm>Scearce, Alex E.</displayForm>
+         <namePart type="given">Alex E.</namePart>
+         <displayForm>Scearce, Alex E.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -443,8 +447,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Goossen</namePart>
-         <namePart type="given">Caleb  P.</namePart>
-         <displayForm>Goossen, Caleb P.</displayForm>
+         <namePart type="given">Caleb P.</namePart>
+         <displayForm>Goossen, Caleb P.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -453,8 +457,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Schattman</namePart>
-         <namePart type="given">Rachel  E.</namePart>
-         <displayForm>Schattman, Rachel E.</displayForm>
+         <namePart type="given">Rachel E.</namePart>
+         <displayForm>Schattman, Rachel E.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -463,8 +467,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Mallory</namePart>
-         <namePart type="given">Ellen  B.</namePart>
-         <displayForm>Mallory, Ellen B.</displayForm>
+         <namePart type="given">Ellen B.</namePart>
+         <displayForm>Mallory, Ellen B.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -474,8 +478,8 @@
       </name>
       <name type="personal">
          <namePart type="family">MacRae</namePart>
-         <namePart type="given">Jean  D.</namePart>
-         <displayForm>MacRae, Jean D.</displayForm>
+         <namePart type="given">Jean D.</namePart>
+         <displayForm>MacRae, Jean D.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -515,8 +519,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -526,8 +531,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Chen</namePart>
-         <namePart type="given">Shangming </namePart>
-         <displayForm>Chen, Shangming</displayForm>
+         <namePart type="given">Shangming</namePart>
+         <displayForm>Chen, Shangming</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -536,8 +541,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Chen</namePart>
-         <namePart type="given">Fengde </namePart>
-         <displayForm>Chen, Fengde</displayForm>
+         <namePart type="given">Fengde</namePart>
+         <displayForm>Chen, Fengde</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -546,8 +551,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Srivastava</namePart>
-         <namePart type="given">Vaibhava </namePart>
-         <displayForm>Srivastava, Vaibhava</displayForm>
+         <namePart type="given">Vaibhava</namePart>
+         <displayForm>Srivastava, Vaibhava</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -556,8 +561,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Parshad</namePart>
-         <namePart type="given">Rana  D.</namePart>
-         <displayForm>Parshad, Rana D.</displayForm>
+         <namePart type="given">Rana D.</namePart>
+         <displayForm>Parshad, Rana D.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -596,8 +601,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -607,8 +613,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">FAVERO</namePart>
-         <namePart type="given">ALICE </namePart>
-         <displayForm>FAVERO, ALICE</displayForm>
+         <namePart type="given">ALICE</namePart>
+         <displayForm>FAVERO, ALICE</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -617,8 +623,8 @@
       </name>
       <name type="personal">
          <namePart type="family">YOO</namePart>
-         <namePart type="given">JONGHYUN </namePart>
-         <displayForm>YOO, JONGHYUN</displayForm>
+         <namePart type="given">JONGHYUN</namePart>
+         <displayForm>YOO, JONGHYUN</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -627,8 +633,8 @@
       </name>
       <name type="personal">
          <namePart type="family">DAIGNEAULT</namePart>
-         <namePart type="given">ADAM </namePart>
-         <displayForm>DAIGNEAULT, ADAM</displayForm>
+         <namePart type="given">ADAM</namePart>
+         <displayForm>DAIGNEAULT, ADAM</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -637,8 +643,8 @@
       </name>
       <name type="personal">
          <namePart type="family">BAKER</namePart>
-         <namePart type="given">JUSTIN </namePart>
-         <displayForm>BAKER, JUSTIN</displayForm>
+         <namePart type="given">JUSTIN</namePart>
+         <displayForm>BAKER, JUSTIN</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -678,8 +684,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -688,9 +695,9 @@
 			high-contrast voids in unconsolidated soils</title>
       </titleInfo>
       <name type="personal" usage="primary">
-         <namePart type="family">Bakhtiari</namePart>
-         <namePart type="given">Rad  Parsa</namePart>
-         <displayForm>Bakhtiari, Rad Parsa</displayForm>
+         <namePart type="family">Bakhtiari Rad Parsa</namePart>
+         <namePart type="given"/>
+         <displayForm>Bakhtiari Rad Parsa </displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -700,8 +707,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Hickey</namePart>
-         <namePart type="given">Craig  J.</namePart>
-         <displayForm>Hickey, Craig J.</displayForm>
+         <namePart type="given">Craig J.</namePart>
+         <displayForm>Hickey, Craig J.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -749,8 +756,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -759,9 +767,9 @@
 			providers at the safety-net Lyndon B. Johnson (LBJ) hospital oncology clinic.</title>
       </titleInfo>
       <name type="personal" usage="primary">
-         <namePart type="family">Kizub</namePart>
-         <namePart type="given">Darya  Aleksandrovna</namePart>
-         <displayForm>Kizub, Darya Aleksandrovna</displayForm>
+         <namePart type="family">Kizub Darya Aleksandrovna</namePart>
+         <namePart type="given"/>
+         <displayForm>Kizub Darya Aleksandrovna </displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -770,8 +778,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Ramsey</namePart>
-         <namePart type="given">Margaret </namePart>
-         <displayForm>Ramsey, Margaret</displayForm>
+         <namePart type="given">Margaret</namePart>
+         <displayForm>Ramsey, Margaret</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -779,8 +787,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Baum</namePart>
-         <namePart type="given">Miranda </namePart>
-         <displayForm>Baum, Miranda</displayForm>
+         <namePart type="given">Miranda</namePart>
+         <displayForm>Baum, Miranda</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -789,8 +797,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Ma</namePart>
-         <namePart type="given">Hilary  Y.</namePart>
-         <displayForm>Ma, Hilary Y.</displayForm>
+         <namePart type="given">Hilary Y.</namePart>
+         <displayForm>Ma, Hilary Y.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -798,9 +806,9 @@
 					TX</affiliation>
       </name>
       <name type="personal">
-         <namePart type="family">Patel</namePart>
-         <namePart type="given">Tejal  Amar</namePart>
-         <displayForm>Patel, Tejal Amar</displayForm>
+         <namePart type="family">Patel Tejal Amar</namePart>
+         <namePart type="given"/>
+         <displayForm>Patel Tejal Amar </displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -808,8 +816,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Basen-Engquist</namePart>
-         <namePart type="given">Karen </namePart>
-         <displayForm>Basen-Engquist, Karen</displayForm>
+         <namePart type="given">Karen</namePart>
+         <displayForm>Basen-Engquist, Karen</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -855,8 +863,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -866,8 +875,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Hruby</namePart>
-         <namePart type="given">Adela </namePart>
-         <displayForm>Hruby, Adela</displayForm>
+         <namePart type="given">Adela</namePart>
+         <displayForm>Hruby, Adela</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -877,19 +886,18 @@
       </name>
       <name type="personal">
          <namePart type="family">Guasch-Ferré</namePart>
-         <namePart type="given">Marta </namePart>
-         <displayForm>Guasch-Ferré, Marta</displayForm>
+         <namePart type="given">Marta</namePart>
+         <displayForm>Guasch-Ferré, Marta</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
          <affiliation>Department of Nutrition, Harvard T.H. Chan School of Public
 					Health, Boston, MA</affiliation>
-         <nameIdentifier type="orcid">http://orcid.org/0000-0001-8525-1404</nameIdentifier>
       </name>
       <name type="personal">
          <namePart type="family">Bhupathiraju</namePart>
-         <namePart type="given">Shilpa  N.</namePart>
-         <displayForm>Bhupathiraju, Shilpa N.</displayForm>
+         <namePart type="given">Shilpa N.</namePart>
+         <displayForm>Bhupathiraju, Shilpa N.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -899,8 +907,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Manson</namePart>
-         <namePart type="given">JoAnn  E.</namePart>
-         <displayForm>Manson, JoAnn E.</displayForm>
+         <namePart type="given">JoAnn E.</namePart>
+         <displayForm>Manson, JoAnn E.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -910,8 +918,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Willett</namePart>
-         <namePart type="given">Walter  C.</namePart>
-         <displayForm>Willett, Walter C.</displayForm>
+         <namePart type="given">Walter C.</namePart>
+         <displayForm>Willett, Walter C.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -922,8 +930,8 @@
       </name>
       <name type="personal">
          <namePart type="family">McKeown</namePart>
-         <namePart type="given">Nicola  M.</namePart>
-         <displayForm>McKeown, Nicola M.</displayForm>
+         <namePart type="given">Nicola M.</namePart>
+         <displayForm>McKeown, Nicola M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -932,8 +940,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Hu</namePart>
-         <namePart type="given">Frank  B.</namePart>
-         <displayForm>Hu, Frank B.</displayForm>
+         <namePart type="given">Frank B.</namePart>
+         <displayForm>Hu, Frank B.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1003,8 +1011,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -1014,8 +1023,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Tian</namePart>
-         <namePart type="given">Pengzhi </namePart>
-         <displayForm>Tian, Pengzhi</displayForm>
+         <namePart type="given">Pengzhi</namePart>
+         <displayForm>Tian, Pengzhi</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1023,8 +1032,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Chao</namePart>
-         <namePart type="given">Haiyang </namePart>
-         <displayForm>Chao, Haiyang</displayForm>
+         <namePart type="given">Haiyang</namePart>
+         <displayForm>Chao, Haiyang</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1032,8 +1041,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Rhudy</namePart>
-         <namePart type="given">Matthew </namePart>
-         <displayForm>Rhudy, Matthew</displayForm>
+         <namePart type="given">Matthew</namePart>
+         <displayForm>Rhudy, Matthew</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1042,8 +1051,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Gross</namePart>
-         <namePart type="given">Jason </namePart>
-         <displayForm>Gross, Jason</displayForm>
+         <namePart type="given">Jason</namePart>
+         <displayForm>Gross, Jason</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1052,8 +1061,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Wu</namePart>
-         <namePart type="given">Huixuan </namePart>
-         <displayForm>Wu, Huixuan</displayForm>
+         <namePart type="given">Huixuan</namePart>
+         <displayForm>Wu, Huixuan</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1102,8 +1111,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -1113,8 +1123,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Plewes</namePart>
-         <namePart type="given">Michele  R.</namePart>
-         <displayForm>Plewes, Michele R.</displayForm>
+         <namePart type="given">Michele R.</namePart>
+         <displayForm>Plewes, Michele R.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1126,8 +1136,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Przygrodzka</namePart>
-         <namePart type="given">Emilia </namePart>
-         <displayForm>Przygrodzka, Emilia</displayForm>
+         <namePart type="given">Emilia</namePart>
+         <displayForm>Przygrodzka, Emilia</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1136,8 +1146,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Monaco</namePart>
-         <namePart type="given">Corrine  F.</namePart>
-         <displayForm>Monaco, Corrine F.</displayForm>
+         <namePart type="given">Corrine F.</namePart>
+         <displayForm>Monaco, Corrine F.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1147,8 +1157,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Snider</namePart>
-         <namePart type="given">Alexandria  P.</namePart>
-         <displayForm>Snider, Alexandria P.</displayForm>
+         <namePart type="given">Alexandria P.</namePart>
+         <displayForm>Snider, Alexandria P.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1157,8 +1167,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Keane</namePart>
-         <namePart type="given">Jessica  A.</namePart>
-         <displayForm>Keane, Jessica A.</displayForm>
+         <namePart type="given">Jessica A.</namePart>
+         <displayForm>Keane, Jessica A.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1167,8 +1177,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Burns</namePart>
-         <namePart type="given">Patrick  D.</namePart>
-         <displayForm>Burns, Patrick D.</displayForm>
+         <namePart type="given">Patrick D.</namePart>
+         <displayForm>Burns, Patrick D.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1177,8 +1187,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Wood</namePart>
-         <namePart type="given">Jennifer  R.</namePart>
-         <displayForm>Wood, Jennifer R.</displayForm>
+         <namePart type="given">Jennifer R.</namePart>
+         <displayForm>Wood, Jennifer R.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1187,8 +1197,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Cupp</namePart>
-         <namePart type="given">Andrea  S.</namePart>
-         <displayForm>Cupp, Andrea S.</displayForm>
+         <namePart type="given">Andrea S.</namePart>
+         <displayForm>Cupp, Andrea S.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1197,8 +1207,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Davis</namePart>
-         <namePart type="given">John  S.</namePart>
-         <displayForm>Davis, John S.</displayForm>
+         <namePart type="given">John S.</namePart>
+         <displayForm>Davis, John S.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1289,8 +1299,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -1300,8 +1311,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Maria</namePart>
-         <namePart type="given">Naomi  I.</namePart>
-         <displayForm>Maria, Naomi I.</displayForm>
+         <namePart type="given">Naomi I.</namePart>
+         <displayForm>Maria, Naomi I.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1311,8 +1322,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Papoin</namePart>
-         <namePart type="given">Julien </namePart>
-         <displayForm>Papoin, Julien</displayForm>
+         <namePart type="given">Julien</namePart>
+         <displayForm>Papoin, Julien</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1322,8 +1333,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Raparia</namePart>
-         <namePart type="given">Chirag </namePart>
-         <displayForm>Raparia, Chirag</displayForm>
+         <namePart type="given">Chirag</namePart>
+         <displayForm>Raparia, Chirag</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1333,8 +1344,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Sun</namePart>
-         <namePart type="given">Zeguo </namePart>
-         <displayForm>Sun, Zeguo</displayForm>
+         <namePart type="given">Zeguo</namePart>
+         <displayForm>Sun, Zeguo</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1343,8 +1354,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Josselsohn</namePart>
-         <namePart type="given">Rachel </namePart>
-         <displayForm>Josselsohn, Rachel</displayForm>
+         <namePart type="given">Rachel</namePart>
+         <displayForm>Josselsohn, Rachel</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1353,8 +1364,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Lu</namePart>
-         <namePart type="given">Ailing </namePart>
-         <displayForm>Lu, Ailing</displayForm>
+         <namePart type="given">Ailing</namePart>
+         <displayForm>Lu, Ailing</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1363,8 +1374,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Katerji</namePart>
-         <namePart type="given">Hani </namePart>
-         <displayForm>Katerji, Hani</displayForm>
+         <namePart type="given">Hani</namePart>
+         <displayForm>Katerji, Hani</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1373,8 +1384,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Syeda</namePart>
-         <namePart type="given">Mahrukh  M.</namePart>
-         <displayForm>Syeda, Mahrukh M.</displayForm>
+         <namePart type="given">Mahrukh M.</namePart>
+         <displayForm>Syeda, Mahrukh M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1383,8 +1394,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Polsky</namePart>
-         <namePart type="given">David </namePart>
-         <displayForm>Polsky, David</displayForm>
+         <namePart type="given">David</namePart>
+         <displayForm>Polsky, David</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1393,8 +1404,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Paulson</namePart>
-         <namePart type="given">Robert </namePart>
-         <displayForm>Paulson, Robert</displayForm>
+         <namePart type="given">Robert</namePart>
+         <displayForm>Paulson, Robert</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1403,8 +1414,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Kalfa</namePart>
-         <namePart type="given">Theodosia </namePart>
-         <displayForm>Kalfa, Theodosia</displayForm>
+         <namePart type="given">Theodosia</namePart>
+         <displayForm>Kalfa, Theodosia</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1413,8 +1424,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Barnes</namePart>
-         <namePart type="given">Betsy  J.</namePart>
-         <displayForm>Barnes, Betsy J.</displayForm>
+         <namePart type="given">Betsy J.</namePart>
+         <displayForm>Barnes, Betsy J.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1424,8 +1435,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Zhang</namePart>
-         <namePart type="given">Weijia </namePart>
-         <displayForm>Zhang, Weijia</displayForm>
+         <namePart type="given">Weijia</namePart>
+         <displayForm>Zhang, Weijia</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1434,8 +1445,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Blanc</namePart>
-         <namePart type="given">Lionel </namePart>
-         <displayForm>Blanc, Lionel</displayForm>
+         <namePart type="given">Lionel</namePart>
+         <displayForm>Blanc, Lionel</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1445,8 +1456,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Davidson</namePart>
-         <namePart type="given">Anne </namePart>
-         <displayForm>Davidson, Anne</displayForm>
+         <namePart type="given">Anne</namePart>
+         <displayForm>Davidson, Anne</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1512,8 +1523,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -1523,72 +1535,72 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Ruzante</namePart>
-         <namePart type="given">Juliana  M.</namePart>
-         <displayForm>Ruzante, Juliana M.</displayForm>
+         <namePart type="given">Juliana M.</namePart>
+         <displayForm>Ruzante, Juliana M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
-         <namePart type="family">Shumaker</namePart>
-         <namePart type="given">Ellen  Thomas</namePart>
-         <displayForm>Shumaker, Ellen Thomas</displayForm>
+         <namePart type="family">Shumaker Ellen Thomas</namePart>
+         <namePart type="given"/>
+         <displayForm>Shumaker Ellen Thomas </displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Holt</namePart>
-         <namePart type="given">Sidney </namePart>
-         <displayForm>Holt, Sidney</displayForm>
+         <namePart type="given">Sidney</namePart>
+         <displayForm>Holt, Sidney</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Mayer</namePart>
-         <namePart type="given">Susan </namePart>
-         <displayForm>Mayer, Susan</displayForm>
+         <namePart type="given">Susan</namePart>
+         <displayForm>Mayer, Susan</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Kokotovich</namePart>
-         <namePart type="given">Adam </namePart>
-         <displayForm>Kokotovich, Adam</displayForm>
+         <namePart type="given">Adam</namePart>
+         <displayForm>Kokotovich, Adam</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Cuchiara</namePart>
-         <namePart type="given">Maude </namePart>
-         <displayForm>Cuchiara, Maude</displayForm>
+         <namePart type="given">Maude</namePart>
+         <displayForm>Cuchiara, Maude</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Binder</namePart>
-         <namePart type="given">Andrew  R.</namePart>
-         <displayForm>Binder, Andrew R.</displayForm>
+         <namePart type="given">Andrew R.</namePart>
+         <displayForm>Binder, Andrew R.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Kuzma</namePart>
-         <namePart type="given">Jennifer </namePart>
-         <displayForm>Kuzma, Jennifer</displayForm>
+         <namePart type="given">Jennifer</namePart>
+         <displayForm>Kuzma, Jennifer</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
       </name>
       <name type="personal">
          <namePart type="family">Grieger</namePart>
-         <namePart type="given">Khara </namePart>
-         <displayForm>Grieger, Khara</displayForm>
+         <namePart type="given">Khara</namePart>
+         <displayForm>Grieger, Khara</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1636,8 +1648,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
    <mods version="3.7">
@@ -1647,8 +1660,8 @@
       </titleInfo>
       <name type="personal" usage="primary">
          <namePart type="family">Gill</namePart>
-         <namePart type="given">Thomas  M.</namePart>
-         <displayForm>Gill, Thomas M.</displayForm>
+         <namePart type="given">Thomas M.</namePart>
+         <displayForm>Gill, Thomas M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1660,12 +1673,11 @@
 					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
 					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
 					Illinois.</affiliation>
-         <nameIdentifier type="orcid">http://orcid.org/0000-0002-6450-0368</nameIdentifier>
       </name>
       <name type="personal">
          <namePart type="family">Guralnik</namePart>
-         <namePart type="given">Jack  M.</namePart>
-         <displayForm>Guralnik, Jack M.</displayForm>
+         <namePart type="given">Jack M.</namePart>
+         <displayForm>Guralnik, Jack M.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1680,8 +1692,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Pahor</namePart>
-         <namePart type="given">Marco </namePart>
-         <displayForm>Pahor, Marco</displayForm>
+         <namePart type="given">Marco</namePart>
+         <displayForm>Pahor, Marco</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1696,8 +1708,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Church</namePart>
-         <namePart type="given">Timothy </namePart>
-         <displayForm>Church, Timothy</displayForm>
+         <namePart type="given">Timothy</namePart>
+         <displayForm>Church, Timothy</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1712,8 +1724,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Fielding</namePart>
-         <namePart type="given">Roger  A.</namePart>
-         <displayForm>Fielding, Roger A.</displayForm>
+         <namePart type="given">Roger A.</namePart>
+         <displayForm>Fielding, Roger A.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1728,8 +1740,8 @@
       </name>
       <name type="personal">
          <namePart type="family">King</namePart>
-         <namePart type="given">Abby  C.</namePart>
-         <displayForm>King, Abby C.</displayForm>
+         <namePart type="given">Abby C.</namePart>
+         <displayForm>King, Abby C.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1744,8 +1756,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Marsh</namePart>
-         <namePart type="given">Anthony  P.</namePart>
-         <displayForm>Marsh, Anthony P.</displayForm>
+         <namePart type="given">Anthony P.</namePart>
+         <displayForm>Marsh, Anthony P.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1760,8 +1772,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Newman</namePart>
-         <namePart type="given">Anne  B.</namePart>
-         <displayForm>Newman, Anne B.</displayForm>
+         <namePart type="given">Anne B.</namePart>
+         <displayForm>Newman, Anne B.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1776,8 +1788,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Pellegrini</namePart>
-         <namePart type="given">Christine  A.</namePart>
-         <displayForm>Pellegrini, Christine A.</displayForm>
+         <namePart type="given">Christine A.</namePart>
+         <displayForm>Pellegrini, Christine A.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1792,8 +1804,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Chen</namePart>
-         <namePart type="given">Shyh-Huei </namePart>
-         <displayForm>Chen, Shyh-Huei</displayForm>
+         <namePart type="given">Shyh-Huei</namePart>
+         <displayForm>Chen, Shyh-Huei</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1808,8 +1820,8 @@
       </name>
       <name type="personal">
          <namePart type="family">Allore</namePart>
-         <namePart type="given">Heather  G.</namePart>
-         <displayForm>Allore, Heather G.</displayForm>
+         <namePart type="given">Heather G.</namePart>
+         <displayForm>Allore, Heather G.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1821,12 +1833,11 @@
 					Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh,
 					Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago,
 					Illinois.</affiliation>
-         <nameIdentifier type="orcid">http://orcid.org/0000-0001-7685-8175</nameIdentifier>
       </name>
       <name type="personal">
          <namePart type="family">Miller</namePart>
-         <namePart type="given">Michael  E.</namePart>
-         <displayForm>Miller, Michael E.</displayForm>
+         <namePart type="given">Michael E.</namePart>
+         <displayForm>Miller, Michael E.</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1841,8 +1852,8 @@
       </name>
       <name type="personal">
          <namePart type="family">undefined</namePart>
-         <namePart type="given">undefined  undefined</namePart>
-         <displayForm>undefined, undefined undefined</displayForm>
+         <namePart type="given">undefined</namePart>
+         <displayForm>undefined, undefined</displayForm>
          <role>
             <roleTerm type="text">author</roleTerm>
          </role>
@@ -1908,8 +1919,9 @@
          </funding-group>
       </extension>
       <recordInfo>
-         <recordCreationDate>2024-04-18T10:18:47.944061-04:00</recordCreationDate>
-         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+         <recordCreationDate>2024-04-26T21:28:26.518909-04:00</recordCreationDate>
+         <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to
+                MODS with chorus_to_mods.xsl</recordOrigin>
       </recordInfo>
    </mods>
 </modsCollection>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE FUTURE?</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">FAVERO</namePart>
+      <namePart type="given">ALICE</namePart>
+      <displayForm>FAVERO, ALICE</displayForm>
+      <affiliation>RTI International, Research Triangle Park, NC 27709-2194, USA</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">YOO</namePart>
+      <namePart type="given">JONGHYUN</namePart>
+      <displayForm>YOO, JONGHYUN</displayForm>
+      <affiliation>Department of Urban Planning and Design, University of Seoul, Seoul 02504, Republic of Korea</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">DAIGNEAULT</namePart>
+      <namePart type="given">ADAM</namePart>
+      <displayForm>DAIGNEAULT, ADAM</displayForm>
+      <affiliation>School of Forest Resources, University of Maine, Orono, ME 04469, USA</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">BAKER</namePart>
+      <namePart type="given">JUSTIN</namePart>
+      <displayForm>BAKER, JUSTIN</displayForm>
+      <affiliation>Department of Forestry and Environmental Resources, North Carolina State University, Raleigh, NC 27607, USA</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023-11</dateIssued>
+      <dateOther encoding="w3cdtf" type="electronic">2023-06-01</dateOther>
+   </originInfo>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Climate Change Economics</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>World Scientific Pub Co Pte Ltd</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.1142/s2010007823500185</identifier>
+   <identifier type="chorus">10.1142/s2010007823500185</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1142/s2010007823500185</url>
+   </location>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>National Institute of Food and Agriculture</institution>
+                  <institution_id type="doi">https://doi.org/10.13039/100005825</institution_id>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-04-30T21:53:35.323285-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>
