@@ -220,31 +220,48 @@ Take the following example:
             <roleTerm type="text">author</roleTerm>
          </role>`
 ```
+   
+ 
 ## ORCID template
-
-The ORCID ID template was also updated to correct the mapping into the author name template. 
+The ORCID ID template was also updated to correct the mapping into the author name template.
 ### before
-  ```xml  <xsl:tem plate name="orcid">
+ ```xml
         <xsl:param name="last"/>
-        <xsl:param name="first"/>
-        <xsl:if test= "not($last = '' and $first = '')">
-            <xsl:for-each select="/all/orcid_profile/item">
-                <xsl:if test="family[@type='str'] and family=$last and given=$first">
-                    <nameIdentifier><xsl:value-of select="ORCID"/></nameIdentifier>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:if>
-    </xsl:template>
+      <xsl:param name="first"/>
+      <xsl:if test= "not($last = '' and $first = '')">
+          <xsl:for-each select="/all/orcid_profile/item">
+              <xsl:if test="family[@type='str'] and family=$last and given=$first">
+                  <nameIdentifier><xsl:value-of select="ORCID"/></nameIdentifier>
+              </xsl:if>
+          </xsl:for-each>
+      </xsl:if>
+  </xsl:template>
 
-    <xd:doc>
-    <xd:desc>
-        <xd:p>orcid</xd:p>
-        <xd:p>updated 20240418
-        added for-each and conditional XPath</xd:p>
-    </xd:desc>
-    <xd:param name="last"/>
-    <xd:param name="first"/>
-    </xd:doc>
+  <xd:doc>
+  <xd:desc>
+      <xd:p>orcid</xd:p>
+      <xd:p>updated 20240418
+      added for-each and conditional XPath</xd:p>
+  </xd:desc>
+  <xd:param name="last"/>
+  <xd:param name="first"/>
+  </xd:doc>
+  <xsl:template name="orcid">
+      <xsl:param name="last"/>
+      <xsl:param name="first"/>
+      <xsl:if test="($last != '') and ($first != '')">
+          <xsl:for-each select="//all/orcid_profile/item[family=current()/$last]/ORCID">             
+              <nameIdentifier type="{lower-case(name())}">
+                  <xsl:value-of select="."/>
+              </nameIdentifier>
+          </xsl:for-each>
+      </xsl:if>
+  </xsl:template>
+```
+
+### after
+The ORCID was mapped incorrectly into the a call-template with param instruction within the author name template.
+```xml  
     <xsl:template name="orcid">
         <xsl:param name="last"/>
         <xsl:param name="first"/>
@@ -255,20 +272,54 @@ The ORCID ID template was also updated to correct the mapping into the author na
                 </nameIdentifier>
             </xsl:for-each>
         </xsl:if>
+```  
+## Funders template
+
+The funders template leveraged institution identifiers in the source metadata. 
+### before
+  ```xml  
+    <xsl:template match="funders">
+        <funding-group specific-use="crossref">
+            <xsl:for-each select="item">
+                <award-group>
+                    <funding-source>
+                        <institution-wrap>
+                            <institution>
+                                <xsl:value-of select="."/>
+                            </institution>
+                        </institution-wrap>
+                    </funding-source>
+                </award-group>
+            </xsl:for-each>
+        </funding-group>
+    </xsl:template>
+```    
+  ### after
+  
+ Adds institution_id type="doi (type="ror" is commented out) 
+ ```xml  
+     <xd:doc><xd:desc>funders</xd:desc></xd:doc>
+    <xsl:template match="funders[following-sibling::node()]">
+        <xsl:variable name="axis" select="following-sibling::node()"/>
+        <funding-group specific-use="crossref">
+            <award-group>
+                <xsl:for-each select="item">
+                    <funding-source>
+                        <institution-wrap>                   
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>                         
+                            <xsl:variable name="pos" select="position()"/>
+                            <institution_id type="doi">                                 
+                                <xsl:value-of select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
+                            </institution_id>
+                            <!--<institution_id type="ror">                                 
+                                <xsl:value-of select="subsequence(../$axis/item[$pos],2,2)"/>
+                            </institution_id>  -->
+                        </institution-wrap>
+                    </funding-source>
+                </xsl:for-each>
+            </award-group>
+        </funding-group>
     </xsl:template>
    ```
-   
-### after
-The ORCID was mapped incorrectly into the a call-template with param instruction within the author  name template. 
-```xml 
-   <xsl:template name="orcid">
-        <xsl:param name="last"/>
-        <xsl:param name="first"/>
-        <xsl:if test="($last != '') and ($first != '')">
-            <xsl:for-each select="//all/orcid_profile/item[family=current()/$last]/ORCID">             
-                <nameIdentifier type="{lower-case(name())}">
-                    <xsl:value-of select="."/>
-                </nameIdentifier>
-            </xsl:for-each>
-        </xsl:if>
-    

@@ -2,34 +2,37 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon xd xlink xs xsi">
     <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive"/>
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-        <!-- REMOVE THIS AFTER TESTING:
+    <!-- REMOVE THIS AFTER TESTING:
          To get an N-file using params.xsl:    
           (1) Comment out the output statement above.
           (2) Uncomment line 41
           (3) Comment out line 42.
           (4) Uncomment the output statement below
         -->
-     <!-- <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/> 
+    <!-- <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/> 
      <xsl:include href="commons/params.xsl"/>    
    -->
- 
-   <xd:doc scope="stylesheet" id="chorus">
-   <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
+    
+    <xd:doc scope="stylesheet" id="chorus">
+        <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>?</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>April 15, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>April 30, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
             <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
             <xd:ul>
+                <xd:li><xd:p>Funders template adds &lt;institution_id @type='doi'&gt;. - 20240430 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Added a-file output. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Collection processing added (currently commented out). - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Upgraded XSLT version to 2.0. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Change log added. - 20240418 - cm3</xd:p></xd:li>
             </xd:ul>
-    </xd:desc>
-  </xd:doc>
-
+        </xd:desc>
+    </xd:doc>
+    
+    
     <xd:doc>
         <xd:desc>
             <xd:p><xd:b>Root template selects individual CHORUS XML.</xd:b></xd:p>
@@ -38,16 +41,16 @@
     </xd:doc>
     <xsl:template match="/">   
         <!-- archive file -->
-<!--         <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
+        <!-- <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
         <xsl:result-document format="archive" href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/archive/A-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
-                <xsl:copy-of select="." copy-namespaces="no"/>           
+            <xsl:copy-of select="." copy-namespaces="no"/>           
         </xsl:result-document>
         <!-- MODS files -->
-         <xsl:choose>
+        <xsl:choose>
             <xsl:when test="count(all) != 1">
-            <!-- transform collections -->
-<!--             <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
-                 <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+                <!-- transform collections -->
+                <!--  <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">-->
+                <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
                     <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="//all">
                             <mods version="3.7">
@@ -59,7 +62,7 @@
             </xsl:when>         
             <xsl:otherwise>
                 <!-- single article transformations -->
-<!--                 <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml"> -->
+                <!-- <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml"> -->
                 <xsl:result-document format="archive" href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/ind/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
                     <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="all">
@@ -70,7 +73,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
+    
+    
     <xd:doc><xd:desc>item-info</xd:desc></xd:doc>
     <xsl:template name="item-info">
         <titleInfo>
