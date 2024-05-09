@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon xd xlink xs xsi">
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive"/>
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/> 
-    <xsl:include href="commons/params.xsl"/>    
-    
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon mods xd xlink xs xsi">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/>
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive-original"/>
+    <xsl:include href="commons/params.xsl"/>     
+ 
     <xd:doc scope="stylesheet" id="chorus">
         <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>?</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>April 30, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>May 9, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
             <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
             <xd:ul>
+                <xd:li><xd:p>Changed outputs for production server - 20240509 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Funders template adds &lt;institution_id @type='doi'&gt;. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added a-file output. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
@@ -22,7 +23,7 @@
             </xd:ul>
         </xd:desc>
     </xd:doc>
-    
+
     <xd:doc>
         <xd:desc>
             <xd:p><xd:b>Root template selects individual CHORUS XML.</xd:b></xd:p>
@@ -30,37 +31,31 @@
         </xd:desc>
     </xd:doc>
     <xsl:template match="/">   
-        <!-- archive file -->
-        <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+        <!-- archive -->
+        <xsl:result-document href="file:///{$workingDir}A-{replace($originalFilename, '(.*/)(.*)(\.xml)', '$2')}_{position()}.xml" format="archive-original">            
             <xsl:copy-of select="." copy-namespaces="no"/>           
         </xsl:result-document>
-        <!-- MODS files -->
+        <!-- mods-->
         <xsl:choose>
             <xsl:when test="count(all) != 1">
-                <!-- transform collections -->
-                <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
-                    <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-                        <xsl:for-each select="//all">
-                            <mods version="3.7">
-                                <xsl:call-template name="item-info"/>
-                            </mods>
-                        </xsl:for-each>
-                    </modsCollection>
-                </xsl:result-document>
-            </xsl:when>         
-            <xsl:otherwise>
-                <!-- single article transformations -->
-                <xsl:result-document href="file:///{$workingDir}N-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml"> 
-                    <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-                        <xsl:for-each select="all">
+                <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+                    <xsl:for-each select="//all">
+                        <mods version="3.7">
                             <xsl:call-template name="item-info"/>
-                        </xsl:for-each>
-                    </mods>
-                </xsl:result-document>
-            </xsl:otherwise>
+                        </mods>
+                    </xsl:for-each>
+                </modsCollection>
+            </xsl:when>
+      <xsl:otherwise>
+        <mods version="3.7">
+            <xsl:for-each select="all">
+                <xsl:call-template name="item-info"/>
+            </xsl:for-each>
+        </mods>
+      </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
+    
     <xd:doc><xd:desc>item-info</xd:desc></xd:doc>
     <xsl:template name="item-info">
         <titleInfo>
@@ -132,7 +127,14 @@
     <xsl:template match="affiliation">
         <xsl:if test="./text() != ''">
             <affiliation>
-                <xsl:value-of select="."/>
+                <xsl:choose>
+                    <xsl:when test="starts-with(., 'From')">
+                        <xsl:value-of select="replace(.,'(From\s)(the )?(.*)','$3')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </affiliation>
         </xsl:if>
     </xsl:template>
@@ -304,7 +306,8 @@
     <xsl:template name="extension">
         <extension>
             <vendorName>CHORUS</vendorName>
-            <workingDirectory>/data/metadata/staging/chorus</workingDirectory>
+            <workingDirectory><xsl:value-of select="$workingDir"/></workingDirectory>
+            <originalFile><xsl:value-of select="$originalFilename"/></originalFile>
             <xsl:apply-templates select="agency_id"/>
             <xsl:apply-templates select="agency_name"/>
             <xsl:apply-templates select="breakdown_for"/>

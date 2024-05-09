@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>Eliciting Stakeholder Perceptions Using a Novel Online Engagement Platform: A Case Study on Nano-Agrifoods</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">Ruzante</namePart>
+      <namePart type="given">Juliana M.</namePart>
+      <displayForm>Ruzante, Juliana M.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Shumaker</namePart>
+      <namePart type="given">Ellen Thomas</namePart>
+      <displayForm>Shumaker, Ellen Thomas</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Holt</namePart>
+      <namePart type="given">Sidney</namePart>
+      <displayForm>Holt, Sidney</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Mayer</namePart>
+      <namePart type="given">Susan</namePart>
+      <displayForm>Mayer, Susan</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Kokotovich</namePart>
+      <namePart type="given">Adam</namePart>
+      <displayForm>Kokotovich, Adam</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Cuchiara</namePart>
+      <namePart type="given">Maude</namePart>
+      <displayForm>Cuchiara, Maude</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Binder</namePart>
+      <namePart type="given">Andrew R.</namePart>
+      <displayForm>Binder, Andrew R.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Kuzma</namePart>
+      <namePart type="given">Jennifer</namePart>
+      <displayForm>Kuzma, Jennifer</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Grieger</namePart>
+      <namePart type="given">Khara</namePart>
+      <displayForm>Grieger, Khara</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022-01-20</dateIssued>
+   </originInfo>
+   <relatedItem type="host">
+      <originInfo>
+         <publisher>RTI Press</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.3768/rtipress.2022.op.0071.2201</identifier>
+   <identifier type="chorus">10.3768/rtipress.2022.op.0071.2201</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</url>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Resource is Open Access">
+      <program>
+         <license_ref>http://purl.org/eprint/accessRights/OpenAccess</license_ref>
+      </program>
+   </accessCondition>
+   <accessCondition type="use and reproduction" displayLabel="CHORUS License Information">
+      <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+         <license_ref applies_to="VOR" start_date="2022-01-22">https://creativecommons.org/licenses/by-nc-nd/4.0/</license_ref>
+      </program>
+   </accessCondition>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>C:\Temp\xslt\chorus\2024-05-09\</workingDirectory>
+      <originalFile>file:/C:/Temp/xslt/chorus/CHORUS_sample/source/A-10.3768-rtipress.2022.op.0071.2201.xml</originalFile>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>USDA</institution>
+                  <institution_id type="doi">https://doi.org/10.13039/100000199</institution_id>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-05-09T15:58:38.003022-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>
