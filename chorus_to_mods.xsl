@@ -13,6 +13,7 @@
             <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
             <xd:ul>
+                <xd:li><xd:p>Added conditional statement to remvoe "From the..." in affiliations  - 20240509 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Changed outputs for production server - 20240509 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Funders template adds &lt;institution_id @type='doi'&gt;. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added a-file output. - 20240430 - cm3</xd:p></xd:li>
