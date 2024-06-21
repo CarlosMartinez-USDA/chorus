@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>Linking drivers of plant per- and polyfluoroalkyl substance (PFAS) uptake to agricultural land management decisions</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">Scearce</namePart>
+      <namePart type="given">Alex E.</namePart>
+      <displayForm>Scearce, Alex E.</displayForm>
+      <affiliation>School of Food and Agriculture, University of Maine, Orono, Maine 04469 1</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Goossen</namePart>
+      <namePart type="given">Caleb P.</namePart>
+      <displayForm>Goossen, Caleb P.</displayForm>
+      <affiliation>Maine Organic Farmers and Gardeners Association, 2 Unity, Maine 04988</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Schattman</namePart>
+      <namePart type="given">Rachel E.</namePart>
+      <displayForm>Schattman, Rachel E.</displayForm>
+      <affiliation>School of Food and Agriculture, University of Maine, Orono, Maine 04469 1</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Mallory</namePart>
+      <namePart type="given">Ellen B.</namePart>
+      <displayForm>Mallory, Ellen B.</displayForm>
+      <affiliation>School of Food and Agriculture, University of Maine, Orono, Maine 04469 1, University of Maine Cooperative Extension, 3 Orono, Maine 04469</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">MacRae</namePart>
+      <namePart type="given">Jean D.</namePart>
+      <displayForm>MacRae, Jean D.</displayForm>
+      <affiliation>Department of Civil and Environmental Engineering, University of Maine, Orono, Maine 04469 4</affiliation>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023-07-01</dateIssued>
+      <dateOther encoding="w3cdtf" type="electronic">2023-07-06</dateOther>
+   </originInfo>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Biointerphases</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>American Vacuum Society</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.1116/6.0002772</identifier>
+   <identifier type="chorus">10.1116/6.0002772</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1116/6.0002772</url>
+   </location>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>C:\Temp\chorus\source\2024-06-20\</workingDirectory>
+      <originalFile>file:/C:/Temp/chorus/source/A-10.1116-6.0002772.xml</originalFile>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>USDA</institution>
+                  <institution_id type="doi">https://doi.org/10.13039/100000199</institution_id>
+                  <institution_id type="ror">https://ror.org/01na82s61</institution_id>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-06-21T13:32:55.933795-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>

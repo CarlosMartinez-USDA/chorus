@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="3.7"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <titleInfo>
+      <title>Interferon tau-induced hepatocyte apoptosis in sheep</title>
+   </titleInfo>
+   <name type="personal" usage="primary">
+      <namePart type="family">Kim</namePart>
+      <namePart type="given">Hun-Taek</namePart>
+      <displayForm>Kim, Hun-Taek</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Stoica</namePart>
+      <namePart type="given">George</namePart>
+      <displayForm>Stoica, George</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Bazer</namePart>
+      <namePart type="given">Fuller W.</namePart>
+      <displayForm>Bazer, Fuller W.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="family">Ott</namePart>
+      <namePart type="given">Troy L.</namePart>
+      <displayForm>Ott, Troy L.</displayForm>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2000-06</dateIssued>
+      <dateOther encoding="w3cdtf" type="electronic">2003-12-30</dateOther>
+   </originInfo>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Hepatology</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+      </originInfo>
+   </relatedItem>
+   <identifier type="doi">10.1053/jhep.2000.7476</identifier>
+   <identifier type="chorus">10.1053/jhep.2000.7476</identifier>
+   <location>
+      <url displayLabel="Available from publisher's site">https://dx.doi.org/10.1053/jhep.2000.7476</url>
+   </location>
+   <extension>
+      <vendorName>CHORUS</vendorName>
+      <workingDirectory>C:\Temp\chorus\source\2024-06-20\</workingDirectory>
+      <originalFile>file:/C:/Temp/chorus/source/A-10.1053-jhep.2000.7476.xml</originalFile>
+      <funding-group specific-use="crossref">
+         <award-group>
+            <funding-source>
+               <institution-wrap>
+                  <institution>USDA</institution>
+                  <institution_id type="doi">https://doi.org/10.13039/100000199</institution_id>
+                  <institution_id type="ror">https://ror.org/01na82s61</institution_id>
+               </institution-wrap>
+            </funding-source>
+         </award-group>
+      </funding-group>
+   </extension>
+   <recordInfo>
+      <recordCreationDate>2024-06-21T13:32:55.237733-04:00</recordCreationDate>
+      <recordOrigin>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</recordOrigin>
+   </recordInfo>
+</mods>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+   <DOI type="str">10.3768/rtipress.2022.op.0071.2201</DOI>
+   <URL type="str">http://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</URL>
+   <publisher type="str">RTI Press</publisher>
+   <authors type="list">
+      <item type="dict">
+         <author type="str">Ruzante Juliana M.</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Shumaker Ellen Thomas</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Holt Sidney</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Mayer Susan</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Kokotovich Adam</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Cuchiara Maude</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Binder Andrew R.</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Kuzma Jennifer</author>
+         <affiliation type="str"/>
+      </item>
+      <item type="dict">
+         <author type="str">Grieger Khara</author>
+         <affiliation type="str"/>
+      </item>
+   </authors>
+   <title type="str">Eliciting Stakeholder Perceptions Using a Novel Online Engagement Platform: A Case Study on Nano-Agrifoods</title>
+   <journal_name type="str"/>
+   <last_audited_on type="str">1/17/2024</last_audited_on>
+   <publicly_accessible_on_publisher_site type="str">1/22/2022</publicly_accessible_on_publisher_site>
+   <license_type type="str">VOR</license_type>
+   <licenseUrl type="str">https://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
+   <agency_portal_url type="null"/>
+   <grant_ids type="list">
+      <item type="str"/>
+   </grant_ids>
+   <updated type="str">3/10/2024</updated>
+   <added type="str">7/10/2023</added>
+   <orcid_profile type="null"/>
+   <member_id type="str"/>
+   <published_print type="null"/>
+   <published_online type="str">1/20/2022</published_online>
+   <reuse_license_start_date type="str">01/22/2022</reuse_license_start_date>
+   <type type="str">report</type>
+   <archived_status type="str">Yes</archived_status>
+   <datasets type="null"/>
+   <funders type="list">
+      <item type="str">USDA</item>
+   </funders>
+   <funderIDs type="list">
+      <item type="str">10.13039/100000199</item>
+   </funderIDs>
+   <RORID type="list">
+      <item type="str">https://ror.org/01na82s61</item>
+   </RORID>
+   <auditSource type="str">CHORUS</auditSource>
+   <Funder_Source type="str">Crossref</Funder_Source>
+</all>

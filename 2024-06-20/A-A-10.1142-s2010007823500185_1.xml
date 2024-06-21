@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+   <DOI type="str">10.1142/s2010007823500185</DOI>
+   <URL type="str">http://dx.doi.org/10.1142/s2010007823500185</URL>
+   <publisher type="str">World Scientific Pub Co Pte Ltd</publisher>
+   <authors type="list">
+      <item type="dict">
+         <author type="str">FAVERO ALICE</author>
+         <affiliation type="str">RTI International, Research Triangle Park, NC 27709-2194, USA</affiliation>
+      </item>
+      <item type="dict">
+         <author type="str">YOO JONGHYUN</author>
+         <affiliation type="str">Department of Urban Planning and Design, University of Seoul, Seoul 02504, Republic of Korea</affiliation>
+      </item>
+      <item type="dict">
+         <author type="str">DAIGNEAULT ADAM</author>
+         <affiliation type="str">School of Forest Resources, University of Maine, Orono, ME 04469, USA</affiliation>
+      </item>
+      <item type="dict">
+         <author type="str">BAKER JUSTIN</author>
+         <affiliation type="str">Department of Forestry and Environmental Resources, North Carolina State University, Raleigh, NC 27607, USA</affiliation>
+      </item>
+   </authors>
+   <title type="str">TEMPERATURE AND ENERGY SECURITY: WILL FOREST BIOMASS HELP IN THE FUTURE?</title>
+   <journal_name type="str">Climate Change Economics</journal_name>
+   <last_audited_on type="null"/>
+   <publicly_accessible_on_publisher_site type="null"/>
+   <license_type type="null"/>
+   <licenseUrl type="null"/>
+   <grant_ids type="list">
+      <item type="str">NIFA:2017-48791-26835</item>
+   </grant_ids>
+   <updated type="str">3/10/2024</updated>
+   <added type="str">6/19/2023</added>
+   <orcid_profile type="null"/>
+   <member_id type="str"/>
+   <published_print type="str">11/2023</published_print>
+   <published_online type="str">6/1/2023</published_online>
+   <reuse_license_start_date type="null"/>
+   <type type="str">journal-article</type>
+   <archived_status type="str">Unknown</archived_status>
+   <datasets type="null"/>
+   <agency_portal_url type="null"/>
+   <funders type="list">
+      <item type="str">National Institute of Food and Agriculture</item>
+   </funders>
+   <funderIDs type="list">
+      <item type="str">10.13039/100005825</item>
+   </funderIDs>
+   <RORID type="list">
+      <item type="str">https://ror.org/05qx3fv49</item>
+   </RORID>
+   <auditSource type="str"/>
+   <Funder_Source type="str">Crossref</Funder_Source>
+</all>
