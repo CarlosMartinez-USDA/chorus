@@ -3,18 +3,20 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8" name="test"/>
    
  
- <xd:doc scope="stylesheet" id="chorus">
-   <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
+    <xd:doc scope="stylesheet" id="chorus_to_mods.xsl">
+        <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>Amanda Xu</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>June 14, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>July 10, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
             <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
             <xd:ul>
+                <xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Added if tests to funding and accessCondition templates to prevent empty tags - 20240620 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template creates &lt;accessCondition&gt; element and attributes. - 20240613 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Funders template adds &lt;institution_id @type='doi'&gt;. - 20240430 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Added a-file output. - 20240430 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Added A-file output. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Collection processing added (currently commented out). - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Upgraded XSLT version to 2.0. - 20240418 - cm3</xd:p></xd:li>
@@ -22,7 +24,6 @@
             </xd:ul>
         </xd:desc>
     </xd:doc>
-    
     
     <xd:doc>
         <xd:desc>
@@ -90,7 +91,8 @@
             <xd:ul>
                 <xd:li><xd:p><xd:b>a.</xd:b> $name-tokens[1] is the $familyName</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>b.</xd:b> $name-tokens[2] is the first name, or part of the $givenName</xd:p></xd:li>
-                <xd:li><xd:p><xd:b>c.</xd:b> $givenName = combined $names-token[2] and the rest of the string after it.)</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>c.</xd:b> $firstMiddle = combines $names-token[2] and the rest of the string after it,
+                    for author's first name and middle initial</xd:p></xd:li>
             </xd:ul>
         </xd:desc>
     </xd:doc>
@@ -190,108 +192,71 @@
     </xsl:template>
     
     <xd:doc>
-        <xd:desc/>
+        <xd:desc><xd:p><xd:b>f:format-date()</xd:b></xd:p>
+            <xd:p>Expects date format of MM/dd/YYYY </xd:p>
+            <xd:p>Tokenizes forward slash in date string from parameter.</xd:p>
+            <xd:p>Returns: YYYY-MM-dd w3cdtf format</xd:p>
+        </xd:desc>
         <xd:param name="dateStr"/>
     </xd:doc>
     <xsl:function name="f:format-date">
         <xsl:param name="dateStr"/>
         <xsl:if test="not($dateStr = '')">
             <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
-            <xsl:choose>
-                <xsl:when test="$date-tokens[3]">
-                    <xsl:value-of select="
-                        concat(
-                        $date-tokens[last()], '-',
-                        format-number(number($date-tokens[1]), '00'), '-',
-                        format-number(number($date-tokens[2]), '00'))
-                        "/>
-                </xsl:when>
-                <xsl:when test="$date-tokens[2]">
-                    <xsl:value-of select="
-                        concat(
-                        $date-tokens[last()], '-',
-                        format-number(number($date-tokens[1]), '00'))
-                        "/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$dateStr"/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:sequence select="if (matches($date-tokens[3],'\d{4}'))
+                then concat($date-tokens[last()], '-',format-number(number($date-tokens[1]), '00'), '-', format-number(number($date-tokens[2]), '00'))
+                else if (matches($date-tokens[2],'\d{4}'))
+                then concat($date-tokens[last()], '-', format-number(number($date-tokens[1]), '00'))
+                else $dateStr"/>
         </xsl:if>
     </xsl:function>
     
-        <!-- accessCondition -->
+    
+    <!-- accessCondition -->
     <xd:doc id="accessCondition" scope="component">
-        <xd:desc>Defined below are variables for creating and applying the appropriate Creative
-            Commons license to a resource, depending on the permission level.</xd:desc>
-        <xd:variable><xd:p><xd:b>type: </xd:b>CC license permissions chosen from ali:license_ref url, by tokenizing the foward slashes, and stepping back by 2.</xd:p></xd:variable>
-        <xd:variable><xd:p><xd:b>version: </xd:b>CC license version chosen from ali:license_ref url, by tokenizing the foward slashes, and stepping back by 1.</xd:p></xd:variable>
-        <xd:variable><xd:p><xd:b>start_date: </xd:b>From ali:license_ref attribute @start_date</xd:p></xd:variable>
-        <xd:variable><xd:p><xd:b>cc: </xd:b>Employs the same logic as the "appliesTo" variable but uses XSLT 2.0 function "matches" to verify a correct permission level is assigned.</xd:p></xd:variable>
+        <xd:desc>Defined below are variables for creating and applying the appropriate Creative Commons license to a resource, depending on the permission level.</xd:desc>
+        <xd:variable><xd:p><xd:b>nodes: </xd:b>Accesses the licenses.xml file</xd:p></xd:variable>
+        <xd:variable><xd:p><xd:b>licenseURL: </xd:b>The XPath predicate filters out any URLs that render "null".</xd:p></xd:variable>
+        <xd:variable><xd:p><xd:b>startDate: </xd:b>From reuse_license_start_date[@type='str'] to get start_date</xd:p></xd:variable>
+        <xd:variable><xd:p><xd:b>label: </xd:b>Using an XPath predicate, compares the URL found in the node with the URLs contained within licenses.xml. When true the name of the license is returned as the value.</xd:p></xd:variable>
+        <xd:vsriable><xd:p><xd:b>appliesTo:</xd:b>Uses XPath predicate to prevent "null" values, gets value from licesne_type</xd:p></xd:vsriable>
     </xd:doc>
     <xsl:template name="accessCondition">
         <xsl:if test="licenseUrl!=''">
-        <xsl:variable name="uri" select="licenseUrl"/>   
-        <xsl:variable name="type" select="tokenize($uri, '/')[last()-2]"/>
-        <xsl:variable name="version" select="tokenize($uri, '/')[last()-1]"/>
-        <xsl:variable name="cc" select="if (matches($type,'by-(nc|sa)-nd') or matches($type, 'by-[a-z]{2}') or matches ($type, 'by')) then concat('Creative Commons Attribution&#160;', $version, '&#160;Generic (CC&#160;', upper-case($type),'&#160;',$version,')') else if (contains($type, 'zero')) then (concat('Creative Commons Attribution&#160;', $version, '&#160;', 'Generic (', upper-case($type)), ')') else concat('Creative Commons Attribution&#160;', $version, '&#160;','Generic (CC BY&#160;', $version,')')"/>
-        <xsl:variable name="appliesTo" select="lower-case(license_type[@type='str'])"/>
-        <xsl:variable name="startDate" select="f:format-date(reuse_license_start_date[@type='str'])"/> 
-        <accessCondition type="use and reproduction">
-            <xsl:attribute name="displayLabel">    
-                <xsl:analyze-string select="normalize-space($uri)" regex="(https?://creativecommons.org/)(licenses/by|publicdomain/zero)-?([a-z]+)?-?([a-z]+)?/(/S+)?/">
-                    <xsl:matching-substring>
+            <xsl:variable name="nodes"><xsl:copy-of select="document('commons/licenses.xml')"/></xsl:variable>
+            <xsl:variable name="licenseURL" select="licenseUrl[@type='str']"/>
+            <xsl:variable name="startDate" select="f:format-date(reuse_license_start_date)"/> 
+            <xsl:variable name="label" select="$nodes/accessRights/licenses/lic[u=$licenseURL]/a"/>
+            <xsl:variable name="appliesTo" select="lower-case(license_type[@type='str'])"/>
+            <!-- use and reproduction -->
+            <accessCondition type="use and reproduction">
+                <xsl:if test="$label!=''">
+                    <xsl:attribute name="displayLabel" select="$label"/>
+                </xsl:if>
+                <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
+                    <license_ref>
                         <xsl:choose>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='SA' and regex-group(4)='ND'">
-                                <xsl:value-of select="'Creative Commons Attribution ShareAlike-NoDerivatives 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='NC' and regex-group(4)='ND'">
-                                <xsl:value-of select="'Creative Commons Attribution NonCommerical-NoDerivatives 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='NC' and regex-group(4)=''">
-                                <xsl:value-of select="'Creative Commons Attribution NonCommerical 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='SA' and regex-group(4)=''">
-                                <xsl:value-of select="'Creative Commons Attribution ShareAlike 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='ND' and regex-group(4)=''">
-                                <xsl:value-of select="'Creative Commons Attribution NoDerivatives 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(5)='4.0' and regex-group(3)='' and regex-group(4)=''">
-                                <xsl:value-of select="'Creative Commons Attribution 4.0 International Public License'"/>
-                            </xsl:when>
-                            <xsl:when test="regex-group(2)='publicdomain/zero'">
-                                <xsl:value-of select="'Creative Commons 1.0 Universal'"/>
+                            <xsl:when test="contains($licenseURL, '//creativecommons.org/')">
+                                <xsl:attribute name="applies_to">vor</xsl:attribute>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:if test="regex-group(5)!='4.0'">
-                                    <xsl:value-of select="$cc"/>
+                                <xsl:if test="$appliesTo!=''">
+                                    <xsl:attribute name="applies_to"><xsl:value-of select="$appliesTo"/></xsl:attribute>
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                    </xsl:matching-substring>
-            <!-- Commerical Rights and Permission Statements -->
-        <xsl:non-matching-substring>
-     <xsl:value-of select="'CHORUS License Information'"/>
-        </xsl:non-matching-substring>
-                </xsl:analyze-string>
-            </xsl:attribute>
-                <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
-                    <license_ref>
-                        <xsl:if test="$appliesTo!=''">
-                            <xsl:attribute name="applies_to" select="$appliesTo"/>
-                        </xsl:if>
                         <xsl:if test="$startDate!=''">
-                        <xsl:attribute name="start_date" select="$startDate"/>
+                            <xsl:attribute name="start_date" select="$startDate"/>
                         </xsl:if>
-                        <xsl:value-of select="$uri"/>
-                    </license_ref>     
+                        <xsl:value-of select="$licenseURL"/>
+                    </license_ref>
                 </program>
             </accessCondition>
+            <!-- restriction on access -->
             <accessCondition type="restriction on access" xlink:href="http://purl.org/eprint/accessRights/OpenAccess" displayLabel="Access Status">Open Access</accessCondition>
         </xsl:if>
     </xsl:template>
-
+    
     <xd:doc><xd:desc>originInfo</xd:desc></xd:doc>
     <xsl:template name="originInfo">
         <originInfo>
@@ -304,9 +269,7 @@
     <xsl:template match="published_print">
         <xsl:if test="not(. = '')">
             <dateIssued encoding="w3cdtf" keyDate="yes">
-                <xsl:call-template name="format-date">
-                    <xsl:with-param name="dateStr" select="."/>
-                </xsl:call-template>
+               <xsl:value-of select="f:format-date(.)"/>
             </dateIssued>
         </xsl:if>
     </xsl:template>
@@ -317,53 +280,18 @@
         <xsl:choose>
             <xsl:when test="not(. = '') and ($print = '')">
                 <dateIssued encoding="w3cdtf" keyDate="yes">
-                    <xsl:call-template name="format-date">
-                        <xsl:with-param name="dateStr" select="."/>
-                    </xsl:call-template>
+                    <xsl:value-of select="f:format-date(.)"/>
                 </dateIssued>
             </xsl:when>
             <xsl:when test="not(. = '') and not($print = '')">
                 <dateOther encoding="w3cdtf" type="electronic">
-                    <xsl:call-template name="format-date">
-                        <xsl:with-param name="dateStr" select="."/>
-                    </xsl:call-template>
+                    <xsl:value-of select="f:format-date(.)"/>
                 </dateOther>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
-    <xd:doc>
-        <xd:desc>format-date</xd:desc>
-        <xd:param name="dateStr"/>
-    </xd:doc>
-    <xsl:template name="format-date">
-        <xsl:param name="dateStr"/>
-        <xsl:if test="not($dateStr = '')">
-            <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
-            <xsl:choose>
-                <xsl:when test="$date-tokens[3]">
-                    <xsl:value-of select="
-                            concat(
-                            $date-tokens[last()], '-',
-                            format-number(number($date-tokens[1]), '00'), '-',
-                            format-number(number($date-tokens[2]), '00'))
-                            "/>
-                </xsl:when>
-                <xsl:when test="$date-tokens[2]">
-                    <xsl:value-of select="
-                            concat(
-                            $date-tokens[last()], '-',
-                            format-number(number($date-tokens[1]), '00'))
-                            "/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$dateStr"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:if>
-    
-    </xsl:template>
-
+   
+      
     <xd:doc><xd:desc>extension</xd:desc></xd:doc>
     <xsl:template name="extension">
         <extension>
@@ -404,26 +332,35 @@
         <xsl:variable name="axis" select="following-sibling::node()"/>
         <funding-group specific-use="crossref">
             <award-group>
-                <xsl:for-each select="item">
-                    <funding-source>
-                        <institution-wrap>                   
+                <funding-source>
+                    <xsl:for-each select="item">
+                        <institution-wrap>
                             <institution>
                                 <xsl:value-of select="."/>                               
-                            </institution>                         
+                            </institution>
+                            <!-- institution_id -->
                             <xsl:variable name="pos" select="position()"/>
-                            <institution_id type="doi">                                 
-                                <xsl:value-of select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
-                            </institution_id>
-                            <institution_id type="ror">                                 
-                                <xsl:value-of select="subsequence(../$axis/item[$pos],2,2)"/>
-                            </institution_id>  
+                            <!-- doi -->
+                            <xsl:variable name="doi" select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
+                            <xsl:if test="$doi!=''">
+                                <institution_id type="doi">                                 
+                                    <xsl:value-of select="$doi"/>
+                                </institution_id>
+                            </xsl:if>
+                            <!-- ror -->
+                            <xsl:variable name="ror" select="subsequence(../$axis/item[$pos],2,2)"/>
+                            <xsl:if test="$ror!=''">
+                                <institution_id type="ror">                                 
+                                    <xsl:value-of select="$ror"/>
+                                </institution_id>
+                            </xsl:if>            
                         </institution-wrap>
-                    </funding-source>
-                </xsl:for-each>
+                    </xsl:for-each>
+                </funding-source>
             </award-group>
         </funding-group>
     </xsl:template>
-   
+    
     <xd:doc><xd:desc>recordInfo</xd:desc></xd:doc>
     <xsl:template name="recordInfo">
         <recordInfo>
