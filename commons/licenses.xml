@@ -12,17 +12,17 @@
         </lic>
         <!-- Creative Commons -->
         <lic>
-            <a>Creative Commons Attribution 4.0 Generic (CC BY-NC-ND 4.0)</a>
-            <u>http://creativecommons.org/licenses/by-nc-nd/4.0/</u>
-            <u>https://creativecommons.org/licenses/by-nc-nd/4.0/</u>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY 4.0)</a>
+            <u>https://creativecommons.org/licenses/by/4.0/</u>
+            <u>http://creativecommons.org/licenses/by/4.0/</u>
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
         </lic>
         <lic>
-            <a>Creative Commons Attribution 4.0 Generic (CC BY 4.0)</a>
-            <u>https://creativecommons.org/licenses/by/4.0/</u>
-            <u>http://creativecommons.org/licenses/by/4.0/</u>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY-SA 4.0)</a> <!-- added share-alike -->
+            <u>https://creativecommons.org/licenses/by-sa/4.0/</u>
+            <u>http://creativecommons.org/licenses/by-sa/4.0/</u>
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
@@ -34,7 +34,24 @@
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
+        </lic>   
+        <lic>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY-NC-ND 4.0)</a>
+            <u>http://creativecommons.org/licenses/by-nc-nd/4.0/</u>
+            <u>https://creativecommons.org/licenses/by-nc-nd/4.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
         </lic>
+        <lic>
+            <a>Creative Commons Attribution 4.0 Generic (CC BY-NC-SA 4.0)</a> <!-- added non-commercial share-alike -->
+            <u>http://creativecommons.org/licenses/by-nc-sa/4.0/</u>
+            <u>https://creativecommons.org/licenses/by-nc-sa/4.0/</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <!-- 3.0 -->
         <lic>
             <a>Creative Commons Attribution 3.0 Generic (CC BY 3.0)</a>
             <u>http://creativecommons.org/licenses/by/3.0/</u>
@@ -43,6 +60,7 @@
             <two>star</two>
             <ind1>0</ind1>
         </lic>
+        <!-- 2.0 -->
         <lic>
             <a>Creative Commons Attribution 2.0 Generic (CC BY 2.0)</a>
             <u>http://creativecommons.org/licenses/by/2.0/</u>
@@ -53,7 +71,7 @@
         </lic>
         
         <!-- Publisher -->
-
+        
         <lic>
             <a>Elsevier BV License Information</a>
             <u>http://www.elsevier.com/open-access/userlicense/1.0/</u>
@@ -63,13 +81,13 @@
         </lic>
         
         <lic>
-            <a> </a>
+            <a>Wiley Online Library Terms of Use</a> <!-- added url licensing title / cm3 / 2024-07-06 -->
             <u>http://onlinelibrary.wiley.com/termsAndConditions#vor</u>
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
         </lic>
-
+        
         <lic>
             <a>CHORUS License Information</a>
             <u>https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</u>
@@ -84,7 +102,7 @@
             <two>star</two>
             <ind1>0</ind1>
         </lic>
-
+        
         <lic>
             <a>CHORUS License Information</a>
             <u>http://www.sagepub.com/licence-information-for-chorus</u>
@@ -92,12 +110,32 @@
             <two>star</two>
             <ind1>0</ind1>
         </lic>
+        
+        <lic>
+            <a>CHORUS License Information</a>  <!-- added American Institute of Physics licensing link / cm3 / 2024-07-06 -->
+            <u>https://publishing.aip.org/authors/rights-and-permissions</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        <lic>
+            <a>CHORUS License Information</a>  <!-- added American Institute of Physics licensing link / cm3 / 2024-07-06 -->
+            <u>https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</u>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+       
+        
+        
+        <!-- Text and Data Mining (tdm) / cm3 / 2024-07-06 -->-->
         <lic>
             <a>SAGE Journals Text and Data Mining License Agreement</a>
             <u>http://journals.sagepub.com/page/policies/text-and-data-mining-license</u>
             <ind1>1</ind1>
         </lic>
-
+        
+        <!-- Scientific, Technical and Medical journals - Article Sharing Framework (stm-asf) / cm3 / 2024-07-06 -->
         <lic>
             <a>Article Sharing Framework Policy no. 29</a>
             <u>https://doi.org/10.15223/policy-029</u>
@@ -107,7 +145,14 @@
         </lic>
         
     </licenses>
+    
+    <!-- CrossRef's schema for defining the applicable licenses for a given item -->
     <for>
+        <app>
+            <applies_to>stm-asf</applies_to> <!-- added stm-asf -->
+            <three>STM - Article Sharing Framework</three>
+            <three>Scientific, Technical and Medical journals - Article Sharing Framework</three>        
+        </app>
         <app>
             <applies_to>tdm</applies_to>
             <three>Text and data mining</three>
