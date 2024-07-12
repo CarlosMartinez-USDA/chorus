@@ -13,8 +13,8 @@
         <!-- Creative Commons -->
         <lic>
             <a>Creative Commons Attribution 4.0 Generic (CC BY 4.0)</a>
-            <u>https://creativecommons.org/licenses/by/4.0/</u>
             <u>http://creativecommons.org/licenses/by/4.0/</u>
+            <u>https://creativecommons.org/licenses/by/4.0/</u>
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
@@ -70,8 +70,9 @@
             <ind1>0</ind1>
         </lic>
         
-        <!-- Publisher -->
+        <!-- Publishers -->
         
+        <!-- Elsevier -->
         <lic>
             <a>Elsevier BV License Information</a>
             <u>http://www.elsevier.com/open-access/userlicense/1.0/</u>
@@ -79,7 +80,7 @@
             <two>star</two>
             <ind1>0</ind1>
         </lic>
-        
+        <!-- Wiley -->
         <lic>
             <a>Wiley Online Library Terms of Use</a> <!-- added url licensing title / cm3 / 2024-07-06 -->
             <u>http://onlinelibrary.wiley.com/termsAndConditions#vor</u>
@@ -88,6 +89,7 @@
             <ind1>0</ind1>
         </lic>
         
+        <!-- CHORUS -->
         <lic>
             <a>CHORUS License Information</a>
             <u>https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</u>
@@ -119,14 +121,12 @@
             <ind1>0</ind1>
         </lic>
         <lic>
-            <a>CHORUS License Information</a>  <!-- added American Institute of Physics licensing link / cm3 / 2024-07-06 -->
+            <a>CHORUS License Information</a>  <!-- added American Institute of Aeronautics and Astronautics linknk / cm3 / 2024-07-06 -->
             <u>https://www.aiaa.org/userlicenses/1.0/#CompEndUserLicense</u>
             <f>Unrestricted online access</f>
             <two>star</two>
             <ind1>0</ind1>
         </lic>
-       
-        
         
         <!-- Text and Data Mining (tdm) / cm3 / 2024-07-06 -->-->
         <lic>
@@ -140,6 +140,26 @@
             <a>Article Sharing Framework Policy no. 29</a>
             <u>https://doi.org/10.15223/policy-029</u>
             <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        
+        <!-- NAL Standard for Non-Copyrighted Work by U.S. Government Employees -->
+        <lic>
+            <a>Works produced by employees of the U.S. Government as part of their official duties are not copyrighted within the U.S. The content of this document is not copyrighted.</a>
+            <f>Unrestricted online access</f>
+            <two>star</two>
+            <ind1>0</ind1>
+        </lic>
+        
+        <!-- rightsstatements.org NO COPYRIGHT- UNITED STATES -->
+        <lic>
+            <a>NO COPYRIGHT - UNITED STATES</a>
+            <u>http://rightsstatements.org/page/NoC-US/1.0/</u>
+            <u>https://rightsstatements.org/page/NoC-US/1.0/</u>
+            <f>Unless expressly stated otherwise, the organization that has made this Item available makes no warranties about the Item and cannot guarantee the accuracy of this Rights Statement. You are responsible for your own use.
+                You may find additional information about the copyright status of the Item on the website of the organization that has made the Item available.
+                You may need to obtain other permissions for your intended use. For example, other rights such as publicity, privacy or moral rights may limit how you may use the material.</f>
             <two>star</two>
             <ind1>0</ind1>
         </lic>

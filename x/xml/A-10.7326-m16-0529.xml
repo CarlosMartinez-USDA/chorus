@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<all>
+	<DOI type="str">10.7326/m16-0529</DOI>
+	<URL type="str">http://dx.doi.org/10.7326/m16-0529</URL>
+	<publisher type="str">American College of Physicians</publisher>
+	<authors type="list">
+		<item type="dict">
+			<author type="str">Gill Thomas M.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Guralnik Jack M.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Pahor Marco</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Church Timothy</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Fielding Roger A.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">King Abby C.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Marsh Anthony P.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Newman Anne B.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Pellegrini Christine A.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Chen Shyh-Huei</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Allore Heather G.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">Miller Michael E.</author>
+			<affiliation type="str">From Yale School of Medicine, New Haven, Connecticut; University of Maryland School of Medicine, Baltimore, Maryland; University of Florida, Gainesville, Florida; Pennington Biomedical Research Center, Baton Rouge, Louisiana; Tufts University, Boston, Massachusetts; Stanford School of Medicine, Stanford, California; Wake Forest University and Wake Forest School of Medicine, Winston-Salem, North Carolina; University of Pittsburgh, Pittsburgh, Pennsylvania;, and Northwestern University Feinberg School of Medicine, Chicago, Illinois.</affiliation>
+		</item>
+		<item type="dict">
+			<author type="str">undefined undefined</author>
+			<affiliation type="str"/>
+		</item>
+	</authors>
+	<title type="str">Effect of Structured Physical Activity on Overall Burden and Transitions Between States of Major Mobility Disability in Older Persons</title>
+	<journal_name type="str">Annals of Internal Medicine</journal_name>
+	<last_audited_on type="str">3/23/2018</last_audited_on>
+	<publicly_accessible_on_publisher_site type="null"/>
+	<license_type type="null"/>
+	<licenseUrl type="null"/>
+	<agency_portal_url type="list">
+		<item type="str">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476905.1</item>
+	</agency_portal_url>
+	<grant_ids type="list">
+		<item type="str">NCATS:UL1RR025744</item>
+		<item type="str">NCATS:U54RR025208</item>
+		<item type="str">NCATS:UL1TR000142</item>
+		<item type="str">NHLBI:U01AG022376</item>
+		<item type="str">NICHD:R24HD065688</item>
+		<item type="str">NIA:U01AG22376</item>
+		<item type="str">NIA:P30AG028740</item>
+		<item type="str">NIA:P30AG21332</item>
+		<item type="str">NIA:P30AG031679</item>
+		<item type="str">NIA:P30AG024827</item>
+		<item type="str">NIA:P30AG021342</item>
+		<item type="str">NIA:K07AG3587</item>
+	</grant_ids>
+	<updated type="str">3/10/2024</updated>
+	<added type="str">2/7/2018</added>
+	<orcid_profile type="list">
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0001-7685-8175</ORCID>
+			<_id type="str">5dcdb05cfec1cc5c34aab0fa</_id>
+			<family type="str">Allore</family>
+			<given type="str">Heather</given>
+			<source type="str">orcid</source>
+			<updatedAt type="str">2019-11-14</updatedAt>
+		</item>
+		<item type="dict">
+			<ORCID type="str">http://orcid.org/0000-0002-6450-0368</ORCID>
+			<_id type="str">5dcdb05cfec1cc5c34aab0f9</_id>
+			<family type="str">Gill</family>
+			<given type="str">Thomas</given>
+			<source type="str">orcid</source>
+			<updatedAt type="str">2019-11-14</updatedAt>
+		</item>
+	</orcid_profile>
+	<member_id type="str"/>
+	<published_print type="str">12/20/2016</published_print>
+	<published_online type="str">9/27/2016</published_online>
+	<reuse_license_start_date type="null"/>
+	<type type="str">journal-article</type>
+	<archived_status type="str">Yes</archived_status>
+	<datasets type="null"/>
+	<funders type="list">
+		<item type="str">National Center for Advancing Translational Sciences</item>
+		<item type="str">National Heart, Lung, and Blood Institute</item>
+		<item type="str">National Institute of Child Health and Human Development</item>
+		<item type="str">National Institute on Aging</item>
+		<item type="str">USDA</item>
+	</funders>
+	<funderIDs type="list">
+		<item type="str">10.13039/100006108</item>
+		<item type="str">10.13039/100000050</item>
+		<item type="str">10.13039/100000071</item>
+		<item type="str">10.13039/100000049</item>
+		<item type="str">10.13039/100000199</item>
+	</funderIDs>
+	<RORID type="list">
+		<item type="str">https://ror.org/04pw6fb54</item>
+		<item type="str">https://ror.org/012pb6c26</item>
+		<item type="str">https://ror.org/04byxyr05</item>
+		<item type="str">https://ror.org/049v75w11</item>
+		<item type="str">https://ror.org/01na82s61</item>
+	</RORID>
+	<auditSource type="str">CHORUS</auditSource>
+	<Funder_Source type="str">Crossref</Funder_Source>
+</all>

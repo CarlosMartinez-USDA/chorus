@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <meta>
-        <filters directoryPatterns="" filePatterns="\Qchrous-revise.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options>
-            <serialized xml:space="preserve">
-                <serializableOrderedMap>
-                    <entry>
-                        <String>enable.saxon.optimizations.for.debugger</String>
-                        <Boolean>true</Boolean>
-                    </entry>
-                    <entry>
-                        <String>key.debugger.option.pane</String>
-                        <Boolean>true</Boolean>
-                    </entry>
-                    <entry>
-                        <String>stop.debugging.when.editing</String>
-                        <Integer>0</Integer>
-                    </entry>
-                </serializableOrderedMap>
-            </serialized>
-        </options>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
     </meta>
     <projectTree name="chrous-revise.xpr">
-        <folder path="file:/C:/Temp/xslt/chorus/"/>
+        <folder path="file:/C:/temp/chorus/"/>
+        <folder path="file:/C:/Temp/chorus/"/>
         <folder path="."/>
     </projectTree>
 </project>
