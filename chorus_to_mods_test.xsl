@@ -3,15 +3,19 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8" name="test"/>
    
  
-    <xd:doc scope="stylesheet" id="chorus_to_mods.xsl">
-        <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
+    <xd:doc scope="stylesheet" id="chorus_to_mods_test.xsl">
+      <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>Amanda Xu</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>July 10, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>September 26, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
-            <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
+            <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods_test.xsl</xd:i></xd:p>
             <xd:p><xd:b>Change log:</xd:b></xd:p>
-            <xd:ul>
+          <xd:ul>    <xd:li><xd:p>Conditionally tests institution identifiers. DOI is tested first to make sure it does not start-with "http"; then ROR is tested to ensure it does not match the DOI pattern. - 20240925 - cm3 </xd:p></xd:li> 
+              <xd:li><xd:p>[AMB STAFF NOTE:] A larger sample set and test should be performed to verifing the following:
+                  (1) Institution and Institution ID are consistentely and accurately matched through out.
+                  (2 they @type attribute displayed within the &lt;institution_id&gt; element also accurately is desribes the content display</xd:p></xd:li> 
+              <xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added if tests to funding and accessCondition templates to prevent empty tags - 20240620 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template creates &lt;accessCondition&gt; element and attributes. - 20240613 - cm3</xd:p></xd:li>
@@ -326,7 +330,28 @@
             <note type="breakdown_for"><xsl:value-of select="."/></note>
         </xsl:if>
     </xsl:template>
-    
+    <xd:doc><xd:desc>funders</xd:desc></xd:doc>
+    <xsl:template match="funders">
+        <xsl:variable name="axis" select="following-sibling::node()"/>
+        <funding-group specific-use="crossref">
+            <award-group> 
+                <funding-source>
+                    <xsl:for-each select="item">
+                        <institution-wrap>
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>
+                            <xsl:for-each-group select="/all/(funderIDs|RORID)/item" group-by="following-sibling::node()">
+                                <institution_id type="{name(attribute())}">                                 
+                                    <xsl:copy-of select="current-grouping-key()"/>
+                                </institution_id>
+                            </xsl:for-each-group>
+                        </institution-wrap>
+                    </xsl:for-each>
+                </funding-source>
+            </award-group>
+        </funding-group>
+    </xsl:template>
     <xd:doc><xd:desc>funders</xd:desc></xd:doc>
     <xsl:template match="funders">
         <xsl:variable name="axis" select="following-sibling::node()"/>
@@ -341,15 +366,16 @@
                             <!-- institution_id -->
                             <xsl:variable name="pos" select="position()"/>
                             <!-- doi -->
-                            <xsl:variable name="doi" select="concat('https://doi.org/',subsequence(../$axis/item[$pos],1,1))"/>
-                            <xsl:if test="$doi!=''">
-                                <institution_id type="doi">                                 
+                            <xsl:variable name="doi" select="subsequence(../$axis/item[$pos],1,1)"/>
+                            <xsl:if test="not(starts-with($doi,'http'))">
+                                <institution_id type="doi"> 
+                                    <xsl:text>https://doi.org/</xsl:text>
                                     <xsl:value-of select="$doi"/>
                                 </institution_id>
                             </xsl:if>
                             <!-- ror -->
-                            <xsl:variable name="ror" select="subsequence(../$axis/item[$pos],2,2)"/>
-                            <xsl:if test="$ror!=''">
+                            <xsl:variable name="ror" select="subsequence(../$axis/item[$pos],1,2)"/>
+                            <xsl:if test="not(matches($ror,'10.\d+/\w+'))">
                                 <institution_id type="ror">                                 
                                     <xsl:value-of select="$ror"/>
                                 </institution_id>

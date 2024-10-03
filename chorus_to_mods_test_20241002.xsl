@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:saxon="http://saxon.sf.net/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon mods xd xlink xs xsi">
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive-original"/>    
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/>
-    <xsl:include href="commons/params.xsl"/>    
-    
-    <!-- BEFORE TESTING GO TO LINE 284-286 -->
-    
- <xd:doc scope="stylesheet" id="chorus_to_mods.xsl">
-   <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" name="test"/>
+   
+ 
+    <xd:doc scope="stylesheet" id="chorus_to_mods_test.xsl">
+      <xd:desc><xd:p><xd:b>CHORUS to MODS XML Transformation:</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>?</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>Amanda Xu</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>July 10, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>September 26, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
-            <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods.xsl</xd:i></xd:p>
-            <xd:p><xd:b>Change log:</xd:b></xd:p>
-            <xd:ul>
+            <xd:p><xd:b>Filename: </xd:b><xd:i>chorus_to_mods_test.xsl</xd:i></xd:p>
+            <xd:p><xd:b>Change log:</xd:b></xd:p>  
+          <xd:ul>
+              <xd:li><xd:p>Corrected institution_id element erors so to prevent misconcatenation of "https://doi.org" to the ROR ID URL. - 20240926 - cm3</xd:p></xd:li>
+              <xd:li><xd:p>Conditionally tests institution identifiers. DOI is tested first to make sure it does not start-with "http"; then ROR is tested to ensure it does not match the DOI pattern. - 20240925 - cm3 </xd:p></xd:li> 
+              <xd:li><xd:p>[AMB STAFF NOTE:] A larger sample set and test should be performed to verifing the following:
+                  (1) Institution and Institution ID are consistentely and accurately matched through out.
+                  (2 they @type attribute displayed within the &lt;institution_id&gt; element also accurately is desribes the content display</xd:p></xd:li>
                 <xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added if tests to funding and accessCondition templates to prevent empty tags - 20240620 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template creates &lt;accessCondition&gt; element and attributes. - 20240613 - cm3</xd:p></xd:li>
@@ -26,24 +28,42 @@
                 <xd:li><xd:p>Change log added. - 20240418 - cm3</xd:p></xd:li>
             </xd:ul>
         </xd:desc>
-    </xd:doc>    
+    </xd:doc>
     
     <xd:doc>
         <xd:desc>
             <xd:p><xd:b>Root template selects individual CHORUS XML.</xd:b></xd:p>
         </xd:desc>
     </xd:doc>
-        <xsl:template match="/">  
+    <xsl:template match="/">  
         <!-- archive file -->
-        <xsl:result-document href="file:///{$workingDir}A-{replace($originalFilename,'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml" format="archive-original">
-           <xsl:copy-of select="." copy-namespaces="no"/>           
+        <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/archive/A-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml" format="test">
+            <xsl:copy-of select="." copy-namespaces="no"/>           
         </xsl:result-document>
         <!-- MODS files -->
-        <xsl:for-each select="all">
-          <mods version="3.7" xmlns="http://www.loc.gov/mods/v3">
-              <xsl:call-template name="item-info"/>
-           </mods>
-        </xsl:for-each>
+        <xsl:choose>
+            <xsl:when test="count(//all) != 1">
+                <!-- transform collections -->
+                <xsl:result-document href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml" format="test">
+                    <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+                        <xsl:for-each select="//all">
+                            <mods version="3.7">
+                                <xsl:call-template name="item-info"/>
+                            </mods>
+                        </xsl:for-each>
+                    </modsCollection>
+                </xsl:result-document>
+            </xsl:when>         
+            <xsl:otherwise>
+               <xsl:result-document format="test" href="{replace(base-uri(),'(.*/)(.*)(\.xml)', '$1')}/mods/ind/N-{replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')}_{position()}.xml">
+                    <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+                        <xsl:for-each select="all">
+                            <xsl:call-template name="item-info"/>
+                        </xsl:for-each>
+                    </mods>
+                </xsl:result-document>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     
@@ -137,7 +157,7 @@
         <xsl:param name="last"/>
         <xsl:param name="first"/>
         <xsl:if test="($last != '') and ($first != '')">
-            <xsl:for-each select="//all/orcid_profile/item[family=current()/$last]/ORCID">             
+            <xsl:for-each select="//all/orcid_profile[@type='list']/item[family=current()/$last and given=current()/$first]/ORCID">             
                 <nameIdentifier type="{lower-case(name())}">
                     <xsl:value-of select="."/>
                 </nameIdentifier>
@@ -195,6 +215,7 @@
                 else $dateStr"/>
         </xsl:if>
     </xsl:function>
+    
     
     <!-- accessCondition -->
     <xd:doc id="accessCondition" scope="component">
@@ -274,16 +295,15 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    
+   
+      
     <xd:doc><xd:desc>extension</xd:desc></xd:doc>
     <xsl:template name="extension">
         <extension>
             <vendorName>CHORUS</vendorName>
-            <workingDirectory><xsl:value-of select="$workingDir"/></workingDirectory>
-            <originalFile><xsl:value-of select="$originalFilename"/></originalFile>
-    <!-- Server testing: Uncommment line 286 "/data/metadata/staging/chorus" if source metadata is stored at that path
-         Oxygen testing: Leave 286 commented out otherwise an error is raised: "Failed to create output file file:////data/metadata/staging/chorusN-_1.xml: The network path was not found"
-         <workingDirectory>/data/metadata/staging/chorus</workingDirectory>-->
+       <!-- <workingDirectory><xsl:value-of select="$workingDir"/></workingDirectory>
+            <originalFile><xsl:value-of select="$originalFilename"/></originalFile>-->
+       <!-- <workingDirectory>/data/metadata/staging/chorus</workingDirectory>-->
             <xsl:apply-templates select="agency_id"/>
             <xsl:apply-templates select="agency_name"/>
             <xsl:apply-templates select="breakdown_for"/>
@@ -310,6 +330,28 @@
         <xsl:if test="not(. = '')">
             <note type="breakdown_for"><xsl:value-of select="."/></note>
         </xsl:if>
+    </xsl:template>
+    <xd:doc><xd:desc>funders</xd:desc></xd:doc>
+    <xsl:template match="funders">
+        <xsl:variable name="axis" select="following-sibling::node()"/>
+        <funding-group specific-use="crossref">
+            <award-group> 
+                <funding-source>
+                    <xsl:for-each select="item">
+                        <institution-wrap>
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>
+                            <xsl:for-each-group select="/all/(funderIDs|RORID)/item" group-by="following-sibling::node()">
+                                <institution_id type="{name(attribute())}">                                 
+                                    <xsl:copy-of select="current-grouping-key()"/>
+                                </institution_id>
+                            </xsl:for-each-group>
+                        </institution-wrap>
+                    </xsl:for-each>
+                </funding-source>
+            </award-group>
+        </funding-group>
     </xsl:template>
     <xd:doc><xd:desc>funders</xd:desc></xd:doc>
     <xsl:template match="funders">
@@ -345,6 +387,7 @@
             </award-group>
         </funding-group>
     </xsl:template>
+    
     <xd:doc><xd:desc>recordInfo</xd:desc></xd:doc>
     <xsl:template name="recordInfo">
         <recordInfo>

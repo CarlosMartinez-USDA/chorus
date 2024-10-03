@@ -1,4 +1,5 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
+<merged>
 <all>
 	<DOI type="str">10.1016/j.amsu.2020.10.007</DOI>
 	<URL type="str">http://dx.doi.org/10.1016/j.amsu.2020.10.007</URL>
@@ -70,7 +71,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1053/jhep.2000.7476</DOI>
 	<URL type="str">http://dx.doi.org/10.1053/jhep.2000.7476</URL>
@@ -125,7 +126,7 @@
 	<auditSource type="str">CHORUS</auditSource>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1097/dbp.0000000000001244</DOI>
 	<URL type="str">http://dx.doi.org/10.1097/dbp.0000000000001244</URL>
@@ -200,7 +201,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1116/6.0001718</DOI>
 	<URL type="str">http://dx.doi.org/10.1116/6.0001718</URL>
@@ -262,7 +263,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1116/6.0002772</DOI>
 	<URL type="str">http://dx.doi.org/10.1116/6.0002772</URL>
@@ -321,7 +322,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1142/s1793524523500778</DOI>
 	<URL type="str">http://dx.doi.org/10.1142/s1793524523500778</URL>
@@ -376,7 +377,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1142/s2010007823500185</DOI>
 	<URL type="str">http://dx.doi.org/10.1142/s2010007823500185</URL>
@@ -431,7 +432,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1190/geo2020-0366.1</DOI>
 	<URL type="str">http://dx.doi.org/10.1190/geo2020-0366.1</URL>
@@ -482,7 +483,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.1200/jco.2023.41.16_suppl.e24055</DOI>
 	<URL type="str">http://dx.doi.org/10.1200/jco.2023.41.16_suppl.e24055</URL>
@@ -548,7 +549,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.2337/dc17-1143</DOI>
 	<URL type="str">http://dx.doi.org/10.2337/dc17-1143</URL>
@@ -645,7 +646,7 @@
 	<auditSource type="str">GetFTR</auditSource>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.2514/1.i010885</DOI>
 	<URL type="str">http://dx.doi.org/10.2514/1.i010885</URL>
@@ -704,7 +705,7 @@
 	<auditSource type="str">CHORUS</auditSource>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.26508/lsa.202301968</DOI>
 	<URL type="str">http://dx.doi.org/10.26508/lsa.202301968</URL>
@@ -799,7 +800,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.26508/lsa.202302241</DOI>
 	<URL type="str">http://dx.doi.org/10.26508/lsa.202302241</URL>
@@ -906,7 +907,7 @@
 	<auditSource type="str"/>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.3768/rtipress.2022.op.0071.2201</DOI>
 	<URL type="str">http://dx.doi.org/10.3768/rtipress.2022.op.0071.2201</URL>
@@ -981,7 +982,7 @@
 	<auditSource type="str">CHORUS</auditSource>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
-<?xml version="1.0" ?>
+
 <all>
 	<DOI type="str">10.7326/m16-0529</DOI>
 	<URL type="str">http://dx.doi.org/10.7326/m16-0529</URL>
@@ -1114,3 +1115,4 @@
 	<auditSource type="str">CHORUS</auditSource>
 	<Funder_Source type="str">Crossref</Funder_Source>
 </all>
+</merged>

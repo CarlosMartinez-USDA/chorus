@@ -176,6 +176,7 @@
         <app>
             <applies_to>tdm</applies_to>
             <three>Text and data mining</three>
+            <three>textmining</three>
         </app>
         <app>
             <applies_to>am</applies_to>
