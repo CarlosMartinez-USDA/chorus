@@ -8,5 +8,6 @@
         <folder path="file:/C:/temp/chorus/"/>
         <folder path="file:/C:/Temp/chorus/"/>
         <folder path="."/>
+        <file name="chorus_to_mods_test_20241008.xsl"/>
     </projectTree>
 </project>
