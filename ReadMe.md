@@ -339,7 +339,7 @@ The DOI link prefix was inaccurately concatenated in several instances.
 
         (2) How should <insitution_id> display DOI? 
             -  <institution_id type="doi">10.13039/100000030</institution_id> (i.e., option 1)
-            -  <institution_id type="doi">https://doi.org/10.13039/100000030</institution_id> (i.e., option 2) 
+            -  <institution_id type="doi">https://doi.org/10.13039/100000030</institution_id> (i.e., option 2) [x]
     -->
     
     <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>Org name paired with DOI and ROR ids</xd:p></xd:desc></xd:doc>
@@ -358,12 +358,11 @@ The DOI link prefix was inaccurately concatenated in several instances.
                             <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
                                 <xsl:if test="current-grouping-key()!=''">
                                     <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10.\d+/\d+')) then 'doi' else ''}">
-                                        <xsl:value-of select="current-grouping-key()"/> <!-- option 1 -->
-                                     <!--   <xsl:value-of select="if (matches(.,'10.\d+/\d+')) 
+                                         <xsl:value-of select="if (matches(.,'10.\d+/\d+')) 
                                             then concat('https://doi.org/', current-grouping-key()) 
                                             else if (contains(current-grouping-key(), 'ror')) then current-grouping-key()
-                                            else ''"/> <!-\- option 2 -\->-->                                        
-                                    </institution_id>
+                                            else ''"/>                                        
+                                    <institution_id>
                                 </xsl:if>
                             </xsl:for-each-group>                                
                         </institution-wrap>
