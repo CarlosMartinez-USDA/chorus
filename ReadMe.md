@@ -1,9 +1,11 @@
 # CHORUS to MODS XSLT 
 Upon examining the source XML and the resulting MODS and then reviewing the XSLT, it became clear that this stylesheet version needed to be updated. The templates, functions, and processing instructions within the stylesheet also needed to be revised to prevent future transformation errors.  
 
-## chorus_xml2mods.xslt
+## chorus_to_mods.xsl
 
-The chorus_to_mods.xsl transforms XML metadata from CHORUS into MODS 3.7. Recently, records appeared with missing author information, and various other parts of the record were not correctly transformed into MODS. Subsequently, when the transformed MODS metadata was transformed back into MARCXML, the same missing values were present in the MARC records. 
+The chorus_to_mods.xsl transforms XML metadata from CHORUS into MODS 3.7. 
+
+Issue: recently empty author names have been appearing in the AGRICOLA sale filewith missing author information, and various other parts of the record were not correctly transformed into MODS. Subsequently, when the transformed MODS metadata was transformed back into MARCXML, the same missing values were present in the MARC records. 
 
 Updates are discussed below and in order as they would appear upon viewing any XSLT document:
 [XSLT Declaration](#XSLT_Declaration)
@@ -49,7 +51,7 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
     xmlns:f="http://functions"
     exclude-result-prefixes="xd xs f xlink xsi">
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-   ```
+```
 
 ## Root template
 #### before
@@ -77,7 +79,7 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
             </mods>
         </xsl:for-each>
     </xsl:template>
- ```   
+```
 
 ### after
  - Reconfigured XSLT to handle multiple CHORUS XML. 	
@@ -85,6 +87,7 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
     - added `<xsl:choose>`PI and `<xsl:when test="count(all) != 1">
 	 - Any document containing more than one `<all>`tag could be combined and transformed into a modsCollection. 
 	 - The `<xsl:otherwise>` expects the usual standalone	CHORUS XML. 
+
 ```xml
 <xsl:template match="/">
             <!-- collection processsing -->
@@ -117,8 +120,8 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
                 </xsl:otherwise>
             </xsl:choose>
          </xsl:template>
-  ```
- 
+```
+
 ## authors template
  ### before
   ```xml
@@ -152,8 +155,8 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
             </name>
         </xsl:for-each>
     </xsl:template>
-```    
-  
+```
+
   ### after
 #### $name-tokens positions
 Chorus authors' name are separated by whitespace; thus, a whitespace can be used to tokenize each part of a name. The tokenization of these the `<author>` tag within the source XML lead to this consistent pattern. 
@@ -295,8 +298,10 @@ The funders template leveraged institution identifiers in the source metadata.
     </xsl:template>
 ```    
   ### after
-  
- Adds institution_id type="doi (type="ror" is commented out) 
+This attempt to pair institution to institution_id resulted in error.
+The DOI link prefix was inaccurately concatenated in several instances.
+                The updated solution groups the institution with the institution_id. [Grouping](#grouping)
+ ~~Adds institution_id type="doi (type="ror" is commented out)~~ 
  ```xml  
      <xd:doc><xd:desc>funders</xd:desc></xd:doc>
     <xsl:template match="funders[following-sibling::node()]">
@@ -323,3 +328,48 @@ The funders template leveraged institution identifiers in the source metadata.
         </funding-group>
     </xsl:template>
    ```
+## Grouping
+```xml
+      2024-10-09 AMB Team - Points for Discussion: 
+        
+        (1) Added <institution_ids>. Grouping with <institution> is position dependant! 
+             - (i.e., 4 funders items present, then 4 funderID and 4 RORID items MUST ALSO be present.)
+             - Source XML honors this by creating placeholder tags for orgs when one of two valid identifiers is not available
+             - see file A-10.1097-dbp.0000000000001244.xml
+
+        (2) How should <insitution_id> display DOI? 
+            -  <institution_id type="doi">10.13039/100000030</institution_id> (i.e., option 1)
+            -  <institution_id type="doi">https://doi.org/10.13039/100000030</institution_id> (i.e., option 2) 
+    -->
+    
+    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>Org name paired with DOI and ROR ids</xd:p></xd:desc></xd:doc>
+    <xsl:template match="funders">
+        <funding-group specific-use="crossref">
+            <award-group> 
+                <funding-source>
+                    <!-- institution -->
+                    <xsl:for-each-group select="item" group-by="position()">
+                        <xsl:variable name="i" select="current-grouping-key()"/>
+                        <institution-wrap>                           
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>
+                            <!-- institution_id -->
+                            <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
+                                <xsl:if test="current-grouping-key()!=''">
+                                    <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10.\d+/\d+')) then 'doi' else ''}">
+                                        <xsl:value-of select="current-grouping-key()"/> <!-- option 1 -->
+                                     <!--   <xsl:value-of select="if (matches(.,'10.\d+/\d+')) 
+                                            then concat('https://doi.org/', current-grouping-key()) 
+                                            else if (contains(current-grouping-key(), 'ror')) then current-grouping-key()
+                                            else ''"/> <!-\- option 2 -\->-->                                        
+                                    </institution_id>
+                                </xsl:if>
+                            </xsl:for-each-group>                                
+                        </institution-wrap>
+                    </xsl:for-each-group>
+                </funding-source>
+            </award-group>
+        </funding-group>
+    </xsl:template>
+```
