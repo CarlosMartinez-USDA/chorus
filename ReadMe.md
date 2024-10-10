@@ -149,7 +149,11 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
                 </role>
                 <xsl:apply-templates select="affiliation"/>
                 <xsl:call-template name="orcid">
-                    <xsl:with-param name="first" select="$first"/>
+                    <xsl:with-param name="first" select="$first"/> *updated*
+ 
+                    <xsl:with-param name="first" select="if (contains($firstMiddle, ' ')) then substring-before($firstMiddle, ' ') else if 
+                    (matches($firstMiddle,'/^(.*\s.*){2,}$/')) then replace($firstMiddle,'(\w+)(\s+)?([A-Z]\.)','$1') else normalize-space($firstMiddle)"/>
+                   
                     <xsl:with-param name="last" select="$last"/>
                 </xsl:call-template>
             </name>
@@ -157,14 +161,25 @@ removed:   <xsl:include href="commons/1.0/str.tokenize.function.xsl"/>
     </xsl:template>
 ```
 
-  ### after
+
+
+  ### after and updated sections
 #### $name-tokens positions
-Chorus authors' name are separated by whitespace; thus, a whitespace can be used to tokenize each part of a name. The tokenization of these the `<author>` tag within the source XML lead to this consistent pattern. 
+Chorus authors' name are separated by whitespace; thus, a whitespace can be used to tokenize each part of a name. The tokenization of these the `<author>` tag within the source XML lead to this consistent pattern.
+
+10-10-2024 - orcid profile only uses the author's first name (not always the first name and middle initial), thus $firstMiddle was failing on several authors.
+letter .d (below) provides more information about how this was resolved
+
 1. name-tokens[1] = last name
 2. name-tokens[2] = first name
 3. name-tokens[3] using substring-after $name-tokens[2], able to gather the remaining parts of the authors given name.  
+4. name-tokens explained:
+   	a. $name-tokens[1] -  is the $familyName
+	b. $name-tokens[2] -  is the first name, or part of the $givenName			
+	c. $firstMiddle combines $names-token[2] and the rest of the string after it, for author's first name and middle initial
+	d. orcid_profile: &lt;xsl:with-param&gt; name="$first"> uses seperate template to build profile. The authors given $first name is compared to $firstMiddle (which combines the first and middle initial). The conditional XPath statement tries both first only and first and middle combined to get a match with $first (within the <orcid_profile>).
 
- ```xml
+```xml
  <xsl:template match="authors">
         <xsl:for-each select="item">
             <xsl:variable name="name-tokens" select="tokenize(author, ' ')"/>
@@ -298,12 +313,14 @@ The funders template leveraged institution identifiers in the source metadata.
     </xsl:template>
 ```    
   ### after
-This attempt to pair institution to institution_id resulted in error.
-The DOI link prefix was inaccurately concatenated in several instances.
-                The updated solution groups the institution with the institution_id. [Grouping](#grouping)
+Eventually the ROR id section was uncommented and included for production output. 
+Unfortunately, when orgnizations did not have both IDs present the hardcoded DOI link (i.e., https://doi.org/) was inaccurately concatenated. 
+This first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
+ 
+The updated solution groups the institution with the institution_id. [Grouping](#grouping)
  ~~Adds institution_id type="doi (type="ror" is commented out)~~ 
  ```xml  
-     <xd:doc><xd:desc>funders</xd:desc></xd:doc>
+   ~~  <xd:doc><xd:desc>funders</xd:desc></xd:doc>
     <xsl:template match="funders[following-sibling::node()]">
         <xsl:variable name="axis" select="following-sibling::node()"/>
         <funding-group specific-use="crossref">
@@ -326,16 +343,16 @@ The DOI link prefix was inaccurately concatenated in several instances.
                 </xsl:for-each>
             </award-group>
         </funding-group>
-    </xsl:template>
+    </xsl:template>~~
    ```
 ## Grouping
 ```xml
-      2024-10-09 AMB Team - Points for Discussion: 
+  <!--  2024-10-09 AMB Team - Points for Discussion: 
         
         (1) Added <institution_ids>. Grouping with <institution> is position dependant! 
-             - (i.e., 4 funders items present, then 4 funderID and 4 RORID items MUST ALSO be present.)
+             - (i.e., Four funders items present, then four funderID and four RORID items MUST ALSO be present.)
              - Source XML honors this by creating placeholder tags for orgs when one of two valid identifiers is not available
-             - see file A-10.1097-dbp.0000000000001244.xml
+             - see file [A-10.1097-dbp.0000000000001244.xml](https://github.com/CarlosMartinez-USDA/chorus/blob/master/x/xml/A-10.1097-dbp.0000000000001244.xml)
 
         (2) How should <insitution_id> display DOI? 
             -  <institution_id type="doi">10.13039/100000030</institution_id> (i.e., option 1)
