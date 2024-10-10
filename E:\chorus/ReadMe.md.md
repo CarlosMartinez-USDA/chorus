@@ -314,7 +314,7 @@ The funders template leveraged institution identifiers in the source metadata.
     </xsl:template>
 ```    
   ### after
-Resull ~~Adds institution_id type="doi (type="ror" is commented out)~~ 
+**Producd some invalid XML * ~~Adds institution_id type="doi (type="ror" is commented out)~~ 
  Eventually the ROR id section was uncommented and included for production output. 
 Unfortunately, when orgnizations did not have both IDs present the hardcoded DOI link (i.e., https://doi.org/) was inaccurately concatenated. 
 This first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
@@ -392,5 +392,5 @@ The updated solution groups the institution with the institution_id. [Grouping](
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTYyODgzXX0=
+eyJoaXN0b3J5IjpbLTE5NzQ4OTIxNDldfQ==
 -->
