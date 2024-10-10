@@ -320,7 +320,7 @@ The funders template leveraged institution identifiers in the source metadata.
 Agreement to include ROR id 
 Some ORGs do not have both DOI and ROR ids
 
-ERROR: hardcoded DOI link (i.e., https://doi.org/) was inaccurately concatenated. 
+ERROR:  DOIs are of  (e.g.., https://doi.org/)  was in accurately ap 
 This first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
  
 The updated solution groups the institution with the institution_id. [Grouping](#grouping)
@@ -396,5 +396,5 @@ The updated solution groups the institution with the institution_id. [Grouping](
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTI5MTQ4Ml19
+eyJoaXN0b3J5IjpbLTE3MzMzOTE0NTBdfQ==
 -->
