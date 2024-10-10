@@ -174,10 +174,10 @@ letter .d (below) provides more information about how this was resolved
 2. name-tokens[2] = first name
 3. name-tokens[3] using substring-after $name-tokens[2], able to gather the remaining parts of the authors given name.  
 4. name-tokens explained:
-   	a. $name-tokens[1] -  is the $familyName
-	b. $name-tokens[2] -  is the first name, or part of the $givenName			
-	c. $firstMiddle combines $names-token[2] and the rest of the string after it, for author's first name and middle initial
-	d. orcid_profile: &lt;xsl:with-param&gt; name="$first"> uses seperate template to build profile. The authors given $first name is compared to $firstMiddle (which combines the first and middle initial). The conditional XPath statement tries both first only and first and middle combined to get a match with $first (within the <orcid_profile>).
+ - $name-tokens[1] -  is the $familyName
+ - $name-tokens[2] -  is the first name, or part of the $givenName			
+ - $firstMiddle combines $names-token[2] and the rest of the string after it, for author's first name and middle initial
+ - orcid_profile: &lt;xsl:with-param&gt; name="$first"> uses seperate template to build profile. The authors given $first name is compared to $firstMiddle (which combines the first and middle initial). The conditional XPath statement tries both first only and first and middle combined to get a match with $first (within the <orcid_profile>).
 
 ```xml
  <xsl:template match="authors">
