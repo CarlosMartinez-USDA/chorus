@@ -320,9 +320,8 @@ The funders template leveraged institution identifiers in the source metadata.
 - Agreement to include ROR id 
 Some ORGs do not have both DOI and ROR ids
 - Valid URIs are created with a URL prefix  (e.g., https://doi.org/). 
--  text was hardcoded, and condtionally concatenated with DOIs. 
- was in accurately ap 
-This first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
+- The text was hardcoded inaccurately concatenated with  ROR and empty placeholder tags. Resulting in invalidation error.
+=-his first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
  
 The updated solution groups the institution with the institution_id. [Grouping](#grouping)
  ```xml  
@@ -397,5 +396,5 @@ The updated solution groups the institution with the institution_id. [Grouping](
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODYwNzQxNV19
+eyJoaXN0b3J5IjpbLTIwMTkxNDUxOTFdfQ==
 -->
