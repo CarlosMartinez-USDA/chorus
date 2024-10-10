@@ -317,8 +317,10 @@ The funders template leveraged institution identifiers in the source metadata.
   ~~Adds institution_id type="doi (type="ror" is commented out)~~
 
 **UPDATE REQUIRED**
- Eventually the ROR id section was uncommented and included for production output. 
-Unfortunately, when orgnizations did not have both IDs present the hardcoded DOI link (i.e., https://doi.org/) was inaccurately concatenated. 
+Agreement to include ROR id 
+Some ORGs do not have both DOI and ROR ids
+
+ERROR: hardcoded DOI link (i.e., https://doi.org/) was inaccurately concatenated. 
 This first attempt to pair &lt;institution&&gt; with its respective &lt;institution_id&gt;'s resulted in error. 
  
 The updated solution groups the institution with the institution_id. [Grouping](#grouping)
@@ -394,5 +396,5 @@ The updated solution groups the institution with the institution_id. [Grouping](
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDgyOTM1NF19
+eyJoaXN0b3J5IjpbLTQyOTI5MTQ4Ml19
 -->
