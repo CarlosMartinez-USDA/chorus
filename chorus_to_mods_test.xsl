@@ -13,10 +13,10 @@
             <xd:p><xd:b>Filename: </xd:b>chorus_to_mods_test.xsl</xd:p>
             <xd:p><xd:b>AMB Staff Note:</xd:b>This version requires more testing and discussion before moving to production.</xd:p>
             
-            <xd:p><xd:b>FEATURED: Groups funders and funder indenitifers.</xd:b></xd:p>
+            <xd:p><xd:b>FEATURED: Groups funders and funder identifiers.</xd:b></xd:p>
             <xd:ul>
                 <xd:li><xd:p>(1) &lt;institution&gt; tag has either an organization name or acronym. - <xd:i>complete</xd:i></xd:p></xd:li>
-                <xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organizagtion Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li>
+                <xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organization Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li>
                 <xd:li><xd:p>(3) Verified accuracy of &lt;institution_id&gt; and &lt;institution&gt; pairings. - <xd:i>complete</xd:i></xd:p></xd:li>
                 <xd:li><xd:p>(4) &lt;institution_id[@type attribute], only two values are valid (i.e., 'doi' or 'ror'). - <xd:i>complete</xd:i></xd:p></xd:li>
             </xd:ul>
@@ -28,14 +28,14 @@
                 <xd:li><xd:p>Grouping &lt;institution&gt; with &lt;institution_id&gt; is accurate, yet also dependent that each sibling contain the same number of items. - 20241009 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Corrected <xd:i>most</xd:i> errors resulting from pairing &lt;institution&gt; and &lt;institution_id&gt;. - 20241004 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>The DOI displayed within any &lt;institution_id&gt; tag. (e.g., '<xd:a href="https://doi.org">https://doi.org//10.#####/#######</xd:a>') - 20241004 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>DOI content contained with in &lt;funderIDs> tag was prefixed with hardcoded text (i.e., https://doi.org/); creating a direct URI to the article. - 20241004 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Removal of the hardcoded text prevents misconcatention errors . - 20240926 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>DOI content contained with in &lt;funderIDs> tag was prefixed with hard coded text (i.e., https://doi.org/); creating a direct URI to the article. - 20241004 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Removal of the hard coded text prevents concatenation errors . - 20240926 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Conditionally tests institution identifiers make sure it doesn't start-with "http"; then ROR is tested to ensure it does not match the DOI pattern. - 20240925 - cm3 </xd:p></xd:li><xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added if tests to funding and accessCondition templates to prevent empty tags - 20240620 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template creates &lt;accessCondition&gt; element and attributes. - 20240613 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Funders template adds &lt;institution_id @type='doi'&gt;. - 20240430 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added A-file output. - 20240430 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Authors' name template tokenized for first ane last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Authors' name template tokenized for first and last, substring-after for middleParts. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Collection processing added (currently commented out). - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Upgraded XSLT version to 2.0. - 20240418 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Change log added. - 20240418 - cm3</xd:p></xd:li>
@@ -398,7 +398,7 @@
                 <xd:li><xd:p><xd:b>(1) all_ids: </xd:b> ALL three sibling tags contain the same number of item tags, the funders will display both "doi" amd "ror" id.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(2) doi_only: </xd:b> If the number of funders and the number of DOI items is the same. The funder and the a link to the "doi" is provided.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(3) funders_only: </xd:b>Otherwise only the funders infomation is provided.</xd:p></xd:li>
-                <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>
+<!--                <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>-->
                 <xd:li><xd:p>The funders item count is compared to both following-sibling::node()'s item count, the number is eauiov is equivalent to number of iteems to the count wthi the main , the XSLT developer knows that the institution name. </xd:p></xd:li>
             </xd:ul>
         </xd:desc> 
@@ -421,15 +421,14 @@
                 <xsl:apply-templates select="funders" mode="funders_only"/>
             </xsl:otherwise>
         </xsl:choose>  
-        
-        <!--
-             PRELIMINARY REPORTING TOOL: Counts the number of items contained with funders node. Then reports count of both following-sibling::node()
-             TEMPLATE CONDTIONALLY EXECUTED:
-                  (1) When all three are equivalent [Conditon 1] is executed, but
-                  (2) When funders and funderIDs count of item is equal, but the RORID and the funders is not, executes [condition 2] .
-                  (3) If neither condition is met the <institution> name/aconrym is displayed (without identifiers).
-         -->
-             <!-- VARIABLE BUILDS REPORT 
+       
+         <!-- PRELIMINARY REPORTING TOOL: Counts the number of items contained with funders node. Then reports count of both following-sibling::node()
+              TEMPLATE CONDTIONALLY EXECUTED:
+                  (1) [Condition 1] When all three sibling nodes have an equal number of items. 
+                  (2) [Condition 2] When funders and funderIDs have an equal number, but RORID does not.
+                  (3) [Condition 3] If neither conidition is met the name/aconrym is displayed (without identifiers).
+         
+        <!-\- VARIABLE BUILDS REPORT -\->
                <xsl:variable name="report">
                     <xsl:text>&#10; &#160;</xsl:text>
                     <xsl:value-of select="concat('Funders: ', $funder)"/>
@@ -439,21 +438,21 @@
                     <xsl:value-of select="concat('RORID: ', $RORIDs)"/>
                     <xsl:text>&#10; &#160;</xsl:text>
                 </xsl:variable>
-             -->
-                <!-- Produces Report to test item equivalence.
+             
+                <!-\- Produces Report to test item equivalence.
                 Report is line with XML, see example below: 
                 
-          <!-\- <preliminary-report> 
+          <!-/- <preliminary-report> 
                   Funders: 4
                   FunderIDs: 4
                   RORID: 4
                </preliminary-report>-/->
-           -->   
-                <!--
-                <preliminary-report>
+          
+                  
+                 <preliminary-report>
                     <xsl:value-of select="$report"/>
                 </preliminary-report>
-                 -->
+                 -\->-->
     </xsl:template>
     
     <xd:doc><xd:desc>breakdown_for</xd:desc></xd:doc>
@@ -469,15 +468,19 @@
         <funding-group specific-use="crossref">
                 <award-group> 
                     <funding-source>
-                        <xsl:for-each-group select="item" group-by="position()">
+                        <!-- institution -->
+                    <xsl:for-each-group select="item" group-by="position()">
                             <xsl:variable name="i" select="current-grouping-key()"/>
                             <institution-wrap>
                                 <institution>
                                     <xsl:value-of select="."/>                               
                                 </institution>
+                                <!-- institution_id -->
                                 <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
-                                     <xsl:if test="current-grouping-key()=''">
-                                         <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10\.\d+/\d+')) then 'doi' else ''}"> <xsl:value-of select="if (contains(current-grouping-key(),'ror')) then current-grouping-key() else if (starts-with(current-grouping-key(), '10.')) then concat('https://doi.org/', current-grouping-key()) else ''"/> </institution_id>
+                                     <xsl:if test="current-grouping-key()!=' '">
+                                         <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10\.\d+/\d+')) then 'doi' else ''}">
+                                             <xsl:value-of select="if (contains(current-grouping-key(),'ror')) then current-grouping-key() else if (starts-with(current-grouping-key(), '10.')) then concat('https://doi.org/', current-grouping-key()) else ''"/>
+                                         </institution_id>
                                      </xsl:if>
                                 </xsl:for-each-group>
                             </institution-wrap>
@@ -488,7 +491,7 @@
       </xsl:template>
     
    <!-- Conditional (2) "doi_only" -->  
-    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; and &lt;institution_id&gt; (containt DOI) is displayed.. </xd:p></xd:desc></xd:doc>
+    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; and &lt;institution_id&gt; (contain DOI) is displayed.</xd:p></xd:desc></xd:doc>
     <xsl:template match="funders" mode="doi_only">
         <funding-group specific-use="crossref">
             <award-group> 
