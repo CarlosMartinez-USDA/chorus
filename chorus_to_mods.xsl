@@ -2,19 +2,30 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.loc.gov/mods/v3" xmlns:f="http://functions" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:saxon="http://saxon.sf.net/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="f saxon mods xd xlink xs xsi">
     <xsl:output method="xml" indent="yes" encoding="UTF-8" name="archive-original"/>    
     <xsl:output method="xml" indent="yes" encoding="UTF-8" saxon:next-in-chain="fix_characters.xsl"/>
+ 
     <xsl:include href="commons/params.xsl"/>  
-    
     <xd:doc scope="stylesheet" id="chorus_to_mods.xsl">
         <xd:desc>
-            <xd:p><xd:b>CHORUS to MODS XML Transformation:/xd:b></xd:p>
+            <xd:p><xd:b>CHORUS to MODS XML Transformation</xd:b></xd:p>
             <xd:p><xd:b>Created on: </xd:b>2021</xd:p>
             <xd:p><xd:b>Authored by: </xd:b>Paul Shih and Amanda Xu</xd:p>
-            <xd:p><xd:b>Edited on: </xd:b>September 26, 2024</xd:p>
+            <xd:p><xd:b>Edited on: </xd:b>October 10, 2024</xd:p>
             <xd:p><xd:b>Edited by: </xd:b>Carlos Martinez III</xd:p>
             <xd:p><xd:b>Filename: </xd:b>chorus_to_mods.xsl</xd:p>
-            <xd:p><xd:b>FEATURED: Grouping the funding organization name with its correct identifiers.</xd:b></xd:p><xd:ul><xd:li><xd:p><xd:ul><xd:li><xd:p>(1) &lt;institution&gt; tag has either an organization name or acronym. - <xd:i>complete</xd:i></xd:p></xd:li><xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organizagtion Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li><xd:li><xd:li><xd:p>(3) <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Verify accuracy of &lt;institution_id&gt; and &lt;institution&gt; pairings.<?oxy_custom_end?></xd:p></xd:li><xd:li><xd:p>(4) &lt;institution_id[@type attribute], only two values are valid (i.e., 'doi' or 'ror'). - complete</xd:p></xd:li></xd:li></xd:ul></xd:p></xd:li></xd:ul> 
+           
+            <xd:p><xd:b>FEATURED: Groups funders and funder indenitifers.</xd:b></xd:p>
+            <xd:ul>
+                <xd:li><xd:p>(1) &lt;institution&gt; tag has either an organization name or acronym. - <xd:i>complete</xd:i></xd:p></xd:li>
+                <xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organizagtion Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li>
+                <xd:li><xd:p>(3) Verified accuracy of &lt;institution_id&gt; and &lt;institution&gt; pairings. - <xd:i>complete</xd:i></xd:p></xd:li>
+                <xd:li><xd:p>(4) &lt;institution_id[@type attribute], only two values are valid (i.e., 'doi' or 'ror'). - <xd:i>complete</xd:i></xd:p></xd:li>
+            </xd:ul>
+            
             <xd:p><xd:b>Change log:</xd:b></xd:p>  
             <xd:ul>
+                <xd:li><xd:p>Added template to use &lt;publicly_accessible_on_publisher_site&gt; as the preprint date as date of publication when published_print and published_online are null. - 20241009 - cm3</xd:p></xd:li> 
+                <xd:li><xd:p>To prevent inaccurate &lt;institution_id&gt; information, a call template counts the number of items present within the funders tag and the following-sibling::node(s). The most suitable funders template mode is applied when a condition is met. - 20241009 - cm3</xd:p></xd:li> 
+                <xd:li><xd:p>Grouping &lt;institution&gt; with &lt;institution_id&gt; is accurate, yet also dependent that each sibling contain the same number of items. - 20241009 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Corrected <xd:i>most</xd:i> errors resulting from pairing &lt;institution&gt; and &lt;institution_id&gt;. - 20241004 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>The DOI displayed within any &lt;institution_id&gt; tag. (e.g., '<xd:a href="https://doi.org">https://doi.org//10.#####/#######</xd:a>') - 20241004 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>DOI content contained with in &lt;funderIDs> tag was prefixed with hardcoded text (i.e., https://doi.org/); creating a direct URI to the article. - 20241004 - cm3</xd:p></xd:li>
@@ -32,6 +43,10 @@
         </xd:desc>
     </xd:doc>
     
+    <xsl:param name="msg">
+        <xsl:message terminate="yes" select="element()|attribute()"/>
+    </xsl:param>
+    
     <!-- 
         possible for institution and institution_id pairing 
         <xsl:key name="key_fund" match="unders|funderIDs|RORID" use="item"/>
@@ -41,10 +56,8 @@
     
     <xd:doc>
         <xd:desc>
-            <xd:p><xd:b>Root template selects individual CHORUS XML.</xd:b></xd:p>
+            <xd:p><xd:b>Root template:</xd:b> Selects individual CHORUS XML and transforms then</xd:p>
         </xd:desc>
-        <xd:param name="workingDirectory">included from params.xsl</xd:param>
-        <xd:param name="originalFilename">included from params.xsl</xd:param>
     </xd:doc>
         <xsl:template match="/">  
         <!-- archive file -->
@@ -76,18 +89,20 @@
         <xsl:call-template name="recordInfo"/>
     </xsl:template>
  
-    <xd:doc id="author" scope="component">
+      <xd:doc id="author" scope="component">
         <xd:desc>
             <xd:p><xd:b>(1)</xd:b> Tokenize &lt;author&gt;. Set non-breaking-whitespace as tokenization delimiter.</xd:p>
             <xd:p><xd:b>(2)</xd:b> Element is parsed into &lt;namePart&gt; and &lt;displayForm&gt; elements. </xd:p>
             <xd:p><xd:b>(3)</xd:b> The delimiter splits each name component into the following nameParts:</xd:p>
+            <xd:p><xd:b>(4)</xd:b> name-tokens explained: </xd:p>
             <xd:ul>
-                <xd:li><xd:p><xd:b>a.</xd:b> $name-tokens[1] is the $familyName</xd:p></xd:li>
-                <xd:li><xd:p><xd:b>b.</xd:b> $name-tokens[2] is the first name, or part of the $givenName</xd:p></xd:li>
-                <xd:li><xd:p><xd:b>c.</xd:b> $firstMiddle = combines $names-token[2] and the rest of the string after it, for author's first name and middle initial</xd:p></xd:li>
-                <xd:li><xd:p><xd:b>d. WARNING: </xd:b><xd:ul><xd:li><xd:p></xd:p>The $first parameter (called with &lt;xsl:with-param&gt;) is used to compare an author's given name found within &lt;orcid_profile&gt; to the $firstMiddle variable. Thus, an author's $first name may not match the $firstMiddle because the first name compared with the combined first name and middle initial would fail $firstMiddle intitial .</xd:li></xd:ul></xd:p></xd:li><xd:li><xd:p><xd:b> Resoloved:</xd:b> XPath now contains an if conditonal contains or matches a whitespace after the first name. When 'true' the fn:substring-before() function returns substring content before a whitespace. The subtring is then used for $first param comparison.</xd:p></xd:li></xd:ul>
+                <xd:li><xd:p><xd:b>a. $name-tokens[1] - </xd:b>  is the $familyName</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>b. $name-tokens[2] - </xd:b>  is the first name, or part of the $givenName</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>c. $firstMiddle</xd:b> combines $names-token[2] and the rest of the string after it, for author's first name and middle initial</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>d. orcid_profile: &lt;xsl:with-param&gt; name="$first"&gt;</xd:b> uses seperate template to build profile. The authors given $first name is compared to $firstMiddle (which combines the first and middle initial). The conditional XPath statement tries both first only and first and middle combined to get a match with $first (within the &lt;orcid_profile&gt;).</xd:p></xd:li>
+              </xd:ul>
         </xd:desc>
-    </xd:doc>
+   </xd:doc>
     <xsl:template match="authors">
         <xsl:for-each select="item">
             <xsl:variable name="name-tokens" select="tokenize(author, ' ')"/> <!-- (1-3) -->
@@ -101,28 +116,27 @@
                     <xsl:value-of select="$familyName"/>
                 </namePart>
                 <xsl:if test="matches($firstMiddle,'[A-z]+\.?')"> <!-- add punctuation -->
-                    <xsl:variable name="givenName">  
-                        <xsl:sequence select="if (matches($firstMiddle,'^.*\s[A-Z]$') and not(ends-with($firstMiddle,'.')))
-                            then concat($firstMiddle,'.')
-                            else $firstMiddle"/>
-                    </xsl:variable>
-                    <namePart type="given">
-                        <xsl:value-of select="normalize-space($givenName)"/>
-                    </namePart>
+                <xsl:variable name="givenName">  
+                    <xsl:sequence select="if (matches($firstMiddle,'^.*\s[A-Z]$') and not(ends-with($firstMiddle,'.')))
+                                          then concat($firstMiddle,'.')
+                                          else $firstMiddle"/>
+                </xsl:variable>
+                <namePart type="given">
+                     <xsl:value-of select="normalize-space($givenName)"/>
+                </namePart>
                     <displayForm><xsl:value-of select="normalize-space(concat($familyName,',&#xa0;',$givenName))"/></displayForm> 
                     <xsl:apply-templates select="affiliation"/>
-                    <role>
-                        <roleTerm type="text">author</roleTerm>
-                    </role>              
-                    <xsl:call-template name="orcid">
-                        <xsl:with-param name="first" select="if (contains($firstMiddle, ' ')) then substring-before($firstMiddle, ' ') else if (matches($firstMiddle,'/^(.*\s.*){2,}$/')) then replace($firstMiddle,'(\w+)(\s+)?([A-Z]\.)','$1') else normalize-space($firstMiddle)"/>  <!-- d. -->
-                        <xsl:with-param name="last" select="$familyName"/>
-                    </xsl:call-template>
+                <role>
+                    <roleTerm type="text">author</roleTerm>
+                </role>              
+                <xsl:call-template name="orcid">
+                    <xsl:with-param name="first" select="if (contains($firstMiddle, ' ')) then substring-before($firstMiddle, ' ') else if (matches($firstMiddle,'/^(.*\s.*){2,}$/')) then replace($firstMiddle,'(\w+)(\s+)?([A-Z]\.)','$1') else normalize-space($firstMiddle)"/>  <!-- d. -->
+                    <xsl:with-param name="last" select="$familyName"/>
+                </xsl:call-template>
                 </xsl:if>   
             </name>
         </xsl:for-each>
     </xsl:template>
-    
     
     <xd:doc><xd:desc>affiliation</xd:desc></xd:doc>
     <xsl:template match="affiliation">
@@ -134,26 +148,23 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>
-            <xd:p>orcid</xd:p>
-            <xd:p>added for-each and conditional XPath</xd:p>
-        </xd:desc>
-        <xd:param name="last"/>
-        <xd:param name="first"/>
+        <xd:desc><xd:p><xd:b>ORCID: </xd:b>Added for-each and conditional XPath</xd:p>
+    </xd:desc>
+    <xd:param name="last"/>
+    <xd:param name="first"/>
     </xd:doc>
     <xsl:template name="orcid">
         <xsl:param name="last"/>
         <xsl:param name="first"/>
         <xsl:if test="($last != '') and ($first != '')">
-            <!--  <xsl:if test="//all/orcid_profile/item[contains(given,$first]">-->
-            <xsl:for-each select="//all/orcid_profile[@type='list']/item[family=current()/$last and given=current()/$first]/ORCID">             
+           <xsl:for-each select="//all/orcid_profile[@type='list']/item[family=current()/$last and given=current()/$first]/ORCID">             
                 <nameIdentifier type="{lower-case(name())}">
                     <xsl:value-of select="."/>
                 </nameIdentifier>
             </xsl:for-each>
         </xsl:if>
     </xsl:template>
-    
+
     <xd:doc><xd:desc>host</xd:desc></xd:doc>
     <xsl:template name="host">
         <relatedItem type="host">
@@ -201,9 +212,10 @@
         </xsl:if>
     </xsl:function>
     
+    
     <!-- accessCondition -->
     <xd:doc id="accessCondition" scope="component">
-        <xd:desc>Defined below are variables for creating and applying the appropriate Creative Commons license to a resource, depending on the permission level.</xd:desc>
+        <xd:desc>Defined below are variables for creating and applying the appropriate license to a resource.</xd:desc>
         <xd:variable><xd:p><xd:b>nodes: </xd:b>Accesses the licenses.xml file</xd:p></xd:variable>
         <xd:variable><xd:p><xd:b>licenseURL: </xd:b>The XPath predicate filters out any URLs that render "null".</xd:p></xd:variable>
         <xd:variable><xd:p><xd:b>startDate: </xd:b>From reuse_license_start_date[@type='str'] to get start_date</xd:p></xd:variable>
@@ -251,6 +263,7 @@
         <originInfo>
             <xsl:apply-templates select="published_print"/>
             <xsl:apply-templates select="published_online"/>
+            <xsl:apply-templates select="publicly_accessible_on_publisher_site"/>
         </originInfo>
     </xsl:template>
 
@@ -280,17 +293,34 @@
         </xsl:choose>
     </xsl:template>
     
+    <xd:doc><xd:desc>publicly_accessible_on_publisher_site</xd:desc></xd:doc>
+    <xsl:template match="publicly_accessible_on_publisher_site">
+        <xsl:variable name="print" select="/all/published_print"/>
+        <xsl:variable name="electronic" select="/all/published_online"/> 
+        <xsl:choose>
+            <xsl:when test="not(. = '') and ($print = '') and ($electronic = '')"> 
+                <dateIssued encoding="w3cdtf" keyDate="yes">
+                    <xsl:value-of select="f:format-date(.)"/>
+                </dateIssued>
+            </xsl:when>
+            <xsl:when test="not(. = '') and not($print = '')  and  not($electronic = '')">
+                <dateOther encoding="w3cdtf" type="preprint">
+                    <xsl:value-of select="f:format-date(.)"/>
+                </dateOther>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
     <xd:doc><xd:desc>extension</xd:desc></xd:doc>
     <xsl:template name="extension">
         <extension>
             <vendorName>CHORUS</vendorName>
             <workingDirectory><xsl:value-of select="$workingDir"/></workingDirectory>
-            <originalFile><xsl:value-of select="$originalFilename"/></originalFile>
-            <!-- <workingDirectory>/data/metadata/staging/chorus</workingDirectory>-->
+            <originalFile><xsl:value-of select="$originalFilename"/></originalFile> 
             <xsl:apply-templates select="agency_id"/>
             <xsl:apply-templates select="agency_name"/>
             <xsl:apply-templates select="breakdown_for"/>
-            <xsl:apply-templates select="funders"/>
+            <xsl:call-template name="execute_funders_template"/>
         </extension>
     </xsl:template>
 
@@ -313,11 +343,43 @@
         <xsl:if test="not(. = '')">
             <note type="breakdown_for"><xsl:value-of select="."/></note>
         </xsl:if>
-    </xsl:template>
+    </xsl:template>    
+    <xd:doc>
+        <xd:desc>
+            <xd:p><xd:b>execute_funder_template:</xd:b></xd:p>
+            <xd:p>Template parameters stores a count of &lt;item&gt; nodes contained  the within "three sibling" (funders, funderIDs, or RORID) nodes.</xd:p>
+            <xd:p>One of three conditions is chosen based on their equivalency.</xd:p>
+            <xd:p>More details are provided in the list below. The numbered list contains each template's mode name</xd:p>
+            <xd:ul>
+                <xd:li><xd:p><xd:b>(1) all_ids: </xd:b> ALL three sibling tags contain the same number of item tags, the funders will display both "doi" amd "ror" id.</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>(2) doi_only: </xd:b> If the number of funders and the number of DOI items is the same. The funder and the a link to the "doi" is provided.</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>(3) funders_only: </xd:b>Otherwise only the funders infomation is provided.</xd:p></xd:li>
+           </xd:ul>
+        </xd:desc>
+        <xd:param name="funder"/>
+        <xd:param name="funderID"/>
+        <xd:param name="RORIDs"/>
+    </xd:doc>
+    <xsl:template name="execute_funders_template">
+        <xsl:param name="funder" select="count(funders/item)"/>
+        <xsl:param name="funderID" select="count(funderIDs/item)"/>
+        <xsl:param name="RORIDs" select="count(RORID/item)"/>   
+        <xsl:choose>
+            <xsl:when test="($funder = $funderID) and ($funder = $RORIDs)">
+                <xsl:apply-templates select="funders" mode="all_ids"/> 
+            </xsl:when>
+            <xsl:when test="($funder = $funderID) and ($funder != $RORIDs)">
+                <xsl:apply-templates select="funders" mode="doi_only"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="funders" mode="funders_only"/>
+            </xsl:otherwise>
+        </xsl:choose>        
+    </xsl:template>  
     
-    
-    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>Org name paired with DOI and ROR ids</xd:p></xd:desc></xd:doc>
-    <xsl:template match="funders">
+<!-- Conditional (1) "all_ids" -->
+    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; name paired with &lt;institution_id&gt; (i.e., links to DOI and ROR id.)</xd:p></xd:desc></xd:doc>
+    <xsl:template match="funders" mode="all_ids">
         <funding-group specific-use="crossref">
             <award-group> 
                 <funding-source>
@@ -330,11 +392,37 @@
                             </institution>
                             <!-- institution_id -->
                             <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
-                                <xsl:if test="current-grouping-key()!=''">
-                                <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10.\d+/\d+')) then 'doi' else ''}">
-                                    <xsl:value-of select="current-grouping-key()"/>
-                                </institution_id>
-                            </xsl:if>
+                                <xsl:if test="current-grouping-key()!=' '">
+                                    <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10\.\d+/\d+')) then 'doi' else ''}">
+                                        <xsl:value-of select="if(contains(.,'ror')) then current-grouping-key() else if (matches(.,'10\.\d+/\d+')) then concat('https://doi.org/',current-grouping-key()) else ''"/>                                        
+                                    </institution_id>
+                                </xsl:if>
+                            </xsl:for-each-group>                             
+                        </institution-wrap>
+                    </xsl:for-each-group>
+                </funding-source>
+            </award-group>
+        </funding-group>
+    </xsl:template>
+    
+    <!-- Conditional (2) "doi_only" -->  
+    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; and &lt;institution_id&gt; (containt DOI) is displayed.. </xd:p></xd:desc></xd:doc>
+    <xsl:template match="funders" mode="doi_only">
+        <funding-group specific-use="crossref">
+            <award-group> 
+                <funding-source>
+                    <!-- institution -->
+                    <xsl:for-each-group select="item" group-by="position()">
+                        <xsl:variable name="i" select="current-grouping-key()"/>
+                        <institution-wrap>                           
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>
+                            <!-- institution_id -->
+                            <xsl:for-each-group select="../following-sibling::node()/item" group-by="item[position()=$i]">
+                                <xsl:if test="matches(current-grouping-key(),'10\.\d+/\d++')">
+                                    <institution_id type="doi"><xsl:value-of select="if (matches(.,'10\.\d+/\d+')) then concat('https://doi.org/', current-grouping-key()) else ''"/></institution_id>
+                                </xsl:if>
                             </xsl:for-each-group>                                
                         </institution-wrap>
                     </xsl:for-each-group>
@@ -342,7 +430,26 @@
             </award-group>
         </funding-group>
     </xsl:template>
-
+    
+    <!-- Conditional (3) "funders_only" -->
+    <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; name only</xd:p></xd:desc></xd:doc>
+    <xsl:template match="funders" mode="funders_only">
+        <funding-group specific-use="crossref">
+            <award-group> 
+                <funding-source>
+                    <!-- institution -->
+                    <xsl:for-each select="item">
+                        <institution-wrap>                           
+                            <institution>
+                                <xsl:value-of select="."/>                               
+                            </institution>
+                        </institution-wrap>
+                    </xsl:for-each>
+                </funding-source>
+            </award-group>
+        </funding-group>
+    </xsl:template>
+       
     <xd:doc><xd:desc>recordInfo</xd:desc></xd:doc>
     <xsl:template name="recordInfo">
         <recordInfo>
@@ -350,5 +457,5 @@
             <recordOrigin><xsl:text>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</xsl:text></recordOrigin>
         </recordInfo>
     </xsl:template>
-
+    
 </xsl:stylesheet>

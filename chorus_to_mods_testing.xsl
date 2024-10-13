@@ -476,11 +476,11 @@
                                     <xsl:value-of select="."/>                               
                                 </institution>
                                 <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
-<!--                                    <xsl:if test="not(matches(.,'^&#160;$')) or current-grouping-key()=''">-->
-                                        <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10\.\d+/\d+')) then 'doi' else ''}">
-                                        <xsl:value-of select="if (contains(current-grouping-key(),'ror')) then current-grouping-key() else if (starts-with(current-grouping-key(), '10.')) then concat('https://doi.org/', current-grouping-key()) else ''"/>                                        
+                                    <xsl:if test="current-grouping-key()!=''">
+                                    <institution_id type="{if (matches(.,'10\.\d+/\d+')) then 'doi' else if (contains(.,'ror')) then 'ror' else ''}">
+                                        <xsl:value-of select="current-grouping-key()"/>                                        
                                     </institution_id>
-                                    <!--</xsl:if>-->
+                                    </xsl:if>
                                 </xsl:for-each-group>
                             </institution-wrap>
                         </xsl:for-each-group>

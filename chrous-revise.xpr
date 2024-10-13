@@ -2,12 +2,24 @@
 <project>
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
     </meta>
     <projectTree name="chrous-revise.xpr">
         <folder path="file:/C:/temp/chorus/"/>
         <folder path="file:/C:/Temp/chorus/"/>
         <folder path="."/>
+        <folder path="x/"/>
+        <folder path="x/xml/"/>
+        <folder path="x/xml/2024-10-09-new-sample-set/"/>
         <file name="chorus_to_mods_test_20241008.xsl"/>
     </projectTree>
 </project>
