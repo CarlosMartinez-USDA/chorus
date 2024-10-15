@@ -14,8 +14,9 @@
         </options>
     </meta>
     <projectTree name="chrous-revise.xpr">
-        <folder path="file:/C:/temp/chorus/"/>
+        <folder path="file:/C:/Temp/"/>
         <folder path="file:/C:/Temp/chorus/"/>
+        <folder path="file:/C:/Temp/chorus/Biology_journals/archive/mods/"/>
         <folder path="."/>
         <folder path="x/"/>
         <folder path="x/xml/"/>

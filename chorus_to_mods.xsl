@@ -16,20 +16,23 @@
             <xd:p><xd:b>FEATURED: Groups funders and funder indenitifers.</xd:b></xd:p>
             <xd:ul>
                 <xd:li><xd:p>(1) &lt;institution&gt; tag has either an organization name or acronym. - <xd:i>complete</xd:i></xd:p></xd:li>
-                <xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organizagtion Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li>
+                <xd:li><xd:p>(2) &lt;institution_id&gt; tags contain either a Digital Object Identifier (DOI) or a Research Organization Registry (ROR) id. - <xd:i>complete</xd:i></xd:p></xd:li>
                 <xd:li><xd:p>(3) Verified accuracy of &lt;institution_id&gt; and &lt;institution&gt; pairings. - <xd:i>complete</xd:i></xd:p></xd:li>
                 <xd:li><xd:p>(4) &lt;institution_id[@type attribute], only two values are valid (i.e., 'doi' or 'ror'). - <xd:i>complete</xd:i></xd:p></xd:li>
             </xd:ul>
             
             <xd:p><xd:b>Change log:</xd:b></xd:p>  
             <xd:ul>
+                <xd:li><xd:p>When journal_title is unavailable, use publisher name or extract it from DOI. - 20241011 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>f:format-date required reordering of tokens to achieve wc3dtf. 20241011 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Added template to use &lt;reuse_license_start_date&gt; as second preferred date option for preprint source XML (these resources have not been published). - 20241011 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template to use &lt;publicly_accessible_on_publisher_site&gt; as the preprint date as date of publication when published_print and published_online are null. - 20241009 - cm3</xd:p></xd:li> 
                 <xd:li><xd:p>To prevent inaccurate &lt;institution_id&gt; information, a call template counts the number of items present within the funders tag and the following-sibling::node(s). The most suitable funders template mode is applied when a condition is met. - 20241009 - cm3</xd:p></xd:li> 
                 <xd:li><xd:p>Grouping &lt;institution&gt; with &lt;institution_id&gt; is accurate, yet also dependent that each sibling contain the same number of items. - 20241009 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Corrected <xd:i>most</xd:i> errors resulting from pairing &lt;institution&gt; and &lt;institution_id&gt;. - 20241004 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>The DOI displayed within any &lt;institution_id&gt; tag. (e.g., '<xd:a href="https://doi.org">https://doi.org//10.#####/#######</xd:a>') - 20241004 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>DOI content contained with in &lt;funderIDs> tag was prefixed with hardcoded text (i.e., https://doi.org/); creating a direct URI to the article. - 20241004 - cm3</xd:p></xd:li>
-                <xd:li><xd:p>Removal of the hardcoded text prevents misconcatention errors . - 20240926 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>DOI content contained with in &lt;funderIDs> tag was prefixed with hard coded text (i.e., https://doi.org/); creating a direct URI to the article. - 20241004 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Removal of the hard coded text prevents concatenation errors . - 20240926 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Conditionally tests institution identifiers make sure it doesn't start-with "http"; then ROR is tested to ensure it does not match the DOI pattern. - 20240925 - cm3 </xd:p></xd:li><xd:li><xd:p>Changed second accessCondition type to "restriction on access".  - 20240710 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added if tests to funding and accessCondition templates to prevent empty tags - 20240620 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template creates &lt;accessCondition&gt; element and attributes. - 20240613 - cm3</xd:p></xd:li>
@@ -365,13 +368,7 @@
             <note type="agency_name"><xsl:value-of select="."/></note>
         </xsl:if>
     </xsl:template>
-
-    <xd:doc><xd:desc>breakdown_for</xd:desc></xd:doc>
-    <xsl:template match="breakdown_for">
-        <xsl:if test="not(. = '')">
-            <note type="breakdown_for"><xsl:value-of select="."/></note>
-        </xsl:if>
-    </xsl:template>    
+        
     <xd:doc>
         <xd:desc>
             <xd:p><xd:b>execute_funder_template:</xd:b></xd:p>
@@ -382,7 +379,9 @@
                 <xd:li><xd:p><xd:b>(1) all_ids: </xd:b> ALL three sibling tags contain the same number of item tags, the funders will display both "doi" amd "ror" id.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(2) doi_only: </xd:b> If the number of funders and the number of DOI items is the same. The funder and the a link to the "doi" is provided.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(3) funders_only: </xd:b>Otherwise only the funders infomation is provided.</xd:p></xd:li>
-           </xd:ul>
+           <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>
+                <xd:li><xd:p>The funders item count is compared to both following-sibling::node()'s item count, the number is eauiov is equivalent to number of iteems to the count wthi the main , the XSLT developer knows that the institution name. </xd:p></xd:li>
+            </xd:ul>
         </xd:desc>
         <xd:param name="funder"/>
         <xd:param name="funderID"/>
@@ -460,7 +459,7 @@
                             <xsl:for-each-group select="../following-sibling::node()" group-by="item[position()=$i]">
                                 <xsl:if test="current-grouping-key()!=' '">
                                     <institution_id type="{if (contains(.,'ror')) then 'ror' else if (matches(.,'10\.\d+/\d+')) then 'doi' else ''}">
-                                        <xsl:value-of select="if(contains(.,'ror')) then current-grouping-key() else if (matches(.,'10\.\d+/\d+')) then concat('https://doi.org/',current-grouping-key()) else ''"/>                                        
+                                        <xsl:value-of select="if (contains(current-grouping-key(),'ror')) then current-grouping-key() else if (starts-with(current-grouping-key(), '10.')) then concat('https://doi.org/', current-grouping-key()) else ''"/>                                        
                                     </institution_id>
                                 </xsl:if>
                             </xsl:for-each-group>                             

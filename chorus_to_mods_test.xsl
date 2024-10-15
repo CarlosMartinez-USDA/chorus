@@ -23,6 +23,9 @@
             
             <xd:p><xd:b>Change log:</xd:b></xd:p>  
             <xd:ul>         
+                <xd:li><xd:p>When journal_title is unavailable, use publisher name or extract it from DOI. - 20241011 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>f:format-date required reordering of tokens to achieve wc3dtf. 20241011 - cm3</xd:p></xd:li>
+                <xd:li><xd:p>Added template to use &lt;reuse_license_start_date&gt; as second preferred date option for preprint source XML (these resources have not been published). - 20241011 - cm3</xd:p></xd:li>
                 <xd:li><xd:p>Added template to use &lt;publicly_accessible_on_publisher_site&gt; as the preprint date as date of publication when published_print and published_online are null. - 20241009 - cm3</xd:p></xd:li> 
                 <xd:li><xd:p>To prevent inaccurate &lt;institution_id&gt; information, a call template counts the number of items present within the funders tag and the following-sibling::node(s). The most suitable funders template mode is applied when a condition is met. - 20241009 - cm3</xd:p></xd:li> 
                 <xd:li><xd:p>Grouping &lt;institution&gt; with &lt;institution_id&gt; is accurate, yet also dependent that each sibling contain the same number of items. - 20241009 - cm3</xd:p></xd:li>
@@ -54,8 +57,8 @@
         <xd:desc>
             <xd:p><xd:b>Root template:</xd:b> Selects individual CHORUS XML and transforms then</xd:p>
         </xd:desc>
-        <xd:param name="workingDirectory">parameter used for better readability</xd:param>
-        <xd:param name="originalFilename">""</xd:param>
+        <xd:param name="workingDirectory">The URI is tokenized to split at a forward slash. The [last()] position plays a key role in designating the token to capture. The substring-before function then presents the URI as a complete string, leaving the entire working directory until the filename is reached. </xd:param>
+        <xd:param name="originalFilename">TThe replace function uses regex to identify the filename. In this case, it efficiently removes the working directory and file extension, leaving only the filename.</xd:param>
     </xd:doc>
     <xsl:template match="/">  
         <!-- archive file -->
@@ -90,7 +93,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
     
     <xd:doc><xd:desc>item-info</xd:desc></xd:doc>
     <xsl:template name="item-info">       
@@ -168,9 +170,9 @@
 
 
     <xd:doc>
-        <xd:desc><xd:p><xd:b>ORCID: </xd:b>Added for-each and conditional XPath</xd:p>
+        <xd:desc><xd:p><xd:b>ORCID: </xd:b>The orcid template is called within the author template. Added for-each and predicates to XPath</xd:p>
         </xd:desc>
-        <xd:param name="last"/>
+        <xd:param name="last"> author template, the PI "with-param", contains extracts the string value from &lt;last&gt;. </xd:param>
         <xd:param name="first"/>
     </xd:doc>
     <xsl:template name="orcid">
@@ -333,13 +335,6 @@
         </xsl:choose>
     </xsl:template>
  
-    <!--   should preprint have ever be displayed as as
-                <dateOther encoding="w3cdtf" type="preprint">
-                given the chance there is a print date? 
-                What if there is a "published_online" and a "publicly_accessible_on_publisher_site"
-                but there is not a "published_print" date. 
-                Is electronic the dateIssued?
-             -->
     <xd:doc><xd:desc>publicly_accessible_on_publisher_site</xd:desc></xd:doc>
     <xsl:template match="publicly_accessible_on_publisher_site">
             <dateIssued encoding="w3cdtf" keyDate="yes">
@@ -398,7 +393,7 @@
                 <xd:li><xd:p><xd:b>(1) all_ids: </xd:b> ALL three sibling tags contain the same number of item tags, the funders will display both "doi" amd "ror" id.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(2) doi_only: </xd:b> If the number of funders and the number of DOI items is the same. The funder and the a link to the "doi" is provided.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(3) funders_only: </xd:b>Otherwise only the funders infomation is provided.</xd:p></xd:li>
-<!--                <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>-->
+                <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>
                 <xd:li><xd:p>The funders item count is compared to both following-sibling::node()'s item count, the number is eauiov is equivalent to number of iteems to the count wthi the main , the XSLT developer knows that the institution name. </xd:p></xd:li>
             </xd:ul>
         </xd:desc> 
