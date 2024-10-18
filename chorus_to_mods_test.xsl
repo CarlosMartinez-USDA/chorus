@@ -58,21 +58,21 @@
             <xd:p><xd:b>Root template:</xd:b> Selects individual CHORUS XML and transforms then</xd:p>
         </xd:desc>
         <xd:param name="workingDirectory">The URI is tokenized to split at a forward slash. The [last()] position plays a key role in designating the token to capture. The substring-before function then presents the URI as a complete string, leaving the entire working directory until the filename is reached. </xd:param>
-        <xd:param name="originalFilename">TThe replace function uses regex to identify the filename. In this case, it efficiently removes the working directory and file extension, leaving only the filename.</xd:param>
+        <xd:param name="originalFileName">TThe replace function uses regex to identify the filename. In this case, it efficiently removes the working directory and file extension, leaving only the filename.</xd:param>
     </xd:doc>
     <xsl:template match="/">  
         <!-- archive file -->
         <xsl:param name="workingDirectory" select="substring-before(base-uri(),tokenize(base-uri(),'/')[last()])"/>
-        <xsl:param name="originalFilename" select="replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')"/>  
+        <xsl:param name="originalFileName" select="replace(base-uri(),'(.*/)(.*)(\.xml)', '$2')"/>  
         <!-- archive file -->
-        <xsl:result-document href="{$workingDirectory}/archive/A-{$originalFilename}_{position()}.xml" format="test">
+        <xsl:result-document href="{$workingDirectory}/archive/A-{$originalFileName}_{position()}.xml" format="test">
             <xsl:copy-of select="." copy-namespaces="no"/>           
         </xsl:result-document>
         <!-- MODS files -->
         <xsl:choose>           
             <xsl:when test="count(//all) != 1">
                 <!-- transform collections -->
-                <xsl:result-document href="{$workingDirectory}/mods/N-{$originalFilename}_{position()}.xml" format="test">
+                <xsl:result-document href="{$workingDirectory}/mods/N-{$originalFileName}_{position()}.xml" format="test">
                     <modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="//all">
                             <mods version="3.7">
@@ -83,7 +83,7 @@
                 </xsl:result-document>
             </xsl:when>         
             <xsl:otherwise>
-                <xsl:result-document format="test" href="{$workingDirectory}/mods/N-{$originalFilename}_{position()}.xml">
+                <xsl:result-document format="test" href="{$workingDirectory}/mods/N-{$originalFileName}_{position()}.xml">
                     <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
                         <xsl:for-each select="all">
                             <xsl:call-template name="item-info"/>
@@ -168,7 +168,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc><xd:p><xd:b>ORCID: </xd:b>The orcid template is called within the author template. Added for-each and predicates to XPath</xd:p>
         </xd:desc>
@@ -205,54 +204,14 @@
         </relatedItem>
     </xsl:template>
     
-    <xd:doc>
-        <xd:desc>
-            <xd:p><xd:b>Function: </xd:b>f:capitalize-first</xd:p>
-            <xd:p><xd:b>Usage: </xd:b>f:capitalize-first(XPath)</xd:p>
-            <xd:p><xd:b>Purpose: </xd:b>The f:capitalize-first function capitalizes the first character of $arg. If the first character is not a lowercase letter, $arg is left unchanged. It capitalizes only the first character of the entire string, not the first letter of every word<xd:i>f:capitalize-first</xd:i></xd:p>         </xd:desc>
-        <xd:param name="arg"/>
-    </xd:doc>
-    <xsl:function name="f:capitalize-first" as="xs:string?" xmlns:f="http://functions">
-        <xsl:param name="arg" as="xs:string?"/>
-        <xsl:sequence select="concat(upper-case(substring($arg, 1,1)), substring($arg, 2,string-length($arg)))"/>
-    </xsl:function>
-    
-
     <xd:doc><xd:desc>DOI</xd:desc></xd:doc>
     <xsl:template match="DOI">
-        <identifier type="doi">
-            <xsl:value-of select="."/>
-        </identifier>
-        <identifier type="chorus">
-            <xsl:value-of select="."/>
-        </identifier>
+        <identifier type="doi"><xsl:value-of select="."/></identifier>
+        <identifier type="chorus"><xsl:value-of select="."/></identifier>
         <location>
-            <url displayLabel="Available from publisher's site">
-                <xsl:value-of select="concat('https://dx.doi.org/', .)"/>
-            </url>
+            <url displayLabel="Available from publisher's site"><xsl:value-of select="concat('https://dx.doi.org/', .)"/></url>
         </location>       
-    </xsl:template>
-    
- 
-    <xd:doc>
-        <xd:desc><xd:p><xd:b>f:format-date()</xd:b></xd:p>
-            <xd:p>Expects date format of MM/dd/YYYY </xd:p>
-            <xd:p>Tokenizes forward slash in date string from parameter.</xd:p>
-            <xd:p>Returns: YYYY-MM-dd w3cdtf format</xd:p>
-        </xd:desc>
-        <xd:param name="dateStr"/>
-    </xd:doc>
-    <xsl:function name="f:format-date">
-        <xsl:param name="dateStr"/>
-        <xsl:if test="not($dateStr = '')">
-            <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
-            <xsl:sequence select="if (matches($date-tokens[3],'\d{4}'))
-                then concat($date-tokens[last()], '-', format-number(number($date-tokens[2]), '00'), '-', format-number(number($date-tokens[1]), '00'))
-                else if (matches($date-tokens[2],'\d{4}'))
-                then concat($date-tokens[last()], '-', format-number(number($date-tokens[1]), '00'))
-                else $dateStr"/>
-        </xsl:if>
-    </xsl:function>
+    </xsl:template>    
     
     <!-- accessCondition -->
     <xd:doc id="accessCondition" scope="component">
@@ -296,16 +255,21 @@
            <xsl:variable name="print" select="/all/published_print"/>
            <xsl:variable name="electronic" select="/all/published_online"/> 
            <xsl:variable name="preprint" select="/all/publicly_accessible_on_publisher_site"/>
-           <xsl:variable name="reuse" select="/all/reuse_license_start_date"/>
            <originInfo>
-               <xsl:apply-templates select="published_print"/>
-               <xsl:apply-templates select="published_online"/>
-               <xsl:if test="not($preprint = '') and ($print = '') and ($electronic = '')">
-                   <xsl:apply-templates select="publicly_accessible_on_publisher_site"/>
-               </xsl:if>
-               <xsl:if test="not($reuse ='') and ($print = '') and ($electronic = '') and ($preprint = '')">
-                   <xsl:apply-templates select="reuse_license_start_date"/>
-               </xsl:if>
+               <xsl:choose>
+                   <xsl:when test="not($print = '')">
+                       <xsl:apply-templates select="published_print"/>
+                   </xsl:when>
+                   <xsl:when test="not($electronic = '') and ($print = '')">
+                        <xsl:apply-templates select="published_print"/>
+                   </xsl:when>
+                   <xsl:when test="not($preprint = '') and ($electronic = '') and ($print = '')">
+                       <xsl:apply-templates select="publicly_accessible_on_publisher_site"/>
+                   </xsl:when>
+                   <xsl:otherwise>
+                       <xsl:message terminate="no">No date available within source XML to transformed into mods:dateIssued.</xsl:message>
+                   </xsl:otherwise>                 
+               </xsl:choose>
            </originInfo>
        </xsl:template>
     
@@ -342,14 +306,7 @@
             </dateIssued>
     </xsl:template>
     
-    <xd:doc><xd:desc>reuse_license_start_date</xd:desc></xd:doc>
-    <xsl:template match="reuse_license_start_date">
-          <dateIssued encoding="w3cdtf" keyDate="yes">
-            <xsl:value-of select="f:format-date(.)"/>
-        </dateIssued>
-    </xsl:template>
- 
-   <xd:doc><xd:desc>extension</xd:desc></xd:doc>
+    <xd:doc><xd:desc>extension</xd:desc></xd:doc>
     <xsl:template name="extension">
         <extension>
             <vendorName>CHORUS</vendorName>
@@ -450,13 +407,7 @@
                  -\->-->
     </xsl:template>
     
-    <xd:doc><xd:desc>breakdown_for</xd:desc></xd:doc>
-    <xsl:template match="breakdown_for">
-        <xsl:if test="not(. = '')">
-            <note type="breakdown_for"><xsl:value-of select="."/></note>
-        </xsl:if>
-    </xsl:template>
-    
+
     <!-- Conditional (1) "all_ids" -->
     <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; name paired with &lt;institution_id&gt; (i.e., links to DOI and ROR id.)</xd:p></xd:desc></xd:doc>
     <xsl:template match="funders" mode="all_ids">
@@ -534,8 +485,39 @@
     <xsl:template name="recordInfo">
         <recordInfo>
             <recordCreationDate><xsl:value-of select="current-dateTime()"/></recordCreationDate>
-            <recordOrigin><xsl:text>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</xsl:text></recordOrigin>
         </recordInfo>
     </xsl:template>
+    
+    <!-- CHORUS Custom Functions -->
+    <xd:doc>
+        <xd:desc>
+            <xd:p><xd:b>Function: </xd:b>f:capitalize-first</xd:p>
+            <xd:p><xd:b>Usage: </xd:b>f:capitalize-first(XPath)</xd:p>
+            <xd:p><xd:b>Purpose: </xd:b>The f:capitalize-first function capitalizes the first character of $arg. If the first character is not a lowercase letter, $arg is left unchanged. It capitalizes only the first character of the entire string, not the first letter of every word<xd:i>f:capitalize-first</xd:i></xd:p>         </xd:desc>
+        <xd:param name="arg"/>
+    </xd:doc>
+    <xsl:function name="f:capitalize-first" as="xs:string?" xmlns:f="http://functions">
+        <xsl:param name="arg" as="xs:string?"/>
+        <xsl:sequence select="concat(upper-case(substring($arg, 1,1)), substring($arg, 2,string-length($arg)))"/>
+    </xsl:function>   
+    <xd:doc>
+        <xd:desc><xd:p><xd:b>f:format-date()</xd:b></xd:p>
+            <xd:p>Expects date format of MM/dd/YYYY </xd:p>
+            <xd:p>Tokenizes forward slash in date string from parameter.</xd:p>
+            <xd:p>Returns: YYYY-MM-dd w3cdtf format</xd:p>
+        </xd:desc>
+        <xd:param name="dateStr"/>
+    </xd:doc>
+    <xsl:function name="f:format-date">
+        <xsl:param name="dateStr"/>
+        <xsl:if test="not($dateStr = '')">
+            <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
+            <xsl:sequence select="if (matches($date-tokens[3],'\d{4}'))
+                then concat($date-tokens[last()], '-', format-number(number($date-tokens[2]), '00'), '-', format-number(number($date-tokens[1]), '00'))
+                else if (matches($date-tokens[2],'\d{4}'))
+                then concat($date-tokens[last()], '-', format-number(number($date-tokens[1]), '00'))
+                else $dateStr"/>
+        </xsl:if>
+    </xsl:function>
     
 </xsl:stylesheet>

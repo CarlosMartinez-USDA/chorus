@@ -147,9 +147,9 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc><xd:p><xd:b>ORCID: </xd:b>Added for-each and conditional XPath</xd:p>
+        <xd:desc><xd:p><xd:b>ORCID: </xd:b>The orcid template is called within the author template. Added for-each and predicates to XPath</xd:p>
     </xd:desc>
-    <xd:param name="last"/>
+    <xd:param name="last"> author template, the PI "with-param", contains extracts the string value from &lt;last&gt;. </xd:param>
     <xd:param name="first"/>
     </xd:doc>
     <xsl:template name="orcid">
@@ -182,55 +182,15 @@
         </relatedItem>
     </xsl:template>
 
-    <xd:doc>
-        <xd:desc>
-            <xd:p><xd:b>Function: </xd:b>f:capitalize-first</xd:p>
-            <xd:p><xd:b>Usage: </xd:b>f:capitalize-first(XPath)</xd:p>
-            <xd:p><xd:b>Purpose: </xd:b>The f:capitalize-first function capitalizes the first character of $arg. If the first character is not a lowercase letter, $arg is left unchanged. It capitalizes only the first character of the entire string, not the first letter of every word<xd:i>f:capitalize-first</xd:i></xd:p>         </xd:desc>
-        <xd:param name="arg"/>
-    </xd:doc>
-    <xsl:function name="f:capitalize-first" as="xs:string?" xmlns:f="http://functions">
-        <xsl:param name="arg" as="xs:string?"/>
-        <xsl:sequence select="concat(upper-case(substring($arg, 1,1)), substring($arg, 2,string-length($arg)))"/>
-    </xsl:function>
-    
-
     <xd:doc><xd:desc>DOI</xd:desc></xd:doc>
     <xsl:template match="DOI">
-        <identifier type="doi">
-            <xsl:value-of select="."/>
-        </identifier>
-        <identifier type="chorus">
-            <xsl:value-of select="."/>
-        </identifier>
+        <identifier type="doi"><xsl:value-of select="."/></identifier>
+        <identifier type="chorus"><xsl:value-of select="."/></identifier>
         <location>
-            <url displayLabel="Available from publisher's site">
-                <xsl:value-of select="concat('https://dx.doi.org/', .)"/>
-            </url>
+            <url displayLabel="Available from publisher's site"><xsl:value-of select="concat('https://dx.doi.org/', .)"/></url>
         </location>       
-    </xsl:template>
-    
-    <xd:doc>
-        <xd:desc><xd:p><xd:b>f:format-date()</xd:b></xd:p>
-            <xd:p>Expects date format of MM/dd/YYYY </xd:p>
-            <xd:p>Tokenizes forward slash in date string from parameter.</xd:p>
-            <xd:p>Returns: YYYY-MM-dd w3cdtf format</xd:p>
-        </xd:desc>
-        <xd:param name="dateStr"/>
-    </xd:doc>
-    <xsl:function name="f:format-date">
-        <xsl:param name="dateStr"/>
-        <xsl:if test="not($dateStr = '')">
-            <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
-            <xsl:sequence select="if (matches($date-tokens[3],'\d{4}'))
-                then concat($date-tokens[last()], '-', format-number(number($date-tokens[2]), '00'), '-', format-number(number($date-tokens[1]), '00'))
-                else if (matches($date-tokens[2],'\d{4}'))
-                then concat($date-tokens[last()], '-', format-number(number($date-tokens[1]), '00'))
-                else $dateStr"/>
-        </xsl:if>
-    </xsl:function>
-    
-    
+    </xsl:template>    
+      
     <!-- accessCondition -->
     <xd:doc id="accessCondition" scope="component">
         <xd:desc>Defined below are variables for creating and applying the appropriate license to a resource.</xd:desc>
@@ -249,24 +209,16 @@
             <xsl:variable name="appliesTo" select="lower-case(license_type[@type='str'])"/>
             <!-- use and reproduction -->
             <accessCondition type="use and reproduction">
-                <xsl:if test="$label!=''">
-                    <xsl:attribute name="displayLabel" select="$label"/>
-                </xsl:if>
+                <xsl:if test="$label!=''"><xsl:attribute name="displayLabel" select="$label"/></xsl:if>
                 <program xmlns="https://data.crossref.org/schemas/AccessIndicators.xsd">
                     <license_ref>
                         <xsl:choose>
-                            <xsl:when test="contains($licenseURL, '//creativecommons.org/')">
-                                <xsl:attribute name="applies_to">vor</xsl:attribute>
-                            </xsl:when>
+                            <xsl:when test="contains($licenseURL, '//creativecommons.org/')"><xsl:attribute name="applies_to">vor</xsl:attribute></xsl:when>
                             <xsl:otherwise>
-                                <xsl:if test="$appliesTo!=''">
-                                    <xsl:attribute name="applies_to"><xsl:value-of select="$appliesTo"/></xsl:attribute>
-                                </xsl:if>
+                                <xsl:if test="$appliesTo!=''"><xsl:attribute name="applies_to"><xsl:value-of select="$appliesTo"/></xsl:attribute></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="$startDate!=''">
-                            <xsl:attribute name="start_date" select="$startDate"/>
-                        </xsl:if>
+                        <xsl:if test="$startDate!=''"><xsl:attribute name="start_date" select="$startDate"/></xsl:if>
                         <xsl:value-of select="$licenseURL"/>
                     </license_ref>
                 </program>
@@ -279,21 +231,27 @@
     <xd:doc><xd:desc>originInfo</xd:desc></xd:doc>
     <xsl:template name="originInfo">
         <xsl:variable name="print" select="/all/published_print"/>
-           <xsl:variable name="electronic" select="/all/published_online"/> 
-           <xsl:variable name="preprint" select="/all/publicly_accessible_on_publisher_site"/>
-           <xsl:variable name="reuse" select="/all/reuse_license_start_date"/>
-           <originInfo>
-            <xsl:apply-templates select="published_print"/>
-            <xsl:apply-templates select="published_online"/>
-            <xsl:if test="not($preprint = '') and ($print = '') and ($electronic = '')">
-                   <xsl:apply-templates select="publicly_accessible_on_publisher_site"/>
-               </xsl:if>
-        <xsl:if test="not($reuse ='') and ($print = '') and ($electronic = '') and ($preprint = '')">
-                   <xsl:apply-templates select="reuse_license_start_date"/>
-               </xsl:if>
-           </originInfo>
+        <xsl:variable name="electronic" select="/all/published_online"/> 
+        <xsl:variable name="preprint" select="/all/publicly_accessible_on_publisher_site"/>
+        <originInfo>
+            <xsl:choose>
+                <xsl:when test="not($print = '')">
+                    <xsl:apply-templates select="published_print"/>
+                </xsl:when>
+                <xsl:when test="not($electronic = '') and ($print = '')">
+                    <xsl:apply-templates select="published_print"/>
+                </xsl:when>
+                <xsl:when test="not($preprint = '') and ($electronic = '') and ($print = '')">
+                    <xsl:apply-templates select="publicly_accessible_on_publisher_site"/>
+                </xsl:when>
+              <!--  <xsl:otherwise>
+                    <xsl:message terminate="no">No date available within source XML to transformed into mods:dateIssued.</xsl:message>
+                </xsl:otherwise>   -->              
+            </xsl:choose>
+        </originInfo>
     </xsl:template>
-
+    
+                           
     <xd:doc><xd:desc>published_print</xd:desc></xd:doc>
     <xsl:template match="published_print">
         <xsl:if test="not(. = '')">
@@ -320,13 +278,7 @@
         </xsl:choose>
     </xsl:template>
     
-    <!--   should preprint have ever be displayed as as
-                <dateOther encoding="w3cdtf" type="preprint">
-                given the chance there is a print date? 
-                What if there is a "published_online" and a "publicly_accessible_on_publisher_site"
-                but there is not a "published_print" date. 
-                Is electronic the dateIssued?
-             -->
+
     <xd:doc><xd:desc>publicly_accessible_on_publisher_site</xd:desc></xd:doc>
     <xsl:template match="publicly_accessible_on_publisher_site">
         <dateIssued encoding="w3cdtf" keyDate="yes">
@@ -368,7 +320,14 @@
             <note type="agency_name"><xsl:value-of select="."/></note>
         </xsl:if>
     </xsl:template>
-        
+    
+    <xd:doc><xd:desc>breakdown_for</xd:desc></xd:doc>
+    <xsl:template match="breakdown_for">
+        <xsl:if test="not(. = '')">
+            <note type="breakdown_for"><xsl:value-of select="."/></note>
+        </xsl:if>
+    </xsl:template>
+    
     <xd:doc>
         <xd:desc>
             <xd:p><xd:b>execute_funder_template:</xd:b></xd:p>
@@ -379,7 +338,7 @@
                 <xd:li><xd:p><xd:b>(1) all_ids: </xd:b> ALL three sibling tags contain the same number of item tags, the funders will display both "doi" amd "ror" id.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(2) doi_only: </xd:b> If the number of funders and the number of DOI items is the same. The funder and the a link to the "doi" is provided.</xd:p></xd:li>
                 <xd:li><xd:p><xd:b>(3) funders_only: </xd:b>Otherwise only the funders infomation is provided.</xd:p></xd:li>
-           <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>
+                <xd:li><xd:p><xd:b>(4) preliminary_reporting: </xd:b>The section commented below produces a report containing the number of items within each of the sibling tags.</xd:p></xd:li>
                 <xd:li><xd:p>The funders item count is compared to both following-sibling::node()'s item count, the number is eauiov is equivalent to number of iteems to the count wthi the main , the XSLT developer knows that the institution name. </xd:p></xd:li>
             </xd:ul>
         </xd:desc>
@@ -434,13 +393,7 @@
                 </preliminary-report>
                  -\->-->
     </xsl:template>  
-    
-<xd:doc><xd:desc>breakdown_for</xd:desc></xd:doc>
-    <xsl:template match="breakdown_for">
-        <xsl:if test="not(. = '')">
-            <note type="breakdown_for"><xsl:value-of select="."/></note>
-        </xsl:if>
-    </xsl:template>
+
     
     <!-- Conditional (1) "all_ids" -->
     <xd:doc><xd:desc><xd:p><xd:b>funders: </xd:b>&lt;institution&gt; name paired with &lt;institution_id&gt; (i.e., links to DOI and ROR id.)</xd:p></xd:desc></xd:doc>
@@ -522,5 +475,37 @@
             <recordOrigin><xsl:text>XML source generated via Python using CHORUS API JSON data; converted to MODS with chorus_to_mods.xsl</xsl:text></recordOrigin>
         </recordInfo>
     </xsl:template>
+    
+<!-- CHORUS Custom Functions -->
+    <xd:doc>
+        <xd:desc>
+            <xd:p><xd:b>Function: </xd:b>f:capitalize-first</xd:p>
+            <xd:p><xd:b>Usage: </xd:b>f:capitalize-first(XPath)</xd:p>
+            <xd:p><xd:b>Purpose: </xd:b>The f:capitalize-first function capitalizes the first character of $arg. If the first character is not a lowercase letter, $arg is left unchanged. It capitalizes only the first character of the entire string, not the first letter of every word<xd:i>f:capitalize-first</xd:i></xd:p>         </xd:desc>
+        <xd:param name="arg"/>
+    </xd:doc>
+    <xsl:function name="f:capitalize-first" as="xs:string?" xmlns:f="http://functions">
+        <xsl:param name="arg" as="xs:string?"/>
+        <xsl:sequence select="concat(upper-case(substring($arg, 1,1)), substring($arg, 2,string-length($arg)))"/>
+    </xsl:function>   
+    <xd:doc>
+        <xd:desc><xd:p><xd:b>f:format-date()</xd:b></xd:p>
+            <xd:p>Expects date format of MM/dd/YYYY </xd:p>
+            <xd:p>Tokenizes forward slash in date string from parameter.</xd:p>
+            <xd:p>Returns: YYYY-MM-dd w3cdtf format</xd:p>
+        </xd:desc>
+        <xd:param name="dateStr"/>
+    </xd:doc>
+    <xsl:function name="f:format-date">
+        <xsl:param name="dateStr"/>
+        <xsl:if test="not($dateStr = '')">
+            <xsl:variable name="date-tokens" select="tokenize($dateStr, '/')"/>
+            <xsl:sequence select="if (matches($date-tokens[3],'\d{4}'))
+                then concat($date-tokens[last()], '-', format-number(number($date-tokens[2]), '00'), '-', format-number(number($date-tokens[1]), '00'))
+                else if (matches($date-tokens[2],'\d{4}'))
+                then concat($date-tokens[last()], '-', format-number(number($date-tokens[1]), '00'))
+                else $dateStr"/>
+        </xsl:if>
+    </xsl:function>
     
 </xsl:stylesheet>

@@ -14,6 +14,10 @@
         </options>
     </meta>
     <projectTree name="chrous-revise.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="chorus_to_mods_test.xsl"/>
+            <file name="file:/C:/Temp/chorus/source-sets/set1.zip"/>
+        </folder>
         <folder path="file:/C:/Temp/"/>
         <folder path="file:/C:/Temp/chorus/"/>
         <folder path="file:/C:/Temp/chorus/Biology_journals/archive/mods/"/>
@@ -21,6 +25,7 @@
         <folder path="x/"/>
         <folder path="x/xml/"/>
         <folder path="x/xml/2024-10-09-new-sample-set/"/>
+        <folder path="file:/F:/chorus/x/xml/2024-10-09-new-sample-set/chorus_harvester_2024-07-05_05_00/ai/metadata/mods_staging/chorus/set1/results/"/>
         <file name="chorus_to_mods_test_20241008.xsl"/>
     </projectTree>
 </project>
