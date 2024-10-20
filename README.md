@@ -1,5 +1,5 @@
 - [CHORUS to MODSXSLT](#chorus-to-mods-xslt)
-    -   [chorus_to_mods.xsl](#chorus_to_modsxsl)
+    -   [chorus_xml2mods.xslt](#chorus_xml2modsxslt)
     -   [XSLT Declaration](#xslt-declaration)
         -   [before](#before)
         -   [after](#after)
@@ -7,14 +7,14 @@
         -   [after](#after-1)
     -   [authors template](#authors-template)
         -   [before](#before-2)
-        - [after and updated sections](#after-and-updated-sections)
+        -   [after](#after-2)
     -   [ORCID template](#orcid-template)
         -   [before](#before-3)
-        -   [after](#after-2)
+        -   [after](#after-3)
     -   [Funders template](#funders-template)
         -   [before](#before-4)
-        -   [after](#after-3)
-  -   [xsl\:for-each-group](#xsl\:for-each-group)
+        -   [after](#after-4)
+  -   [xsl-for-each-group](#xsl-for-each-group)
 
 
 # CHORUS to MODS XSLT 
@@ -342,7 +342,7 @@ Prior to the last update the name of the funding organization, award od
         </funding-group>
     </xsl:template>
    ```
-   ## xsl:for-each-group
+   ## xsl-for-each-group
 
    ```` xml
     <xd:doc>
